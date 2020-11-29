@@ -1,0 +1,283 @@
+I"�<<h1 id="欢迎阅读模拟殖民地wiki">欢迎阅读模拟殖民地Wiki！</h1>
+
+<p>MineColonies is an interactive building mod that allows you to create your own thriving town within Minecraft. It lets your leadership skills soar by providing you with everything you need to build your kingdom. MineColonies gives you the flexibility to create a colony as unique as every player. With so many options, you’ll create a different colony every time, adapt it to any biome, build inside a mountain, on top of one, under the ocean, or in the sky.</p>
+
+<p>The limit is your imagination!</p>
+
+<p>MineColonies features NPC workers such as <a href="../../source/workers/builder">Builders</a>, <a href="../../source/workers/farmer">Farmers</a>, <a href="../../source/workers/fisher">Fishers</a>, <a href="../../source/workers/forester">Foresters</a>, <a href="../../source/workers/guard">Guards</a>, <a href="../../source/workers/miner">Miners</a>, <a href="../../source/workers/smelter">Smelters</a>, <a href="../../source/workers/baker">Bakers</a>, <a href="../../source/workers/cook">Cooks</a>, <a href="../../source/workers/courier">Couriers</a>, five types of animal herders, <a href="../../source/workers/composter">Composters</a>, and many more, with even more being developed and added as the mod grows.</p>
+
+<p>It also includes specialized buildings such as the <a href="../../source/buildings/warehouse">Warehouse</a>, <a href="../../source/buildings/house">House</a>, <a href="../../source/buildings/townhall">Town Hall</a>, <a href="../../source/buildings/barracks">Barracks</a>, <a href="../../source/buildings/library">Library</a>, <a href="../../source/buildings/university">University</a>, and even the <a href="../../source/buildings/school">School</a>.</p>
+
+<h3 id="please-note-that-the-wiki-is-always-referring-to-the-latest-11521164-alpha-version-of-minecolonies">Please note that the wiki is always referring to the latest 1.15.2/1.16.4 alpha version of MineColonies!</h3>
+
+<hr />
+
+<div class="row">
+
+    <div class="col-lg col-md-3 col-sm-12 text-center">
+        <h3 class="button p-1">安装</h3>
+        
+            <a class="" href="/MinecoloniesWiki/source/installation/java">Java (Forge)</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/installation/multimc">MultiMC</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/installation/twitch">Twitch</a><br />
+        
+    </div>
+
+    <div class="col-lg col-md-3 col-sm-12 text-center">
+        <h3 class="button p-1">教程</h3>
+        
+            <a class="" href="/MinecoloniesWiki/source/tutorials/tutorial">教程</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/tutorials/schematics">Schematics</a><br />
+        
+    </div>
+
+    <div class="col-lg col-md-3 col-sm-12 text-center">
+        <h3 class="button p-1">系统</h3>
+        
+            <a class="" href="/MinecoloniesWiki/source/systems/border">殖民地边界系统</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/systems/protection">殖民地保护系统</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/systems/command">指令系统</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/systems/happinessandsaturation">Happiness and Saturation Systems</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/systems/research">Research System</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/systems/worker">Worker System</a><br />
+        
+    </div>
+
+    <div class="col-lg col-md-3 col-sm-12 text-center">
+        <h3 class="button p-1">Items/Blocks</h3>
+        
+            <a class="" href="/MinecoloniesWiki/source/items/ancient_tome">Ancient Tome</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/compostbarrel">Compost Barrel</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/barrel_horizontal">Horizontal Barrel</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/barrel_vertical">Vertical Barrel</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/buildtool">Build Tool</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/calipers">Calipers</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/clipboard">Clipboard</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/compost">Compost</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/constructiontape">Construction Tape</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/floatingcarpet">Floating Carpet</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/multipiston">Multi-Piston</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/paperwall">Paper Wall</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/placeholderblocks">Placeholder Blocks</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/postbox">Postbox</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/rack">Rack</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/resourcescroll">Resource Scroll</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/scantool">Scan Tool</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/shingles">Shingles</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/stash">Stash</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/supplycampandship">Supply Camp and Supply Ship</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/timberframes">Timber Framed Blocks</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/items/waypoint">Waypoint</a><br />
+        
+    </div>
+
+    <div class="col-lg col-md-3 col-sm-12 text-center">
+        <h3 class="button p-1">Workers</h3>
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/archerintraining">Archer in Training</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/baker">Baker</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/blacksmith">Blacksmith</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/builder">Builder</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/carpenter">Carpenter</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/chickenfarmer">Chicken Farmer</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/composter">Composter</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/cook">Cook</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/assistantcook">Assistant Cook</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/courier">Courier</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/cowhand">Cowhand</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/crusher">Crusher</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/dyer">Dyer</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/enchanter">Enchanter</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/farmer">Farmer</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/fisher">Fisher</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/fletcher">Fletcher</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/florist">Florist</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/forester">Forester</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/glassblower">Glassblower</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/guard">Guard</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/healer">Healer</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/knightintraining">Knight in Training</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/librarystudent">Library Student</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/mechanic">Mechanic</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/miner">Miner</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/planter">Planter</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/pupil">Pupil</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/shepherd">Shepherd</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/sifter">Sifter</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/smelter">Smelter</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/stonemason">Stonemason</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/stonesmelter">Stone Smelter</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/swineherd">Swineherd</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/teacher">Teacher</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/workers/researcher">University Researcher</a><br />
+        
+    </div>
+
+    <div class="col-lg col-md-3 col-sm-12 text-center">
+        <h3 class="button p-1">Buildings</h3>
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/archery">Archery</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/bakery">Bakery</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/barracks">Barracks</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/barrackstower">Barracks Tower</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/blacksmith">Blacksmith's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/builder">Builder's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/chickenfarmer">Chicken Farmer's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/combatacademy">Combat Academy</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/composter">Composter's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/courier">Courier's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/cowhand">Cowhand's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/crusher">Crusher's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/dyer">Dyer's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/enchantertower">Enchanter's Tower</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/farm&amp;field">Farm &amp; Field</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/fisher">Fisher's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/fletcher">Fletcher's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/flowershop">Flower Shop</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/forester">Forester's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/glassblower">Glassblower's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/guardtower">Guard Tower</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/hospital">Hospital</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/house">House</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/library">Library</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/mechanic">Mechanic's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/mine">Mine</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/plantation">Plantation</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/restaurant">Restaurant</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/sawmill">Sawmill</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/school">School</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/shepherd">Shepherd's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/sifter">Sifter's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/smeltery">Smeltery</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/stonemason">Stonemason's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/stonesmeltery">Stone Smeltery</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/swineherd">Swineherd's Hut</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/tavern">Tavern</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/townhall">Town Hall</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/university">University</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/buildings/warehouse">Warehouse</a><br />
+        
+    </div>
+
+    <div class="col-lg col-md-3 col-sm-12 text-center">
+        <h3 class="button p-1">Misc</h3>
+        
+            <a class="" href="/MinecoloniesWiki/source/misc/customcitizennames">Custom Citizen Names</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/misc/recipes">Recipes</a><br />
+        
+            <a class="" href="/MinecoloniesWiki/source/misc/troubleshooting">Troubleshooting</a><br />
+        
+    </div>
+
+</div>
+
+<hr />
+
+<p>MineColonies is a free and open-source mod developed by Let’s Dev Together (LDT), a non-profit community. The source code is available on <a href="https://github.com/ldtteam/minecolonies">GitHub</a>. Our developers are a hard-working, well-integrated coding team, continuously adding more content to make the MineColonies experience even greater. However, we are always looking for more people to contribute to the mod, whether as a coder, builder, artist, voice actor, wiki editor, tester, or simply supporting us on <a href="https://www.patreon.com/minecolonies">Patreon</a>!</p>
+
+<p>Found any bugs? Report it as an <a href="https://github.com/ldtteam/minecolonies/issues/new/choose">issue</a> to help us give you the best gaming experience. If you require any help, or just want to join the conversation, check us out on <a href="https://discord.minecolonies.com">Discord</a>!</p>
+:ET

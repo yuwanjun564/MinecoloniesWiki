@@ -1,8 +1,8 @@
 ---
-title: Homepage
+title: 主页
 layout: default
 ---
-# Welcome to the MineColonies Wiki!
+# 欢迎阅读模拟殖民地Wiki！
 
 MineColonies is an interactive building mod that allows you to create your own thriving town within Minecraft. It lets your leadership skills soar by providing you with everything you need to build your kingdom. MineColonies gives you the flexibility to create a colony as unique as every player. With so many options, you’ll create a different colony every time, adapt it to any biome, build inside a mountain, on top of one, under the ocean, or in the sky.
 

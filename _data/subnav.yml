@@ -1,5 +1,5 @@
 subnav:
-  - title: Installation
+  - title: 安装
     subitems: 
       - page: Java (Forge)
         url: source/installation/java
@@ -7,19 +7,19 @@ subnav:
         url: source/installation/multimc
       - page: Twitch
         url: source/installation/twitch
-  - title: Tutorials
+  - title: 教程
     subitems: 
-      - page: Tutorial
+      - page: 教程
         url: source/tutorials/tutorial
-      - page: Schematics
+      - page: 蓝图
         url: source/tutorials/schematics
-  - title: Systems
+  - title: 系统
     subitems:
-      - page: Colony Border System
+      - page: 殖民地边界系统
         url: source/systems/border
-      - page: Colony Protection System
+      - page: 殖民地保护系统
         url: source/systems/protection
-      - page: Command System
+      - page: 指令系统
         url: source/systems/command
       - page: Happiness and Saturation Systems
         url: source/systems/happinessandsaturation
@@ -27,7 +27,7 @@ subnav:
         url: source/systems/research
       - page: Worker System
         url: source/systems/worker
-  - title: Items/Blocks
+  - title: 物品/方块
     subitems:
       - page: Ancient Tome
         url: source/items/ancient_tome
@@ -73,7 +73,7 @@ subnav:
         url: source/items/timberframes
       - page: Waypoint
         url: source/items/waypoint
-  - title: Workers
+  - title: 工人
     subitems:
       - page: Archer in Training
         url: source/workers/archerintraining
@@ -147,7 +147,7 @@ subnav:
         url: source/workers/teacher
       - page: University Researcher
         url: source/workers/researcher
-  - title: Buildings
+  - title: 建筑
     subitems:
       - page: Archery
         url: source/buildings/archery
@@ -229,7 +229,7 @@ subnav:
         url: source/buildings/university
       - page: Warehouse
         url: source/buildings/warehouse
-  - title: Misc
+  - title: 杂项
     subitems:
       - page: Custom Citizen Names
         url: source/misc/customcitizennames
