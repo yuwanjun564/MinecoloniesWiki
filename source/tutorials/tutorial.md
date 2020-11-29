@@ -16,7 +16,7 @@ layout: default
   - [Step 4](#step-4)
   - [Final Notes](#final-notes)
 
-This tutorial assumes you have already installed the mod or modpack. If you'd like instructions on how to <a id="install">install</a> our [Official Modpack](https://www.curseforge.com/minecraft/modpacks/minecolonies-testpack), you can find instructions for doing that on Twitch [here](../../source/installation/twitch), on MultiMMC [here](../../source/installation/multimmc), and on Java (Forge) [here](../../source/installation/java). 
+This 教程 assumes you have already installed the mod or modpack. If you'd like instructions on how to <a id="install">install</a> our [Official Modpack](https://www.curseforge.com/minecraft/modpacks/minecolonies-testpack), you can find instructions for doing that on Twitch [here](../../source/installation/twitch), on MultiMMC [here](../../source/installation/multimmc), and on Java (Forge) [here](../../source/installation/java). 
 
 ## Quick Walkthrough 
 
@@ -25,45 +25,45 @@ Before you get started on your new colony, you should find your perfect location
 You should also gather as many resources as you can-wood, as well as cobble, coal, iron, flowers, string, leather, wool, saplings, and food. 
 
 ### Step 1: Supply Camp/Supply Ship
-  
+
   Once you have chosen a location for your colony, you must place a [Supply Ship](../../source/items/supplycampandship) or [Supply Camp](../../source/items/supplycampandship). You can only place one of these per world. The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony. They also have some other supplies you may need during the building of your colony. Once you have the Town Hall block and the [build tool](../../source/items/buildtool), the remaining camp/ship is just decoration. You can leave it or tear it down.
-  
+
 ### Step 2: Town Hall
-  
+
   The [Town Hall](../../source/buildings/townhall) block is what actually creates the colony. It also functions as the center of it. This is where you start using the building tool to place buildings. Using the building tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level).
-  
+
   Once the Town Hall block is placed, you will start receiving your initial 4 citizens.
-  
+
 ### Step 3: Builder
-  
+
   Before anything can be built, you need a [Builder](../../source/workers/builder). The Builder must build their own [Builder's Hut](../../source/buildings/builder) before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level.
-  
+
 ### Step 4: Tavern
 
   Your colonists will need a place to sleep and a house, so it is recommended to build a [Tavern](../../source/buildings/tavern) next. The Tavern also allows visitors to come to your colony, and you can recruit them to stay as citizens.
 
 ### Step 5: Food
-  
+
   The next major thing you need for your colony is food. The fastest way to get food is to build a [Fisher's Hut](../../source/buildings/fisher). You could build a [Farm](../../source/buildings/farm&field) or one of the animal herders, but a Fisher is faster. Building a [Restaurant](../../source/buildings/restaurant) may also be advisable if you don't want to feed your colonists (or cook their food) by hand.
 
 ### Step 6: Forester
-  
+
   If your style is wood, it's recommended to build a [Forester's Hut](../../source/buildings/forester) next. That way your new [Forester](../../source/workers/forester) can start gathering wood for your next builds and for tools and other items.
-  
+
 ### Step 7: Miner
-  
+
   Stone and ores are another major need for any colony, so a [Mine](../../source/buildings/mine) is the next logical step.
-  
+
 ### Step 8: Warehouse and courier
 
   At this point, you might be tired of bringing all of the resources to the Builder and taking them from the Fisher, Forester, Miner, etc. You also might want to store items in one place. Well, the [Warehouse](../../source/buildings/warehouse) and [Courier’s Hut](../../source/buildings/courier) are the solution you are looking for! [Couriers](../../source/workers/courier) transport items between the Warehouse and all of the workplaces.
-  
+
 ### Step 9: Rest of the Colony
-  
+
   This is where you need to decide what you need next, based on how you play and what your colony needs. But you have several things to look at. Once you get seven citizens you can get attacked by raiders and you may want to build a [Guard Tower](../../source/buildings/guardtower), or you may get a sick citizen and want to build a [Hospital](../../source/buildings/hospital), or you may decide you want a [Sawmill](../../source/buildings/sawmill) to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. You decide how your colony will grow!
-  
+
   <br>
-  
+
 ## Detailed Walkthrough
 <br>
 
@@ -80,7 +80,7 @@ To place the [Supply Ship](../items/supplycampandship), you need to have a large
 To place the [Supply Camp](../items/supplycampandship), you need to have a large enough flat, clear piece of land (at least 16x17 blocks).
 
 When you place the Supply Ship/Camp, it will spawn a chest that will contain the [Town Hall](../../source/buildings/townhall) block and the [building tool](../../source/items/buildingtool). **Once the Supply Ship/Camp is placed, you can't place another in the world.**
- 
+
 **Hint:** The most important tool you will need for the entire mod is the build tool (check our [build tool](../items/buildtool) page). Craft the build tool so you can place all the huts and the Supply Ship or Supply Camp in the perfect spot.
 
 <p class="h4 text-center"><b>Build Tool Video.</b></p>
@@ -133,7 +133,7 @@ You can now right-click the Town Hall block again to look at its graphical user 
 <br>
 
 #### <strong>Information:</strong> This is the overall information section of the Town Hall GUI.
-   
+
 <div class="row">
   <div class="col-sm-12 col-md">
     <img src="../../assets/images/gui/th_information.png" class="img-fluid mx-auto" alt="TH GUI Information Tab">
