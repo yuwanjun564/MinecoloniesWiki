@@ -1,0 +1,1301 @@
+I"'�<h1 id="research-system">Research System</h1>
+
+<p>At the <a href="../../source/buildings/university">University</a>, a <a href="../../source/workers/researcher">Researcher</a> can research various upgrades to your colony. These are split into three trees: Combat, Civilian, and Technology. You access these from the second page of the University GUI.</p>
+
+<p>Each column of a research tree is also the level the University needs to be to begin a research from that column. So:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Research Tree Column</th>
+      <th>Minimum University Level</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5 and higher</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can only choose one column 6 research in each of the Combat, Civilian, and Technology trees.</p>
+
+<h2 id="below-is-a-description-of-each-of-the-researches">Below is a description of each of the researches:</h2>
+
+<p><strong>Note:</strong> Researches below are <em>not</em> cumulative unless stated otherwise.</p>
+
+<h3 id="combat">Combat</h3>
+<p><br />
+<img src="../../assets/images/gui/universitycombat.png" class="img-fluid mx-auto" alt="University Combat GUI Page" />
+<br /></p>
+
+<h4 id="first-column">First Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Accuracy</td>
+      <td><a href="../../source/buildings/guardtower">Guard Tower</a> at least level 1; 16 iron ingots</td>
+      <td>Reduces the time <a href="../../source/workers/guard">Guards</a> sleep by 50%</td>
+    </tr>
+    <tr>
+      <td>Tactic Training</td>
+      <td>Guard Tower at least level 3; 3 blocks of iron</td>
+      <td>Unlocks the <a href="../../source/buildings/barracks">Barracks</a></td>
+    </tr>
+    <tr>
+      <td>Avoidance</td>
+      <td>Guard Tower at least level 3; 3 blocks of iron</td>
+      <td>Lets Knights use shields</td>
+    </tr>
+    <tr>
+      <td>Improved Leather</td>
+      <td><a href="../../source/buildings/townhall">Town Hall</a> at leat level 1; 32 leather</td>
+      <td>Increases Guards’ armor’s durabilty by 10%</td>
+    </tr>
+    <tr>
+      <td>Taunt</td>
+      <td>Guard Tower at leat level 1; 8 rotten flesh, 8 bones, 8 spider eyes</td>
+      <td>After a Guard attacks a mob, the mob targets the Guard instead of citizens or the player</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="second-column">Second Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Quick Draw</td>
+      <td>Accuracy</td>
+      <td>Barracks at least level 3; 2 blocks of iron</td>
+      <td>Increases Knights’ damage by half a heart</td>
+    </tr>
+    <tr>
+      <td>Precise Shot</td>
+      <td>Accuracy</td>
+      <td>Barracks at least level 3; 16 flint</td>
+      <td>Increases Archers’ damage by half a heart</td>
+    </tr>
+    <tr>
+      <td>Improved Swords</td>
+      <td>Tactic Training</td>
+      <td>Barracks at least level 3; 6 blocks of iron</td>
+      <td>Unlocks the <a href="../../source/buildings/combatacademy">Combat Academy</a></td>
+    </tr>
+    <tr>
+      <td>Improved Bows</td>
+      <td>Tactic Training</td>
+      <td>Barracks at least level 3; 6 blocks of iron</td>
+      <td>Unlocks the <a href="../../source/buildings/archery">Archery</a></td>
+    </tr>
+    <tr>
+      <td>Parry</td>
+      <td>Avoidance</td>
+      <td><a href="../../source/buildings/smeltery">Smeltery</a> at least level 1; 16 iron ingots</td>
+      <td>Increases Knights’ armor by 5%</td>
+    </tr>
+    <tr>
+      <td>Dodge</td>
+      <td>Avoidance</td>
+      <td>Smeltery at least level 1; 16 iron ingots</td>
+      <td>Increases Archers’ armor by 5%</td>
+    </tr>
+    <tr>
+      <td>Boiled Leather</td>
+      <td>Improved Leather</td>
+      <td>Town Hall at least level 2; 64 leather</td>
+      <td>Increases Guards’ armor’s durability by 20%</td>
+    </tr>
+    <tr>
+      <td>Regeneration</td>
+      <td>Improved Leather</td>
+      <td>Guard Tower at least level 2; 1 emerald</td>
+      <td>Lets Guards run away when they have low health (this can be turned off in the 2nd page of their tower’s GUI)</td>
+    </tr>
+    <tr>
+      <td>Consume Arrows</td>
+      <td>Taunt</td>
+      <td>Guard Tower at least level 2; 64 arrows</td>
+      <td>Archers will request arrows for their bows, and using them will give the Archers a damage boost of 1 heart. If they run out of arrows, they can still shoot, but without the damage boost</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="third-column">Third Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Power Attack</td>
+      <td>Quick Draw</td>
+      <td>Combat Academy at least level 3; 4 blocks of iron</td>
+      <td>Increases Knights’ damage by a heart</td>
+    </tr>
+    <tr>
+      <td>Penetrating Shot</td>
+      <td>Precise Shot</td>
+      <td>Archery at least level 3; 32 flint</td>
+      <td>Increases Archers’ damage by a heart</td>
+    </tr>
+    <tr>
+      <td>Squire Training</td>
+      <td>Improved Swords</td>
+      <td>Combat Academy at least level 3; 4 shields</td>
+      <td>Increases the chance for Knights to block attacks by 5%</td>
+    </tr>
+    <tr>
+      <td>Trick Shot</td>
+      <td>Improved Bows</td>
+      <td>Archery at least level 3; 5 bows</td>
+      <td>5% chance for Archers to shoot 2 arrows at the same time</td>
+    </tr>
+    <tr>
+      <td>Riposte</td>
+      <td>Parry</td>
+      <td>Combat Academy at least level 1; 32 iron ingots</td>
+      <td>Increases Knights’ armor by 10%</td>
+    </tr>
+    <tr>
+      <td>Improved Dodge</td>
+      <td>Dodge</td>
+      <td>Archery at least level 1; 32 leather</td>
+      <td>Increases Archers’ armor by 10%</td>
+    </tr>
+    <tr>
+      <td>Iron Skin</td>
+      <td>Boiled Leather</td>
+      <td>Town Hall at least level 3; 16 iron ingots</td>
+      <td>Increases Guards’ armor’s durability by 30%</td>
+    </tr>
+    <tr>
+      <td>Feint</td>
+      <td>Regeneration</td>
+      <td>Guard Tower at least level 4; 8 emeralds</td>
+      <td>When Guards are fleeing, the damage they take is reduced by 20%</td>
+    </tr>
+    <tr>
+      <td>Avoid</td>
+      <td>Regeneration</td>
+      <td>Guard Tower at least level 4; 8 emeralds</td>
+      <td>Increases the fleeing speed of Guards by 10%</td>
+    </tr>
+    <tr>
+      <td>Arrow Piercing</td>
+      <td>Consume Arrows</td>
+      <td>Archery at least level 1; 64 arrows, 64 redstone dust</td>
+      <td>Archers’ arrows can pierce through multiple enemies and cannot hit Knights or other Archers</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="fourth-column">Fourth Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cleave</td>
+      <td>Power Attack</td>
+      <td>Guard Towers adding up to at least level 10; 8 blocks of iron</td>
+      <td>Increases Knights’ damage by one and a half hearts</td>
+    </tr>
+    <tr>
+      <td>Piercing Shot</td>
+      <td>Penetrating Shot</td>
+      <td>Guard Towers adding up to at least level 10; 64 flint</td>
+      <td>Increases Archers’ damage by one and a half hearts</td>
+    </tr>
+    <tr>
+      <td>Knight Training</td>
+      <td>Squire Training</td>
+      <td>Combat Academy at least level 4; 8 shields</td>
+      <td>Increases the chance for Knights to block attacks by 10%</td>
+    </tr>
+    <tr>
+      <td>Multi Shot</td>
+      <td>Trick Shot</td>
+      <td>Archery at least level 4; 9 bows</td>
+      <td>10% chance for Archers to shoot 2 arrows at the same time</td>
+    </tr>
+    <tr>
+      <td>Duelist</td>
+      <td>Riposte</td>
+      <td>Smeltery at least level 3; 64 iron ingots</td>
+      <td>Increases Knights’ armor by 25%</td>
+    </tr>
+    <tr>
+      <td>Evasion</td>
+      <td>Improved Dodge</td>
+      <td>Smeltery at least level 3; 64 leather</td>
+      <td>Increases Archers’ armor by 25%</td>
+    </tr>
+    <tr>
+      <td>Iron Armor</td>
+      <td>Iron Skin</td>
+      <td>Town Hall at least level 4; 32 iron ingots</td>
+      <td>Increases Guards’ armor’s durability by 40%</td>
+    </tr>
+    <tr>
+      <td>Fear</td>
+      <td>Feint</td>
+      <td>Guard Towers adding up to at least level 8; 16 emeralds</td>
+      <td>When Guards are fleeing, the damage they take is reduced by 30%</td>
+    </tr>
+    <tr>
+      <td>Evade</td>
+      <td>Avoid</td>
+      <td>Guard Towers adding up to at least level 8; 16 emeralds</td>
+      <td>Increases the fleeing speed of Guards by 20%</td>
+    </tr>
+    <tr>
+      <td>Knockback</td>
+      <td>Arrow Piercing</td>
+      <td>Barracks at least level 4; 64 redstone dust, 64 gold ingots, 128 lapis lazuli</td>
+      <td>Knights have a chance to do a special whirlwind attack, which damages and knocks back all the enemies near them</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="fifth-column">Fifth Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mighty Cleave</td>
+      <td>Cleave</td>
+      <td>Barracks level 5; 16 blocks of iron</td>
+      <td>Increases Knights’ damage by two hearts</td>
+    </tr>
+    <tr>
+      <td>Wounding Shot</td>
+      <td>Piercing Shot</td>
+      <td>Barracks level 5; 128 flint</td>
+      <td>Increases Archers’ damage by two hearts</td>
+    </tr>
+    <tr>
+      <td>Captain Training</td>
+      <td>Knight Training</td>
+      <td>Combat Academy level 5; 16 shields</td>
+      <td>Increases the chance for Knights to block attacks by 25%</td>
+    </tr>
+    <tr>
+      <td>Rapid Shot</td>
+      <td>Multi Shot</td>
+      <td>Archery level 5; 18 bows</td>
+      <td>25% chance for Archers to shoot 2 arrows at the same time</td>
+    </tr>
+    <tr>
+      <td>Provost</td>
+      <td>Duelist</td>
+      <td>Combat Academy level 5; 16 diamonds</td>
+      <td>Increases Knights’ armor by 50%</td>
+    </tr>
+    <tr>
+      <td>Improved Evasion</td>
+      <td>Evasion</td>
+      <td>Archery level 5; 16 diamonds</td>
+      <td>Increases Archers’ armor by 50%</td>
+    </tr>
+    <tr>
+      <td>Steel Armor</td>
+      <td>Iron Armor</td>
+      <td>Town Hall level 5; 64 iron ingots</td>
+      <td>Increases Guards’ armor’s durability by 50%</td>
+    </tr>
+    <tr>
+      <td>Retreat</td>
+      <td>Fear</td>
+      <td>Guard Towers adding up to at least level 12; 32 emeralds</td>
+      <td>When Guards are fleeing, the damage they take is reduced by 40%</td>
+    </tr>
+    <tr>
+      <td>Flee</td>
+      <td>Evade</td>
+      <td>Guard Towers adding up to at least level 12; 32 emeralds</td>
+      <td>Increases the fleeing speed of Guards by 30%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="sixth-column">Sixth Column</h4>
+
+<p>You can only choose one of these!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Whirlwind</td>
+      <td>Mighty Cleave</td>
+      <td>32 blocks of iron</td>
+      <td>Increases Knights’ damage by 4 hearts</td>
+    </tr>
+    <tr>
+      <td>Deadly Aim</td>
+      <td>Wounding Shot</td>
+      <td>256 flint</td>
+      <td>Increases Archers’ damage by 4 hearts</td>
+    </tr>
+    <tr>
+      <td>Captain of the Guard</td>
+      <td>Captain Training</td>
+      <td>27 shields</td>
+      <td>Increases the chance for Knights to block attacks by 50%</td>
+    </tr>
+    <tr>
+      <td>Master Bowman</td>
+      <td>Rapid Shot</td>
+      <td>27 bows</td>
+      <td>50% chance for Archers to shoot 2 arrows at the same time</td>
+    </tr>
+    <tr>
+      <td>Master Swordsman</td>
+      <td>Provost</td>
+      <td>64 diamonds</td>
+      <td>Increases Knights’ armor by 100%</td>
+    </tr>
+    <tr>
+      <td>Agile Archer</td>
+      <td>Improved Evasion</td>
+      <td>64 diamonds</td>
+      <td>Increases Archers’ armor by 100%</td>
+    </tr>
+    <tr>
+      <td>Diamond Skin</td>
+      <td>Steel Armor</td>
+      <td>64 diamonds</td>
+      <td>Increases Guards’ armor’s durability by 100%</td>
+    </tr>
+    <tr>
+      <td>Full Retreat</td>
+      <td>Retreat</td>
+      <td>64 emeralds</td>
+      <td>When Guards are fleeing, the damage they take is reduced by 100%</td>
+    </tr>
+    <tr>
+      <td>Hotfoot</td>
+      <td>Flee</td>
+      <td>64 emeralds</td>
+      <td>Increases the fleeing speed of Guards by 50%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="civilian">Civilian</h3>
+<p><br />
+<img src="../../assets/images/gui/universitycivilian.png" class="img-fluid mx-auto" alt="University Civilian GUI Page" />
+<br /></p>
+
+<h4 id="first-column-1">First Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stamina</td>
+      <td>1 carrot</td>
+      <td>Unlocks the <a href="../../source/buildings/hospital">Hospital</a></td>
+    </tr>
+    <tr>
+      <td>Keen</td>
+      <td><a href="../../source/buildings/house">House</a> at least level 3; 3 books</td>
+      <td>Unlocks the <a href="../../source/buildings/library">Library</a></td>
+    </tr>
+    <tr>
+      <td>First Aid</td>
+      <td><a href="../../source/buildings/townhall">Town Hall</a> at least level 1; 8 hay bales</td>
+      <td>Increases colonists’ health by 1 heart</td>
+    </tr>
+    <tr>
+      <td>Higher Learning</td>
+      <td>House at least level 3; 3 books</td>
+      <td>Unlocks the <a href="../../source/buildings/school">School</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="second-column-1">Second Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Band Aid</td>
+      <td>Stamina</td>
+      <td>Library at least level 2; 1 golden carrot</td>
+      <td>Every tick that a colonist is healing, they heal by 10% more</td>
+    </tr>
+    <tr>
+      <td>Resistance</td>
+      <td>Stamina</td>
+      <td><a href="../../source/buildings/restaurant">Restaurant</a> at least level 2; 1 golden apple</td>
+      <td>Colonists can heal with only 95% saturation</td>
+    </tr>
+    <tr>
+      <td>Outpost</td>
+      <td>Keen</td>
+      <td>House at least level 4; 64 steak</td>
+      <td>Lets you have over 25 colonists</td>
+    </tr>
+    <tr>
+      <td>Diligent</td>
+      <td>Keen</td>
+      <td>Library at least level 2; 6 books</td>
+      <td>Increases the rate colonists level up by 5%</td>
+    </tr>
+    <tr>
+      <td>Rails</td>
+      <td>Keen</td>
+      <td><a href="../../source/buildings/courier">Courier’s Hut</a> at least level 3; 64 rails</td>
+      <td>Lets colonists use rails to get around. You don’t need to provide them with minecarts, as they automagically create their own for each trip</td>
+    </tr>
+    <tr>
+      <td>First Aid II</td>
+      <td>First Aid</td>
+      <td>Town Hall at least level 2; 16 hay bales</td>
+      <td>Increases colonists’ health by 2 hearts</td>
+    </tr>
+    <tr>
+      <td>Circus</td>
+      <td>First Aid</td>
+      <td>Restaurant at least level 2; 1 cake</td>
+      <td>Increases colonists’ happiness by 5%</td>
+    </tr>
+    <tr>
+      <td>Gourmand</td>
+      <td>First Aid</td>
+      <td>Restaurant at least level 2; 32 cookies</td>
+      <td>Food is 10% more effective at restoring colonists’ saturation</td>
+    </tr>
+    <tr>
+      <td>More Books</td>
+      <td>Higher Learning</td>
+      <td>School at least level 1; 6 books</td>
+      <td>Increases the effectiveness of <a href="../../source/workers/teacher">Teachers</a> by 5%</td>
+    </tr>
+    <tr>
+      <td>Nurture</td>
+      <td>Higher Learning</td>
+      <td>School at least level 1; 32 cooked chicken</td>
+      <td>Decreases the time it takes children to grow up by 5%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="third-column-1">Third Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Healing Cream</td>
+      <td>Band Aid</td>
+      <td>Library at least level 3; 8 golden carrots</td>
+      <td>Every tick that a colonist is healing, they heal by 25% more</td>
+    </tr>
+    <tr>
+      <td>Resilience</td>
+      <td>Resistance</td>
+      <td>Restaurant at least level 3; 8 golden apples</td>
+      <td>Colonists can heal with only 90% saturation</td>
+    </tr>
+    <tr>
+      <td>Hamlet</td>
+      <td>Outpost</td>
+      <td>House at least level 5; 128 steak</td>
+      <td>Lets you have over 50 colonists</td>
+    </tr>
+    <tr>
+      <td>Studious</td>
+      <td>Diligent</td>
+      <td>Library at least level 3; 12 books</td>
+      <td>Increases the rate colonists level up by 10%</td>
+    </tr>
+    <tr>
+      <td>Nimble</td>
+      <td>Rails</td>
+      <td>Town Hall at least level 3; 1 rabbit foot</td>
+      <td>Increases colonists’ speed by 5%</td>
+    </tr>
+    <tr>
+      <td>Lifesaver</td>
+      <td>First Aid II</td>
+      <td>Town Hall at least level 3; 32 hay bales</td>
+      <td>Increases colonists’ health by 3 hearts</td>
+    </tr>
+    <tr>
+      <td>Festival</td>
+      <td>Circus</td>
+      <td>Restaurant at least level 3; 9 cakes</td>
+      <td>Increases colonists’ happiness by 10%</td>
+    </tr>
+    <tr>
+      <td>Nightowl</td>
+      <td>Circus</td>
+      <td>Library at least level 2; 25 golden carrots</td>
+      <td>Colonists’ bedtime is pushed back by 1 in-game hour</td>
+    </tr>
+    <tr>
+      <td>Gorger</td>
+      <td>Gourmand</td>
+      <td>Restaurant at least level 3; 64 cookies</td>
+      <td>Food is 25% more effective at restoring colonists’ saturation</td>
+    </tr>
+    <tr>
+      <td>Bookworm</td>
+      <td>More Books</td>
+      <td>School at least level 3; 6 bookshelves</td>
+      <td>Increases the effectiveness of Teachers by 10%</td>
+    </tr>
+    <tr>
+      <td>Hormones</td>
+      <td>Nurture</td>
+      <td>School at least level 3; 64 cooked chicken</td>
+      <td>Decreases the time it takes children to grow up by 10%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="fourth-column-1">Fourth Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bandages</td>
+      <td>Healing Cream</td>
+      <td>Library at least level 4; 16 golden carrots</td>
+      <td>Every tick that a colonist is healing, they heal by 50% more</td>
+    </tr>
+    <tr>
+      <td>Vitality</td>
+      <td>Resilience</td>
+      <td>Restaurant at least level 4; 16 golden apples</td>
+      <td>Colonists can heal with only 85% saturation</td>
+    </tr>
+    <tr>
+      <td>Village</td>
+      <td>Hamlet</td>
+      <td>Town Hall at least level 4; 256 steak</td>
+      <td>Lets you have over 75 colonists</td>
+    </tr>
+    <tr>
+      <td>Scholarly</td>
+      <td>Studious</td>
+      <td>Library at least level 4; 24 books</td>
+      <td>Increases the rate colonists level up by 25%</td>
+    </tr>
+    <tr>
+      <td>Agile</td>
+      <td>Nimble</td>
+      <td>Town Hall at least level 4; 10 rabbit feet</td>
+      <td>Increases colonists’ speed by 10%</td>
+    </tr>
+    <tr>
+      <td>Lifesaver II</td>
+      <td>Lifesaver</td>
+      <td>Town Hall at least level 4; 64 hay bales</td>
+      <td>Increases colonists’ health by 4 hearts</td>
+    </tr>
+    <tr>
+      <td>Spectacle</td>
+      <td>Festival</td>
+      <td>Restaurant at least level 4; 18 cakes</td>
+      <td>Increases colonists’ happiness by 15%</td>
+    </tr>
+    <tr>
+      <td>Nightowl II</td>
+      <td>Festival</td>
+      <td>Town Hall at least level 3; 75 golden carrots</td>
+      <td>Colonists’ bedtime is pushed back by 2 in-game hours (cumulative with Nightowl)</td>
+    </tr>
+    <tr>
+      <td>Stuffer</td>
+      <td>Gorger</td>
+      <td>Restaurant at least level 4; 128 cookies</td>
+      <td>Food is 50% more effective at restoring colonists’ saturation</td>
+    </tr>
+    <tr>
+      <td>Bachelor</td>
+      <td>Bookworm</td>
+      <td>Library at least level 3; 12 bookshelves</td>
+      <td>Increases the effectiveness of Teachers by 25%</td>
+    </tr>
+    <tr>
+      <td>Puberty</td>
+      <td>Hormones</td>
+      <td>Library at least level 3; 128 cooked chicken</td>
+      <td>Decreases the time it takes children to grow up by 25%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="fifth-column-1">Fifth Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Compress</td>
+      <td>Bandages</td>
+      <td>Library level 5; 32 golden carrots</td>
+      <td>Every tick that a colonist is healing, they heal by 100% more</td>
+    </tr>
+    <tr>
+      <td>Fortitude</td>
+      <td>Vitality</td>
+      <td>Restaurant level 5; 32 golden apples</td>
+      <td>Colonists can heal with only 80% saturation</td>
+    </tr>
+    <tr>
+      <td>City</td>
+      <td>Village</td>
+      <td>Town Hall level 5; 512 steak</td>
+      <td>Lets you have over 175 colonists, up to the max in the config file</td>
+    </tr>
+    <tr>
+      <td>Reflective</td>
+      <td>Scholarly</td>
+      <td>Library level 5; 48 books</td>
+      <td>Increases the rate colonists level up by 50%</td>
+    </tr>
+    <tr>
+      <td>Swift</td>
+      <td>Agile</td>
+      <td>Town Hall level 5; 32 rabbit feet</td>
+      <td>Increases colonists’ speed by 15%</td>
+    </tr>
+    <tr>
+      <td>Guardian Angel</td>
+      <td>Lifesaver II</td>
+      <td>Town Hall level 5; 128 hay bales</td>
+      <td>Increases colonists’ health by 5 hearts</td>
+    </tr>
+    <tr>
+      <td>Opera</td>
+      <td>Spectacle</td>
+      <td>Restaurant level 5; 27 cakes</td>
+      <td>Increases colonists’ happiness by 20%</td>
+    </tr>
+    <tr>
+      <td>Epicure</td>
+      <td>Stuffer</td>
+      <td>Restaurant level 5; 256 cookies</td>
+      <td>Food is 100% more effective at restoring colonists’ saturation</td>
+    </tr>
+    <tr>
+      <td>Master</td>
+      <td>Bachelor</td>
+      <td>Library level 5; 32 bookshelves</td>
+      <td>Increases the effectiveness of Teachers by 50%</td>
+    </tr>
+    <tr>
+      <td>Growth</td>
+      <td>Puberty</td>
+      <td>Library level 5; 256 cooked chicken</td>
+      <td>Decreases the time it takes children to grow up by 50%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="sixth-column-1">Sixth Column</h4>
+
+<p>You can only choose one of these!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cast</td>
+      <td>Compress</td>
+      <td>64 golden carrots</td>
+      <td>Every tick that a colonist is healing, they heal by 200% more</td>
+    </tr>
+    <tr>
+      <td>Indefatigability</td>
+      <td>Fortitude</td>
+      <td>64 golden apples</td>
+      <td>Colonists can heal with only 50% saturation</td>
+    </tr>
+    <tr>
+      <td>Academic</td>
+      <td>Reflective</td>
+      <td>128 books</td>
+      <td>Increases the rate colonists level up by 100%</td>
+    </tr>
+    <tr>
+      <td>Athlete</td>
+      <td>Swift</td>
+      <td>64 rabbit feet</td>
+      <td>Increases colonists’ speed by 25%</td>
+    </tr>
+    <tr>
+      <td>Guardian Angel II</td>
+      <td>Guardian Angel</td>
+      <td>256 hay bales</td>
+      <td>Increases colonists’ health by 10 hearts</td>
+    </tr>
+    <tr>
+      <td>Theater</td>
+      <td>Opera</td>
+      <td>16 enchanted golden apples</td>
+      <td>Increases colonists’ happiness by 50%</td>
+    </tr>
+    <tr>
+      <td>Glutton</td>
+      <td>Epicure</td>
+      <td>512 cookies</td>
+      <td>Food is 200% more effective at restoring colonists’ saturation</td>
+    </tr>
+    <tr>
+      <td>PhD</td>
+      <td>Master</td>
+      <td>64 bookshelves</td>
+      <td>Increases the effectiveness of Teachers by 100%</td>
+    </tr>
+    <tr>
+      <td>Beanstalk</td>
+      <td>Growth</td>
+      <td>512 cooked chicken</td>
+      <td>Decreases the time it takes children to grow up by 100%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="technology">Technology</h3>
+<p><br />
+<img src="../../assets/images/gui/universitytechnology.png" class="img-fluid mx-auto" alt="University Technology GUI Page" />
+<br /></p>
+
+<h4 id="first-column-2">First Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Biodegradable</td>
+      <td><a href="../../source/buildings/farm&amp;field">Farm</a> at least level 3; 64 bone meal</td>
+      <td>Unlocks the <a href="../../source/buildings/composter">Composter’s Hut</a></td>
+    </tr>
+    <tr>
+      <td>Stone Cake</td>
+      <td><a href="../../source/buildings/mine">Mine</a> at least level 3; 64 chiseled stone bricks</td>
+      <td>Unlocks the <a href="../../source/buildings/stonemason">Stonemason’s Hut</a></td>
+    </tr>
+    <tr>
+      <td>Woodwork</td>
+      <td><a href="../../source/buildings/forester">Forester’s Hut</a> at least level 3; 64 oak planks</td>
+      <td>Unlocks the <a href="../../source/buildings/sawmill">Sawmill</a></td>
+    </tr>
+    <tr>
+      <td>Hot!</td>
+      <td>Mine at least level 2; 4 lava buckets</td>
+      <td>Unlocks the <a href="../../source/buildings/smeltery">Smeltery</a></td>
+    </tr>
+    <tr>
+      <td>Hitting Iron!</td>
+      <td>Mine at least level 3; an anvil</td>
+      <td>Unlocks the <a href="../../source/buildings/blacksmith">Blacksmith’s Hut</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="second-column-2">Second Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Flower Power</td>
+      <td>Biodegradable</td>
+      <td>Composter’s Hut at least level 3; 64 compost</td>
+      <td>Unlocks the <a href="../../source/buildings/flowershop">Flower Shop</a></td>
+    </tr>
+    <tr>
+      <td>Let it Grow</td>
+      <td>Biodegradable</td>
+      <td>Farm at least level 3; 16 compost</td>
+      <td>Unlocks the <a href="../../source/buildings/plantation">Plantation</a></td>
+    </tr>
+    <tr>
+      <td>Bonemeal</td>
+      <td>Biodegradable</td>
+      <td>Mine at least level 3; 64 wheat seeds</td>
+      <td>Increases <a href="../../source/worker/farmer">Farmers’</a> output by 10%</td>
+    </tr>
+    <tr>
+      <td>Rocking Roll</td>
+      <td>Stone Cake</td>
+      <td>Stonemason’s Hut at least level 1; 64 stone</td>
+      <td>Unlocks the <a href="../../source/buildings/crusher">Crusher’s Hut</a></td>
+    </tr>
+    <tr>
+      <td>Stringwork</td>
+      <td>Woodwork</td>
+      <td>Sawmill at least level 1; 16 string</td>
+      <td>Unlocks the <a href="../../source/buildings/fletcher">Fletcher’s Hut</a></td>
+    </tr>
+    <tr>
+      <td>Sieving</td>
+      <td>Woodwork</td>
+      <td><a href="../../source/buildings/fisher">Fisher’s Hut</a> at least level 3; 64 string</td>
+      <td>Unlocks the <a href="../../source/buildings/sifter">Sifter’s Hut</a></td>
+    </tr>
+    <tr>
+      <td>Memory Aid</td>
+      <td>Woodwork</td>
+      <td>Sawmill at least level 1; 32 paper</td>
+      <td>Increases the max amount of recipes stored in each hut by 25%</td>
+    </tr>
+    <tr>
+      <td>Is this Redstone?</td>
+      <td>Hot!</td>
+      <td>128 redstone dust</td>
+      <td>Increases colonists’ block breaking speed by 10%</td>
+    </tr>
+    <tr>
+      <td>The Flintstones</td>
+      <td>Hot!</td>
+      <td>Smeltery at least level 3; 64 stone bricks</td>
+      <td>Unlocks the <a href="../../source/buildings/stonesmeltery">Stone Smeltery</a></td>
+    </tr>
+    <tr>
+      <td>Those Lungs!</td>
+      <td>Hot!</td>
+      <td>Smeltery at least level 3; 64 glass</td>
+      <td>Unlocks the <a href="../../source/buildings/glassblower">Glassblower’s Hut</a></td>
+    </tr>
+    <tr>
+      <td>Strong</td>
+      <td>Hitting Iron</td>
+      <td>Blacksmith’s Hut at least level 1; 8 diamonds</td>
+      <td>Increases colonists’ tools’ durability by 5%</td>
+    </tr>
+    <tr>
+      <td>Ability</td>
+      <td>Hitting Iron</td>
+      <td>Mine at least level 1; 64 iron ingots</td>
+      <td>Increases colonists’ block placing speed by 10%</td>
+    </tr>
+    <tr>
+      <td>Veinminer</td>
+      <td>Hitting Iron</td>
+      <td>Mine at least level 1; 32 iron ore</td>
+      <td>Increases the number of ores the <a href="../../source/workers/miner">Miner</a> produces by 10%</td>
+    </tr>
+    <tr>
+      <td>What ya Need?</td>
+      <td>Hitting Iron</td>
+      <td>Blacksmith’s Hut at least level 3; 64 redstone dust</td>
+      <td>Unlocks the <a href="../../source/buildings/mechanic">Mechanic’s Hut</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="third-column-2">Third Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rainbow Heaven</td>
+      <td>Flower Power</td>
+      <td>Flower Shop at least level 3; 64 poppies</td>
+      <td>Unlocks the <a href="../../source/buildings/dyer">Dyer’s Hut</a></td>
+    </tr>
+    <tr>
+      <td>Double Trouble</td>
+      <td>Let it Grow</td>
+      <td>Plantation at least level 3; 64 bamboo, 64 sugar cane, 64 cacti</td>
+      <td>Lets the <a href="../../source/workers/planter">Planter</a> plant 2 out of 3 crops at the same time</td>
+    </tr>
+    <tr>
+      <td>Dung</td>
+      <td>Bonemeal</td>
+      <td>Mine at least level 4; 128 wheat seeds</td>
+      <td>Increases Farmers’ output by 25%</td>
+    </tr>
+    <tr>
+      <td>Gilded Hammer</td>
+      <td>Rocking Roll</td>
+      <td>Crusher’s Hut at least level 3; 64 gravel, 64 sand, 64 clay blocks</td>
+      <td>Lets <a href="../../source/workers/crusher">Crushers</a> crush based on a 1-1 ratio instead of 2-1</td>
+    </tr>
+    <tr>
+      <td>Pave the Road</td>
+      <td>Rocking Roll</td>
+      <td>Crusher’s Hut at least level 1; 32 white concrete</td>
+      <td>Unlocks the <a href="../../source/buildings/concretemixer">Concrete Mixer’s Hut</a></td>
+    </tr>
+    <tr>
+      <td>Hot Boots</td>
+      <td>Stringwork</td>
+      <td>Fletcher’s Hut at least level 1; 32 leather, 16 iron ingots</td>
+      <td>Gives the Miner fire resistance for those annoying lava lakes</td>
+    </tr>
+    <tr>
+      <td>Space</td>
+      <td>Sieving</td>
+      <td>Mine at least level 3; 16 <a href="../../source/items/rack">racks</a></td>
+      <td>Increases the number of items you can set as a minimum stock in the <a href="../../source/buildings/warehouse">Warehouse</a>, <a href="../../source/buildings/restaurant">Restaurant</a>, and <a href="../../source/buildings/bakery">Bakery</a> GUIs by 50%</td>
+    </tr>
+    <tr>
+      <td>Cheat Sheet</td>
+      <td>Memory Aid</td>
+      <td>Sawmill at least level 3; 64 paper</td>
+      <td>Increases the max amount of recipes stored in each hut by 50%</td>
+    </tr>
+    <tr>
+      <td>Redstone Powered</td>
+      <td>Is this Redstone?</td>
+      <td>256 redstone dust</td>
+      <td>Increases colonists’ block breaking speed by 25%</td>
+    </tr>
+    <tr>
+      <td>Know the End?</td>
+      <td>The Flintstones</td>
+      <td>Bakery at least level 3; 64 chorus fruit</td>
+      <td>Lets the <a href="../../source/workers/baker">Baker</a> craft chorus bread and lets the <a href="../../source/workers/stonemason">Stonemason</a> craft end stone (for more information, go to the Baker and Stonemason pages)</td>
+    </tr>
+    <tr>
+      <td>Hardened</td>
+      <td>Strong</td>
+      <td>Blacksmith’s Hut at least level 2; 16 diamonds</td>
+      <td>Increases colonists’ tools’ durability by 10%</td>
+    </tr>
+    <tr>
+      <td>Skills</td>
+      <td>Ability</td>
+      <td>Mine at least level 2; 128 iron ingots</td>
+      <td>Increases colonists’ block placing speed by 25%</td>
+    </tr>
+    <tr>
+      <td>Good Veins</td>
+      <td>Veinminer</td>
+      <td>Mine at least level 2; 64 iron ore</td>
+      <td>Increases the number of ores the Miner produces by 25%</td>
+    </tr>
+    <tr>
+      <td>Enhanced Gates I</td>
+      <td>What ya Need?</td>
+      <td>64 wooden <a href="../../source/items/gates">gates</a>, 2 <a href="../../source/items/ancient_tome">ancient tomes</a>, 5 blocks of iron</td>
+      <td>This has a bit of a complex formula, but suffice it to say it makes gates more durable</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="fourth-column-2">Fourth Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Compost</td>
+      <td>Dung</td>
+      <td>Mine level 5; 256 wheat seeds</td>
+      <td>Increases Farmers’ output by 50%</td>
+    </tr>
+    <tr>
+      <td>Capacity</td>
+      <td>Space</td>
+      <td>Mine at least level 4; 32 racks</td>
+      <td>Increases the number of items you can set as a minimum stock in the Warehouse, Restaurant, and Bakery GUIs by 100%</td>
+    </tr>
+    <tr>
+      <td>Recipe book</td>
+      <td>Cheat Sheet</td>
+      <td>Sawmill at least level 3; 128 paper</td>
+      <td>Increases the max amount of recipes stored in each hut by 100%</td>
+    </tr>
+    <tr>
+      <td>Deep Pockets</td>
+      <td>Cheat Sheet</td>
+      <td>Library at least level 4; 256 emeralds</td>
+      <td>Adds 9 slots to colonists’ inventories</td>
+    </tr>
+    <tr>
+      <td>Heavy Machinery</td>
+      <td>Redstone Powered</td>
+      <td>256 redstone dust</td>
+      <td>Increases colonists’ block breaking speed by 50%</td>
+    </tr>
+    <tr>
+      <td>Reinforced</td>
+      <td>Hardened</td>
+      <td>Blacksmith’s Hut at least level 3; 32 diamonds</td>
+      <td>Increases colonists’ tools’ durability by 25%</td>
+    </tr>
+    <tr>
+      <td>Tools</td>
+      <td>Skills</td>
+      <td>Blacksmith’s Hut at least level 4; 256 iron ingots</td>
+      <td>Increases colonists’ block placing speed by 50%</td>
+    </tr>
+    <tr>
+      <td>Rich Veins</td>
+      <td>Good Veins</td>
+      <td>Blacksmith’s Hut at least level 4; 32 gold ore</td>
+      <td>Increases the number of ores the Miner produces by 50%</td>
+    </tr>
+    <tr>
+      <td>Enhanced Gates II</td>
+      <td>Enhanced Gates I</td>
+      <td>64 iron <a href="../../source/items/gates">gates</a>, 2 ancient tomes, 32 obsidian</td>
+      <td>Even more durable gates!</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="fifth-column-2">Fifth Column</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fertilizer</td>
+      <td>Compost</td>
+      <td>Smeltery at least level 3; 512 wheat seeds</td>
+      <td>Increases Farmers’ output by 75%</td>
+    </tr>
+    <tr>
+      <td>Full Stock</td>
+      <td>Capacity</td>
+      <td>Mine level 5; 64 racks</td>
+      <td>Increases the number of items you can set as a minimum stock in the Warehouse, Restaurant, and Bakery GUIs by 200%</td>
+    </tr>
+    <tr>
+      <td>RTM (Read the Manual)</td>
+      <td>Recipe book</td>
+      <td>Sawmill at least level 4; 256 paper</td>
+      <td>Increases the max amount of recipes stored in each hut by 200%</td>
+    </tr>
+    <tr>
+      <td>Loaded</td>
+      <td>Deep Pockets</td>
+      <td>Library level 5; 64 emeralds</td>
+      <td>Adds 18 slots to colonists’ inventories</td>
+    </tr>
+    <tr>
+      <td>What Is This Speed?</td>
+      <td>Heavy Machinery</td>
+      <td>1024 redstone dust</td>
+      <td>Increases colonists’ block breaking speed by 100%</td>
+    </tr>
+    <tr>
+      <td>Steel Bracing</td>
+      <td>Reinforced</td>
+      <td>Blacksmith’s Hut level 5; 64 diamonds</td>
+      <td>Increases colonists’ tools’ durability by 50%</td>
+    </tr>
+    <tr>
+      <td>Seems Automatic</td>
+      <td>Tools</td>
+      <td>Blacksmith’s Hut level 5; 512 iron ingots</td>
+      <td>Increases colonists’ block placing speed by 100%</td>
+    </tr>
+    <tr>
+      <td>Amazing Veins</td>
+      <td>Rich Veins</td>
+      <td>Blacksmith’s Hut level 5; 64 gold ore</td>
+      <td>Increases the number of ores the Miner produces by 100%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="sixth-column-2">Sixth Column</h4>
+
+<p>You can only choose one of these!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Prerequisites</th>
+      <th>Requirements</th>
+      <th>Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Magic Compost</td>
+      <td>Fertilizer</td>
+      <td>2048 wheat seeds</td>
+      <td>Increases Farmers’ output by 200%</td>
+    </tr>
+    <tr>
+      <td>Rainman</td>
+      <td>RTM</td>
+      <td>27 buckets of salmon</td>
+      <td>Workers work during rain and storms</td>
+    </tr>
+    <tr>
+      <td>Heavily Loaded</td>
+      <td>Loaded</td>
+      <td>128 emeralds</td>
+      <td>Adds 27 slots to colonists’ inventories</td>
+    </tr>
+    <tr>
+      <td>Lightning</td>
+      <td>What Is This Speed?</td>
+      <td>2048 redstone dust</td>
+      <td>Increases colonists’ block breaking speed by 200%</td>
+    </tr>
+    <tr>
+      <td>Diamond Coated</td>
+      <td>Steel Bracing</td>
+      <td>128 diamonds</td>
+      <td>Increases colonists’ tools’ durabilty by 90%</td>
+    </tr>
+    <tr>
+      <td>Madness!</td>
+      <td>Seems Automatic</td>
+      <td>1024 iron ingots</td>
+      <td>Increases colonists’ block placing speed by 200%</td>
+    </tr>
+    <tr>
+      <td>Motherlode</td>
+      <td>Amazing Veins</td>
+      <td>64 diamond ore</td>
+      <td>Increases the number of ores the Miner produces by 200%</td>
+    </tr>
+  </tbody>
+</table>
+:ET

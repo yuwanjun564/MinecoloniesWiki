@@ -1,0 +1,17 @@
+I"_<h1 id="compost">Compost</h1>
+
+<div class="infobox box text-center">
+    <p style="text-align:center;"><img src="../../assets/images/items/compost.png" alt="Compost" /></p>
+    <recipe>compostblock</recipe>
+</div>
+<p><br /></p>
+
+<p>There are two types of compost. There is composted dirt which is used in the <a href="../../source/buildings/flowershop">Flower Shop</a> schematics, and there is the compost item which is used by the <a href="../../source/workers/florist">Florist</a> and the <a href="../../source/workers/farmer">Farmer</a> like bonemeal.
+<br /></p>
+
+<h2 id="using-compost">Using Compost</h2>
+
+<p>The <a href="../../source/workers/composter">Composter</a> uses a <a href="../../source/items/barrel">barrel</a> to create compost (the item). It works like bonemeal to increase the speed of plant growth. The Florist must have compost to grow flowers. The Farmer does not need compost or bonemeal to work, but prefers it (this is toggleable in the <a href="../../source/buildings/farm&amp;field">Farm</a> GUI).</p>
+
+<p>Composted dirt is crafted by the Farmer. It is used in the Flower Shop schematics.</p>
+:ET

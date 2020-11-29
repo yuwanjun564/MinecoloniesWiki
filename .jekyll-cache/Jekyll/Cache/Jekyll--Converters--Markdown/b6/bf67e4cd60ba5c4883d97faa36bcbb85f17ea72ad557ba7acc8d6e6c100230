@@ -1,0 +1,88 @@
+I"$<h1 id="barracks">Barracks</h1>
+
+<div class="infobox box text-center">
+    <img src="../../assets/images/buildings/barracks.png" alt="Barracks" />
+    <hr />
+    <div class="row section-text text-left">
+        <div class="col">
+        <p><strong>Worker:</strong></p>
+        </div>
+        <div class="col">
+        <p><a href="../workers/guard">Guard</a></p>
+        </div>
+    </div>
+    <hr />
+    <recipe>barracks</recipe>
+</div>
+
+<h3 id="note-the-barracks-cannot-be-built-until-you-have-a-level-3-guard-tower-or-three-level-1-guard-towers-or-another-equivalent-and-have-finished-the-research-in-the-university">Note: The Barracks cannot be built until you have a level 3 <a href="../../source/buildings/guardtower">Guard Tower</a> (or three level 1 Guard Towers, or another equivalent) and have finished the research in the <a href="../../source/buildings/university">University</a>.</h3>
+<p><br /></p>
+
+<p>The Barracks is the ultimate protection for your colony. The Barracks will hold 4 <a href="../buildings/barrackstower">Barracks Towers</a> within its structure. The Barracks Towers (unlike the normal <a href="../../source/buildings/guardtower">Guard Towers</a>) will employ <em>and</em> house 1 <a href="../../source/workers/guard">Guard</a> for every level built! Each new Guard will need a bed in a house in order to spawn. However, once they are hired at the Barracks Tower, that becomes their new residence and the bed in the house will open up for another new citizen. Each Barracks Tower can house and employ 5 Guards for a total of 20 Guards for your colony.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Barracks Level</th>
+      <th style="text-align: center">Max # of Barracks Towers</th>
+      <th style="text-align: center">Max Level of Barracks Towers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<p><strong>Note:</strong> If you place Barracks/Barracks Towers near your colony border and level them up, your border will expand.</p>
+
+<p><br /></p>
+
+<h2 id="barracks-gui">Barracks GUI</h2>
+
+<p>When accessing the Barracks’ hut block by right-clicking on it, you will see a GUI with different options:</p>
+
+<p><br /></p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/barracksgui.png" class="img-fluid mx-auto" alt="Barracks GUI" />
+  </div>
+  <div class="col-sm-12 col-md"><br /><br />
+      <ul>
+      <li><strong>Barracks Level:</strong> This tells you the type of hut and the build level of the building you have selected.</li>         <li><strong>Current Barbarian Position and Last Barbarian Spawn:</strong> A tracker system for Barbarians. <strong>Note: </strong>you can only see the current barbarian position if you have <b>hired spies</b> (see below) during the current raid.</li>
+      <li><strong>Build Options:</strong> Lets you create a build, upgrade, reposition, or repair build order for the Barracks. To learn more about the building system, please visit the [Builder](../../source/workers/builder) page.</li>
+      <li><strong>Hire Spies:</strong> This option is only available after the hut is level 3. Here you can hire spies during raids: </li>  
+      <br />
+  <img src="../../assets/images/gui/hiringspies.png" class="img-fluid mx-auto" alt="Hiring Spies" />
+      <br />
+      <li><strong>Inventory:</strong> Here you can access the Barracks' storage, where the Guards staying in the Barracks take and deposit materials. They will also use any [racks](../../source/decoblocks/rack) or chests in the Barracks, so be sure to check those as well!</li>
+    </ul>
+  </div>
+</div>
+<p><br /></p>
+:ET

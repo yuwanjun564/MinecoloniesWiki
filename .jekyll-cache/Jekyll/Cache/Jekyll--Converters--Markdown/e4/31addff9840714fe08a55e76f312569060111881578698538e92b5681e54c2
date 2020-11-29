@@ -1,0 +1,54 @@
+I"¸<h1 id="fletcher">Fletcher</h1>
+
+<div class="infobox box text-center">
+<img src="../../assets/images/workers/fletcher_m.png" alt="Fletcher Male" />&nbsp;&nbsp;&nbsp;<img src="../../assets/images/workers/fletcher_f.png" alt="Fletcher Female" />
+<hr />
+  <div class="row section-text text-left">
+    <div class="col">
+      <p><strong>Primary Trait:</strong></p>
+      <p><strong>Secondary Trait:</strong></p>
+      <p><strong>Building:</strong></p>
+    </div>
+    <div class="col">
+      <p class="traitp">Dexterity</p>
+      <p class="traits">Creativity</p>
+      <p><a href="../buildings/fletcher">Fletcher</a></p>
+    </div>
+  </div>
+</div>
+
+<p>The Fletcher is part of the supply production of your colony. The Fletcher will craft bows, fishing poles, wool, paintings, and anything else that uses wool or string. They will only do this if you teach them the recipes, they receive a request from another worker, and they have the needed materials.</p>
+
+<p><strong>Note:</strong> The Fletcher can only learn a set number of recipes based on their hut level. So:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hut Level</th>
+      <th>Recipes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>160</td>
+    </tr>
+  </tbody>
+</table>
+:ET

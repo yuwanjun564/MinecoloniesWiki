@@ -1,0 +1,15 @@
+I"1<h1 id="compost-barrel">Compost Barrel</h1>
+
+<div class="infobox box text-center">
+    <p style="text-align:center;"><img src="../../assets/images/items/barrel.png" alt="Compost Barrel" /></p>
+    <recipe>barrel</recipe>
+</div>
+<p><br /></p>
+
+<p>The compost barrel is used by the <a href="../../source/workers/composter">Composter</a> to make <a href="../../source/items/compost">compost</a>. It is crafted at the <a href="../../source/buildings/sawmill">Sawmill</a>.
+<br /></p>
+
+<h2 id="using-the-compost-barrel">Using the Compost Barrel</h2>
+
+<p>The compost barrel is primarily used by the Composter to make compost, but it can also be used by the player to do the same thing (right-click while holding a compostable item to raise the level of compost in the compost barrel). It can also be used as decoration.</p>
+:ET

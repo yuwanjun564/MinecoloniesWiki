@@ -1,0 +1,71 @@
+I"A<h1 id="troubleshooting">Troubleshooting</h1>
+
+<h2 id="before-you-start-troubleshooting"><a id="alphas">Before</a> you start troubleshooting:</h2>
+
+<p>Always check if updates for <a href="https://www.curseforge.com/minecraft/mc-mods/minecolonies/files/all">MineColonies</a> and <a href="https://www.curseforge.com/minecraft/mc-mods/structurize/files/all">Structurize</a> are available and update to the latest alpha if you are not running the latest. (Alpha does not mean it’s unstable, it just means it’s a relatively small release.)</p>
+
+<h2 id="missing-graphics-issues-with-the-build-tool-preview-andor-citizen-guis-not-opening">Missing Graphics, Issues with the <a href="../../source/items/buildtool">Build Tool</a> Preview, And/Or Citizen GUIs Not Opening</h2>
+<p>If you experience missing textures for hut blocks, your build tool previews are messed up, and/or the citizen GUIs aren’t opening when you right-click them, check if you have OptiFine installed as the current version is very buggy.
+  As there is nothing we can do, you can either live with these issues, or you will have to remove OptiFine.</p>
+
+<h2 id="crashes-when-placing-structures">Crashes when Placing Structures</h2>
+<p>If your game crashes placing a structure (e.g. a <a href="../../source/items/supplycampandship">supply camp or ship</a>), your MineColonies and Structurize versions are probably incompatible. Update both to the latest <a href="#alphas">alphas</a>.</p>
+
+<h3 id="checklist-identifying-why-a-citizen-is-not-working">CHECKLIST: Identifying why a citizen is not working</h3>
+
+<ol>
+  <li>Is it nighttime? Citizens do not work after sunset.</li>
+  <li>Is it raining or snowing? Citizens do not work in the rain or snow.</li>
+  <li>Did a citizen die yesterday (in-game time)? Citizens will mourn the next day and not work if one of them died the day before.</li>
+  <li>Are there raiders (barbarians, pirates, vikings, egyptian raiders) still around? Citizens will hide during raids until all attackers are killed.</li>
+  <li>Does their work hut have a low building level? Does the worker have low XP? Then they will often idle in between actually working until their personal XP improves and/or their workh ut is upgraded.</li>
+  <li>Is their hut PAUSED? Work huts now have a pause button. Sometimes players forget to unpause.</li>
+  <li>Is their hunger level low? Citizens won’t work while hungry. Give them food, and if you have a <a href="../../source/buildings/restaurant">Restaurant</a>, check that it is stocked and you have hired a <a href="../../source/workers/cook">Cook</a>. If they are hungry but won’t eat the food they have, fire them until they eat then rehire them.</li>
+  <li>Do they have any open requests? They might need a tool or other item to continue their work.</li>
+  <li>Do they have tools of the correct <a href="../../source/systems/worker">level</a>?</li>
+  <li>Is their inventory or their hut inventory full? They will get stuck if they have no room to move things in or out.</li>
+</ol>
+
+<p>If none of these apply, go on to the next troubleshooting checklists.</p>
+
+<h3 id="checklist-troubleshooting-a-citizen-not-working-by-career">CHECKLIST: Troubleshooting a citizen not working by career</h3>
+<ol>
+  <li><a href="../../source/workers/builder">Builder</a>: Remember to click the Build Building button inside the hut block you want to be built, then wait for the Builder to announce they have begun building.</li>
+  <li><a href="../../source/workers/forester">Forester</a>: Set which type of tree they are allowed to cut and if they should replant them. Make sure that your trees are at ground level, or if you place them one block higher, place slabs next to them.</li>
+  <li><a href="../../source/workers/miner">Miner</a>: Is there an ore they cannot mine in their way? Break it for them or assign them to a new mining level. Do they have cobblestone, torches, a pickaxe, a shovel, slabs, planks, and fencing (for the mineshaft)?</li>
+  <li><a href="../../source/workers/cook">Cook</a>: Set which fuel you want them to use.</li>
+  <li><a href="../../source/workers/baker">Baker</a>: Set which fuel you want them to use and which recipe you want them to bake.</li>
+  <li><a href="../../source/workers/smelter">Smelter</a>: Set which fuel you want them to use and which ore you want them to smelt.</li>
+  <li><a href="../../source/workers/farmer">Farmer</a>: Assign the farmer to a field. Make sure each scarecrow has a seed and make sure all tilled soil is hydrated.</li>
+  <li><a href="../../source/workers/composter">Composter</a>: Set which items you want them to convert into <a href="../../source/items/compost">compost</a>.</li>
+  <li>Crafter (<a href="../../source/workers/carpenter">Carpenter</a>, <a href="../../source/workers/blacksmith">Blacksmith</a>, <a href="../../source/workers/mechanic">Mechanic</a>, etc): The request for items must be made after the crafter is hired and the colony must have a <a href="../../source/workers/courier">Courier</a>. Cancel the request at the original NPC to generate a new request, or make a new request from the <a href="../../source/items/postbox">Postbox</a>. Also remember to teach them the recipes they’re allowed to craft and make sure afterwards that the recipes were saved.</li>
+  <li><a href="../../source/workers/stonesmelter">Stone Smelter</a>: Set which fuel you want them to use. (They know their recipes already.)</li>
+</ol>
+
+<h3 id="checklist-troubleshooting-a-citizen-not-working-for-unknown-reason">CHECKLIST: Troubleshooting a Citizen not working for unknown reason</h3>
+<ol>
+  <li>Log out of the game. Open the (your game location)/config/minecolonies-common.toml file.
+    <ul>
+      <li>Go to the line<br /> 
+ <code class="language-plaintext highlighter-rouge">#Should in development features be enabled (might be buggy). [Default: false]</code><br />
+ <code class="language-plaintext highlighter-rouge">enableInDevelopmentFeatures=false</code></li>
+      <li>Change the false to true</li>
+      <li>Restart your game</li>
+      <li>Watch the name area above the worker’s head. The information at the end will be important for devs/support staff to troubleshoot issues or assist you on the <a href="https://discord.minecolonies.com">Discord</a> help channels.</li>
+    </ul>
+  </li>
+  <li>Nudge worker by walking into them, off the block they are standing on or out a door.</li>
+  <li>Recall worker to their work hut.</li>
+  <li>Make sure the path to their worksite is clear of obstructions.</li>
+  <li>Recall all citizens to the <a href="../../source/buildings/townhall">Town Hall</a>.</li>
+  <li>Pause the problematic work hut, wait a few minutes, unpause the work hut and recall the worker.</li>
+  <li>Pause the work hut, then click ‘Restart.’ This will restart the worker.</li>
+  <li>Fire worker, wait a few minutes, then hire the same worker.</li>
+  <li>Empty out the worker’s personal and workhut inventories, then only give them what they request in the amount requested until they have no more requests.</li>
+  <li>Fire worker, empty out their personal and workhut inventories, wait for them to actually get into bed at night, after sunrise, hire the same worker.</li>
+  <li>Punch them with an empty hand (taking damage resynchronizes them with world). Never punch a guard, fire them first then punch then rehire them.</li>
+  <li>Use the /mc colony requestsystem-reset <a href="../../source/systems/command">command</a>.</li>
+  <li>Repair their work hut. Some workers will stop working if required elements are not present. Only the <a href="../../source/workers/builder">Builder</a> can place beds, crafting tables, furnaces, chests, <a href="../../source/items/rack">racks</a>, and <a href="../../source/items/barrel">barrels</a>. If you broke any of those, create a repair build order for the building.</li>
+  <li>Fire worker, wait a few minutes, then hire a different worker (you will lose advantage of the experience the first worker had accumulated at this career).</li>
+</ol>
+:ET

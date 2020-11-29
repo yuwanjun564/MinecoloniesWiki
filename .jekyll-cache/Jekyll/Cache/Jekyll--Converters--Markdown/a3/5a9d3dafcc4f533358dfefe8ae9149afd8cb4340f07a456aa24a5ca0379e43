@@ -1,0 +1,59 @@
+I"�
+<h1 id="courier">Courier</h1>
+
+<div class="infobox box text-center">
+<img src="../../assets/images/workers/deliveryman_m.png" alt="Courier Male" />&nbsp;&nbsp;&nbsp;<img src="../../assets/images/workers/deliveryman_f.png" alt="Courier Female" />
+<hr />
+  <div class="row section-text text-left">
+    <div class="col">
+      <p><strong>Primary Trait:</strong></p>
+      <p><strong>Secondary Trait:</strong></p>
+      <p><strong>Building:</strong></p>
+    </div>
+    <div class="col">
+      <p class="traitp">Agility</p>
+      <p class="traits">Adaptability</p>
+      <p><a href="../buildings/courier">Courier's Hut</a></p>
+    </div>
+  </div>
+</div>
+
+<p>The Courier is a critial part of the bloodline of your colony. They will run from worker’s hut to <a href="../../source/buildings/warehouse">Warehouse</a> to worker’s hut, visiting all your workers and delivering the tools and materials they need as well as taking their production to the Warehouse.</p>
+
+<p>The level of the Courier’s Hut will dictate how much materials/tools the Courier can carry to/from Huts - Warehouse - Huts, so if you want them to carry more materials/tools, upgrade the Courier’s Hut. Also, the higher the level of the hut, the faster the Courier will run.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Courier’s Hut Level</th>
+      <th style="text-align: center">Max Stacks Carried</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">unlimited</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="note-you-must-build-the-warehouse-to-at-least-level-1-so-the-courier-can-do-their-work">Note: You MUST build the Warehouse to at least level 1 so the Courier can do their work.</h3>
+
+<h3 id="note-you-can-have-up-to-10-couriers-per-warehouse-the-default-configuration-only-allows-for-1-warehouse-but-this-can-be-changed-however-couriers-assigned-to-subsequent-warehouses-will-only-see-the-items-in-the-warehouse-they-are-assigned-to">Note: You can have up to 10 Couriers per Warehouse. The default configuration only allows for 1 Warehouse, but this can be changed. However, Couriers assigned to subsequent Warehouses will only see the items in the Warehouse they are assigned to.</h3>
+:ET

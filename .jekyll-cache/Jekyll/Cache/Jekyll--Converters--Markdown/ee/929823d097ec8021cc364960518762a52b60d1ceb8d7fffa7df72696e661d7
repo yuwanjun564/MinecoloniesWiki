@@ -1,0 +1,44 @@
+I"ç<h1 id="healer">Healer</h1>
+
+<div class="infobox box text-center">
+<img src="../../assets/images/workers/healer_m.png" alt="Healer Male" />&nbsp;&nbsp;&nbsp;<img src="../../assets/images/workers/healer_f.png" alt="Healer Female" />
+<hr />
+  <div class="row section-text text-left">
+    <div class="col">
+      <p><strong>Primary Trait:</strong></p>
+      <p><strong>Secondary Trait:</strong></p>
+      <p><strong>Building:</strong></p>
+    </div>
+    <div class="col">
+      <p class="traitp">Mana</p>
+      <p class="traits">Knowledge</p>
+      <p><a href="../buildings/hospital">Hospital</a></p>
+    </div>
+  </div>
+</div>
+
+<p>The Healer is a specialist of your colony. The Healer will heal your citizens when they become ill or injured and will use various items. The possible diseases can be changed in the config file, however, these are the defaults:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Disease</th>
+      <th>Items Needed to Cure</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Influenza (the flu)</td>
+      <td>Carrot and Potato</td>
+    </tr>
+    <tr>
+      <td>Measles</td>
+      <td>Dandelion, Kelp, and Poppy</td>
+    </tr>
+    <tr>
+      <td>Smallpox</td>
+      <td>Honeycomb and Golden Apple</td>
+    </tr>
+  </tbody>
+</table>
+:ET

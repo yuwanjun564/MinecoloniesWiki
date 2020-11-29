@@ -1,0 +1,384 @@
+I"J<<h1 id="recipes">Recipes</h1>
+
+<p>Listed on this page are the current crafting recipes available in MineColonies/Structurize. This page will be updated as any craftables are added and made public.</p>
+
+<p><strong>Note:</strong><br />
+The <a href="../../source/items/buildtool">build tool</a> used in any of these recipes will not be consumed in the recipe. It is included to separate our recipes from possible conflicting recipes in other mods.</p>
+
+<h2 id="items-and-blocks">Items and Blocks</h2>
+
+<p><strong>Notes:</strong>
+The <a href="../../source/items/ancient_tome">ancient tome</a> is not on here as it cannot be crafted and must be obtained as a drop.</p>
+
+<p>The <a href="../../source/items/calipers">calipers</a> are not on here as they cannot be crafted and can only be obtained in creative mode.</p>
+
+<table class="table-responsive">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Ingredients</th>
+      <th>Crafted At</th>
+      <th>Recipe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="../../source/items/compostbarrel">Compost Barrel</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Dirt + Iron Ingot</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>barrel</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/barrel_horizontal">Horizontal Barrel</a></td>
+      <td><strong>Any</strong> Planks + Sticks</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>barrel_horizontal</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/barrel_vertical">Vertical Barrel</a></td>
+      <td><strong>Any</strong> Planks + Sticks</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>barrel_vertical</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/buildtool">Build Tool</a></td>
+      <td>Cobblestone + Sticks</td>
+      <td>N/A</td>
+      <td><recipe>buildingtool</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/clipboard">Clipboard</a></td>
+      <td>Sticks + Build Tool + Leather</td>
+      <td>N/A</td>
+      <td><recipe>clipboard</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/compost">Composted Dirt</a></td>
+      <td>Dirt + Compost</td>
+      <td><a href="../../source/buildings/farm&amp;field">Farm</a></td>
+      <td><recipe>compostblock</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/constructiontape">Construction Tape</a></td>
+      <td>White Wool + Sticks</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>constructiontape</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/farm&amp;field">Field</a></td>
+      <td>Hay Block <strong>OR</strong> Pumpkin + Stick + Leather</td>
+      <td>N/A</td>
+      <td><recipe>field</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/floatingcarpet">Floating Carpet</a></td>
+      <td><strong>Any</strong> Carpet + Build Tool + String</td>
+      <td><a href="../../source/buildings/fletcher">Fletcher’s Hut</a></td>
+      <td><recipe>floatingcarpet</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/multipiston">Multi-Piston</a></td>
+      <td>Stone + Redstone Blocks + Build Tool + Pistons</td>
+      <td><a href="../../source/buildings/mechanic">Mechanic’s Hut</a></td>
+      <td><recipe>multipiston</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/paperwall">Paper Wall</a></td>
+      <td><strong>Any</strong> Planks + Paper</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>paperwall</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/placeholderblocks">Placeholder Block</a></td>
+      <td><strong>Any</strong> Planks + Scan Tool</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>placeholderblock</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/placeholderblocks">Solid Placeholder Block</a></td>
+      <td><strong>Any</strong> Logs + Scan Tool</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>solidplaceholderblock</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/postbox">Postbox</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + 3 Chests</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>postbox</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/rack">Rack</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Iron Nuggets</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>rack</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/resourcescroll">Resource Scroll</a></td>
+      <td>Stick + Build Tool + Leather</td>
+      <td>N/A</td>
+      <td><recipe>resourcescroll</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/scantool">Scan Tool</a></td>
+      <td>Iron Ingot + Stick</td>
+      <td>N/A</td>
+      <td><recipe>scantool</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/shingles">Shingles</a></td>
+      <td>Brick + Stick + <strong>Matching</strong> Planks</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>shingleclay</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/shingles">Shingle Slabs</a></td>
+      <td>Brick + Stick</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>shingleslab</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/stash">Stash</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Chests</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>stash</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../items/supplycampandship">Supply Camp</a></td>
+      <td>Chests</td>
+      <td>N/A</td>
+      <td><recipe>supplycamp</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../items/supplycampandship">Supply Ship</a></td>
+      <td><strong>Any</strong> Boats</td>
+      <td>N/A</td>
+      <td><recipe>supplyship</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/timberframes">Timber Framed Blocks</a></td>
+      <td><strong>Primary</strong> Plank + <strong>Secondary</strong> Plank + Build Tool</td>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><recipe>timberframeplain</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/items/waypoint">Waypoint</a></td>
+      <td><strong>Any</strong> Planks + Build Tool</td>
+      <td>N/A</td>
+      <td><recipe>waypoint</recipe></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="hut-blocks">Hut Blocks</h2>
+
+<p><strong>Notes</strong><br />
+The <a href="../../source/buildings/townhall">Town Hall</a> is listed here, but you can only craft it after placing the <a href="../../source/items/supplycampandship">Supply Ship/Camp</a>.
+The <a href="../../source/buildings/barrackstower">Barracks Tower</a> is not listed here because it cannot be crafted. You must craft and place the <a href="../../source/buildings/barracks">Barracks</a> instead.</p>
+
+<table class="table-responsive">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Ingredients</th>
+      <th>Recipe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="../../source/buildings/archery">Archery</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + 3 Bows</td>
+      <td><recipe>archery</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/bakery">Bakery</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Wheat</td>
+      <td><recipe>baker</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/barracks">Barracks</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Iron Block</td>
+      <td><recipe>barracks</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/blacksmith">Blacksmith’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + 3 Iron Ingots</td>
+      <td><recipe>blacksmith</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/builder">Builder’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + <strong>Any</strong> Wooden Door</td>
+      <td><recipe>builder</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/chickenfarmer">Chicken Farmer’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Egg</td>
+      <td><recipe>chickenherder</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/house">House</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Torch</td>
+      <td><recipe>citizen</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/combatacademy">Combat Academy</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + 3 Iron Swords</td>
+      <td><recipe>combatacademy</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/composter">Composter’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Barrel</td>
+      <td><recipe>composter</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/cowherd">Cowherd’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Raw Beef</td>
+      <td><recipe>cowboy</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/crusher">Crusher’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + 2 Cobblestone + 1 Iron Ingot</td>
+      <td><recipe>crusher</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/courier">Courier’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Leather Boots</td>
+      <td><recipe>deliveryman</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/dyer">Dyer’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + <strong>Any</strong> Dye</td>
+      <td><recipe>dyer</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/enchantertower">Enchanter’s Tower</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Enchanting Table</td>
+      <td><recipe>enchanter</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/farm&amp;field">Farm</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Wooden Hoe</td>
+      <td><recipe>farm</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/fisher">Fisher’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Fishing Rod</td>
+      <td><recipe>fisherman</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/fletcher">Fletcher’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + String</td>
+      <td><recipe>fletcher</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/flowershop">Flower Shop</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Poppy</td>
+      <td><recipe>flowershop</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/glassblower">Glassblower’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Glass Block</td>
+      <td><recipe>glassblower</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/guardtower">Guard Tower</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Bow</td>
+      <td><recipe>guardtower</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/hospital">Hospital</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Carrot</td>
+      <td><recipe>hospital</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/library">Library</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Bookshelf</td>
+      <td><recipe>library</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/forester">Forester’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Wooden Axe</td>
+      <td><recipe>lumberjack</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/mechanic">Mechanic’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Redstone Block</td>
+      <td><recipe>mechanic</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/mine">Mine</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Wooden Pickaxe</td>
+      <td><recipe>mine</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/plantation">Plantation</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Cactus</td>
+      <td><recipe>plantation</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/restaurant">Restaurant</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Apple</td>
+      <td><recipe>restaurant</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/sawmill">Sawmill</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Wooden Axe</td>
+      <td><recipe>sawmill</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/school">School</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + 2 Feathers</td>
+      <td><recipe>school</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/shepherd">Shepherd’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Shears</td>
+      <td><recipe>shepherd</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/sifter">Sifter’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + 3 String</td>
+      <td><recipe>sifter</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/smeltery">Smeltery</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Iron Ingot</td>
+      <td><recipe>smeltery</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/stonemason">Stonemason’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + 3 Stone Bricks</td>
+      <td><recipe>stonemason</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/stonesmeltery">Stone Smeltery</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + 1 Furnace + 2 Stone Bricks</td>
+      <td><recipe>stonesmeltery</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/swineherd">Swineherd’s Hut</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Raw Porkchop</td>
+      <td><recipe>swineherder</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/tavern">Tavern</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Decorative Barrel</td>
+      <td><recipe>tavern</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/townhall">Town Hall</a></td>
+      <td><strong>Any</strong> Planks + 2 Build Tools</td>
+      <td><recipe>townhall</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/university">University</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Books</td>
+      <td><recipe>university</recipe></td>
+    </tr>
+    <tr>
+      <td><a href="../../source/buildings/warehouse">Warehouse</a></td>
+      <td><strong>Any</strong> Planks + Build Tool + Chest</td>
+      <td><recipe>warehouse</recipe></td>
+    </tr>
+  </tbody>
+</table>
+:ET

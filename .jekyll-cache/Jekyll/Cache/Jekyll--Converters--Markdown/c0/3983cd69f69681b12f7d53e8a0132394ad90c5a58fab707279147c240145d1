@@ -1,0 +1,79 @@
+I"z<h1 id="minecraft-java-edition">Minecraft Java Edition</h1>
+
+<ul class="box py-3 pr-4">
+  <li><a href="#minecraft-java-edition">Minecraft Java Edition</a>
+    <ul>
+      <li><a href="#installing-minecolonies-mod-on-your-original-minecraft-launcher">Installing MineColonies Mod on your original Minecraft Launcher.</a>
+        <ul>
+          <li><a href="#download-forge">Download Forge</a></li>
+          <li><a href="#run-forge-installer">Run Forge Installer</a></li>
+          <li><a href="#download-minecolonies">Download MineColonies</a></li>
+          <li><a href="#navigate-to-mods-folder">Navigate to Mods Folder</a></li>
+          <li><a href="#copy-minecolonies-to-mods">Copy MineColonies to Mods</a>
+            <ul>
+              <li><a href="#if-adding-pack-extract-it">If Adding Pack, Extract it</a></li>
+            </ul>
+          </li>
+          <li><a href="#run-minecraft-and-select-profile">Run Minecraft and Select Profile</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="installing-minecolonies-mod-on-your-original-minecraft-launcher">Installing MineColonies Mod on your original Minecraft Launcher.</h2>
+
+<ul>
+  <li>
+    <p>This process is for installing only the MineColonies mod in your original Minecraft launcher. You will <em>not</em> be able to connect to the <strong>MineColonies Official 1.12.2 Test Server</strong> due to the server having a balanced variety of other mods as well.</p>
+  </li>
+  <li>
+    <p>For connecting to the Official Test Server, install <a href="../installation/twitch">Twitch</a> or use <a href="../installation/multimc">MultiMC</a>. You can visit the <a href="https://minecraft.curseforge.com/projects/minecolonies-testpack">CurseForge</a> site for a zip file containing all mods and the versions we are currently using on the Official Test Server, as well as all the appropriate configs, scripts and the server.dat file for our modpack Official Test Server. If all these additional mods, configs, scripts and the server.dat are downloaded and installed manually, you will be able to connect to our Official Test Server.</p>
+  </li>
+  <li>
+    <p>Installation of the MineColonies mod is very simple. It does require Minecraft Forge to be able to integrate mods into the Minecraft game, though.</p>
+  </li>
+</ul>
+
+<p><em>We cannot offer support on the installation of Minecraft Forge, however, there are many excellent (and more in-depth) tutorials online. Just Google ‘how to install minecraft forge’ to find some.</em></p>
+
+<hr />
+
+<h3 id="download-forge">Download Forge</h3>
+
+<p>Go to the <a href="http://files.minecraftforge.net/?forums">Minecraft Forge Download page</a> and download the latest version.</p>
+
+<h3 id="run-forge-installer">Run Forge Installer</h3>
+
+<p>Run the downloaded recommended version and make sure it’s on Install Client (or Server if you plan to run a Minecraft Server). The installation path is preset according to Minecraft’s standard installation path. If you have it installed in a different directory, change the installation directory. When it’s done installting, you will see a complete message.</p>
+
+<p><img src="../../assets/images/installation/forge_1.png" alt="Forge installer" />  <img src="../../assets/images/installation/forge_2.png" alt="Forge installed" /></p>
+
+<h3 id="download-minecolonies">Download MineColonies</h3>
+
+<p>Go to the <a href="https://curseforge.com/minecraft/mc-mods/minecolonies/files/all">MineColonies CurseForge Download page</a> site and download the latest 1.15.2 alpha version of MineColonies.</p>
+
+<h3 id="navigate-to-mods-folder">Navigate to Mods Folder</h3>
+
+<p>On your computer, go to the <strong>.minecraft/mods</strong> folder. To be able to find this folder, just click on the start button and in the search box type: <em>%appdata%</em> and hit “search”. It will open the folder where you can find the <strong>.minecraft</strong> folder. Open this folder and inside you will find the <strong>mods</strong> folder.</p>
+
+<h3 id="copy-minecolonies-to-mods">Copy MineColonies to Mods</h3>
+
+<p>Once you are in the <strong>.minecraft/mods</strong> folder, copy the downloaded MineColonies file you downloaded in Step 1 and paste it here. NOTE: DO NOT extract the file if the option appears. Just put the .jar file in here without extracting its contents.</p>
+
+<h3 id="do-the-same-thing-for-structurize">Do the Same Thing for Structurize</h3>
+
+<p>Follow the last three steps, except for Structurize (which MineColonies needs to work). Find the download page for Structurize <a href="https://www.curseforge.com/minecraft/mc-mods/structurize/files/all">here</a>.</p>
+
+<h4 id="if-adding-pack-extract-it">If Adding Pack, Extract It</h4>
+
+<p>If you are adding the entire modpack to be able to play on the official server, then un-zip the zip file you got from CurseForge containing all the mod files here.</p>
+
+<h3 id="run-minecraft-and-select-profile">Run Minecraft and Select Profile</h3>
+
+<p>Run your original Minecraft launcher. Make sure you have the <strong>forge</strong> profile loaded and hit play.</p>
+
+<p><img src="../../assets/images/installation/forge_3.png" alt="Minecraft Launcher" /></p>
+
+<p>That’s it. If you followed these steps, you are ready to play MineColonies!</p>
+:ET

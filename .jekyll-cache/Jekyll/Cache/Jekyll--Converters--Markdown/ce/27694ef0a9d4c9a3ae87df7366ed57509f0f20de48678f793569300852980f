@@ -1,0 +1,17 @@
+I"ç<h1 id="stash">Stash</h1>
+
+<div class="infobox box text-center">
+    <p style="text-align:center;"><img src="../../assets/images/items/stashbox.png" alt="Stashbox" /></p>
+    <recipe>stash</recipe>
+</div>
+<p><br /></p>
+
+<p>The stash lets a player deposit items that they want to be picked up by a <a href="../../source/workers/courier">Courier</a> to take to the <a href="../../source/buildings/warehouse">Warehouse</a>.</p>
+
+<p>The stash can be crafted at the <a href="../../source/buildings/sawmill">Sawmill</a> or by the player.
+<br /></p>
+
+<h2 id="using-the-stash">Using the Stash</h2>
+
+<p>To use the stash, right-click on it to bring up the inventory, which works like a chest. Put items in the stash and a Courier will pick them up.</p>
+:ET

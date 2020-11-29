@@ -1,0 +1,54 @@
+I"<h1 id="mechanic">Mechanic</h1>
+
+<div class="infobox box text-center">
+<img src="../../assets/images/workers/mechanic_m.png" alt="Mechanic Male" />&nbsp;&nbsp;&nbsp;<img src="../../assets/images/workers/mechanic_f.png" alt="Mechanic Female" />
+<hr />
+  <div class="row section-text text-left">
+    <div class="col">
+      <p><strong>Primary Trait:</strong></p>
+      <p><strong>Secondary Trait:</strong></p>
+      <p><strong>Building:</strong></p>
+    </div>
+    <div class="col">
+      <p class="traitp">Knowledge</p>
+      <p class="traits">Agility</p>
+      <p><a href="../buildings/mechanic">Mechanic</a></p>
+    </div>
+  </div>
+</div>
+
+<p>The Mechanic is part of the supply production of your colony. The Mechanic will craft redstone items, rails, minecarts, clocks, compasses, sea lanterns, torches, lanterns, jack-o-lanterns, storage blocks (like blocks of iron, coal, quartz, etc), blue ice, packed ice, enchantment tables, ender chests, tripwire hooks, sticky pistons, <a href="../../source/items/gates">gates</a>, <a href="../../source/items/multipiston">multi-pistons</a>, anything made with blaze rods, and many other items that no other crafter can make. They will only make these items when they have been taught the recipes, receive a request for an item, and have the needed materials.</p>
+
+<p><strong>Note:</strong> The Mechanic can only learn a set number of recipes based on their hut level. So:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hut Level</th>
+      <th>Recipes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>160</td>
+    </tr>
+  </tbody>
+</table>
+:ET

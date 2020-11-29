@@ -1,0 +1,122 @@
+I"�<h1 id="twitch-installation">Twitch Installation</h1>
+
+<p>If you want to play on the <strong>MineColonies Official 1.14.4</strong> Server, we highly recommend using Twitch to always be up to date with all the mods we use in our official server.</p>
+
+<ul class="box py-3 pr-4">
+  <li><a href="#twitch-client">Twitch Client</a>
+    <ul>
+      <li><a href="#installation-of-the-modpack-through-the-twitch-client">Installation of the Modpack through the Twitch Client</a>
+        <ul>
+          <li><a href="#navigate-to-mods">Navigate to Mods</a></li>
+          <li><a href="#enable-minecraft">Enable Minecraft</a></li>
+          <li><a href="#install-minecraft">Install Minecraft</a></li>
+          <li><a href="#browse-modpacks">Browse Modpacks</a></li>
+          <li><a href="#search-for-minecolonies-pack">Search for MineColonies Pack</a></li>
+          <li><a href="#launch-profile">Launch Profile</a></li>
+          <li><a href="#login">Login</a></li>
+          <li><a href="#click-play-in-minecraft-launcher">Click Play in Minecraft Launcher</a>
+            <ul>
+              <li><a href="#open-profiles-list">Open Profiles List</a></li>
+              <li><a href="#select-minecolonies">Select MineColonies</a></li>
+            </ul>
+          </li>
+          <li><a href="#select-multiplayer">Select Multiplayer</a></li>
+          <li><a href="#select-our-server">Select our Server</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li>Click on the text below the Twitch logo to download the Twitch client. On that page, select download for PC or MAC and begin your download.</li>
+</ul>
+
+<p><img src="../../assets/images/installation/twitch_logo.png" alt="Twitch Logo" title="Click the link below!" /></p>
+
+<p><a href="https://app.twitch.tv/" title="Twitch App">Download the Twitch client here!</a></p>
+
+<ul>
+  <li>Once you have downloaded the Twitch client, run the installation and login to the Twitch client.</li>
+</ul>
+
+<p><em>Sign up to Twitch if you haven’t yet, or convert your old Curse account to a Twitch account.</em></p>
+
+<p><img src="../../assets/images/installation/twitch_0.png" alt="Twitch Login" /></p>
+
+<h2 id="installation-of-the-modpack-through-the-twitch-client">Installation of the Modpack through the Twitch Client</h2>
+
+<h3 id="navigate-to-mods">Navigate to Mods</h3>
+
+<p>On the top bar of the Launcher, look for the tab called Mods. Click on it and then select Minecraft.</p>
+
+<p><img src="../../assets/images/installation/twitch_1.png" alt="Launcher Mods" /></p>
+
+<h3 id="enable-minecraft">Enable Minecraft</h3>
+
+<p>The Twitch client will prompt you to “Enable Minecraft”, which will restart the launcher.</p>
+
+<p><img src="../../assets/images/installation/twitch_2.png" alt="Enable Minecraft" /></p>
+
+<h3 id="install-minecraft">Install Minecraft</h3>
+
+<p>Click on the Install button. Use the Advanced option if you want to select another location for the installation folder. The default folder is C:/Users/(your user)/Documents/Curse/Minecraft.</p>
+
+<p><img src="../../assets/images/installation/twitch_3.png" alt="Install Minecraft" /></p>
+
+<h3 id="browse-modpacks">Browse Modpacks</h3>
+
+<p>After the installation is done, select Browse all Modpacks.</p>
+
+<p><img src="../../assets/images/installation/twitch_4.png" alt="Browse Modpacks" /></p>
+
+<h3 id="search-for-minecolonies-pack">Search for MineColonies Pack</h3>
+
+<p>Type in the search bar “MineColonies.” Once you see “MineColonies Official” (<em>by Kostronor, H3lay, 1_Wissi_1. Asherslab81358, D3miurge</em>), click on “Install”.</p>
+
+<p><img src="../../assets/images/installation/twitch_5.png" alt="Selecting the Modpack" /></p>
+
+<h3 id="launch-profile">Launch Profile</h3>
+
+<p>Once the installation is finished downloading all the mods, click on PLAY.</p>
+
+<p><img src="../../assets/images/installation/twitch_6.png" alt="Play the Modpack" /></p>
+
+<h3 id="login">Login</h3>
+
+<p>Login to your Minecraft account.</p>
+
+<p><img src="../../assets/images/installation/twitch_7.png" alt="Login to Minecraft" /></p>
+
+<h3 id="click-play-in-minecraft-launcher">Click Play in Minecraft Launcher</h3>
+
+<p>Click the green play button if it’s already set to “MineColonies Official”. If not, then a couple substeps are needed.</p>
+
+<p><img src="../../assets/images/installation/twitch_8.png" alt="Play Modpack" /></p>
+
+<h4 id="open-profiles-list">Open Profiles List</h4>
+
+<p>Click the green arrow (pointing up) to select your profile.</p>
+
+<p><img src="../../assets/images/installation/twitch_8a.png" alt="Select Profile" /></p>
+
+<h4 id="select-minecolonies">Select MineColonies</h4>
+
+<p>Click the “MineColonies Official” profile. Then you’re ready to click Play!</p>
+
+<p><img src="../../assets/images/installation/twitch_8b.png" alt="Select Profile 2" /></p>
+
+<h3 id="select-multiplayer">Select Multiplayer</h3>
+
+<p>When Minecraft has loaded up, click on the Multiplayer button.</p>
+
+<p><img src="../../assets/images/installation/twitch_9.png" alt="Loaded Minecraft" /></p>
+
+<h3 id="select-our-server">Select our Server</h3>
+
+<p>Finally, click on MineColonies Official 1.14.4! The server info will be set up already.</p>
+
+<p><img src="../../assets/images/installation/twitch_10.png" alt="Join the Official Server" /></p>
+
+<p>That’s it! Good luck, have fun. See you in the server.</p>
+:ET

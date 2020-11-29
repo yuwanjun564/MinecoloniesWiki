@@ -1,0 +1,23 @@
+I"<h1 id="pupil">Pupil</h1>
+
+<div class="infobox box text-center">
+<img src="../../assets/images/workers/pupil_m.png" alt="Pupil Male" />&nbsp;&nbsp;&nbsp;<img src="../../assets/images/workers/pupil_f.png" alt="Pupil Female" />
+<hr />
+  <div class="row section-text text-left">
+    <div class="col">
+      <p><strong>Primary Trait:</strong></p>
+      <p><strong>Secondary Trait:</strong></p>
+      <p><strong>Building:</strong></p>
+    </div>
+    <div class="col">
+      <p class="traitp">Intelligence &amp; Knowledge</p>
+      <p class="traits">Mana</p>
+      <p><a href="../buildings/school">School</a></p>
+    </div>
+  </div>
+</div>
+
+<p>The Pupil is a child of the colony. The <a href="../workers/teacher">Teacher</a> will teach the Pupils at the School to increase the Pupils’ skill levels. While the Teacher can teach with no supplies, providing paper will increase the speed that the Pupils level.</p>
+
+<p>While they are not technically the worker of the School (the Teacher is), the School is where hire the Pupils to learn.</p>
+:ET

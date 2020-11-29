@@ -1,0 +1,24 @@
+I"X<h1 id="postbox">Postbox</h1>
+
+<div class="infobox box text-center">
+    <p style="text-align:center;"><img src="../../assets/images/items/postbox.png" alt="Postbox" /></p>
+    <recipe>postbox</recipe>
+</div>
+<p><br /></p>
+
+<p>The postbox is for the player to request items from the <a href="../../source/buildings/warehouse">Warehouse</a>. A <a href="../../source/workers/courier">Courier</a> will deliver them to the postbox.</p>
+
+<p>The postbox can be crafted at the <a href="../../source/buildings/sawmill">Sawmill</a> or by the player.</p>
+
+<p><br /></p>
+
+<h2 id="using-the-postbox">Using the Postbox</h2>
+
+<p>To use the postbox, right-click on it to bring up the GUI.</p>
+
+<p style="text-align:center;"><img src="../../assets/images/gui/postboxgui.png" alt="Postbox GUI" /></p>
+
+<p>You can search for the item you want in the top box. When you find the item, enter in the field beside it how many you want, then press request. The requested items will show on the right side of the screen. Once a Deliveryman fulfills the request, the items will be in the postbox’s inventory.</p>
+
+<p>There is also an option to ‘Deliver what’s available.’ If, for example, you have this on and you request 64 stone, but your <a href="../../source/buildings/warehouse">Warehouse</a> only has 33 (and you don’t have a <a href="../../source/workers/stonesmelter">Stone Smelter</a> to smelt more), a <a href="../../source/workers/deliveryman">Deliveryman</a> will bring you the 33 stone instead of none. (This option will not stay on if you exit the postbox GUI, but any requests made with it turned on will stay the same.)</p>
+:ET

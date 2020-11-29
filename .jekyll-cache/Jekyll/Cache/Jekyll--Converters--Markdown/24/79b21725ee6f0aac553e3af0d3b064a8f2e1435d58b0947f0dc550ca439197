@@ -1,0 +1,93 @@
+I"�<h1 id="school">School</h1>
+
+<div class="infobox box text-center">
+    <img src="../../assets/images/buildings/school.png" alt="School" />
+    <hr />
+    <div class="row section-text text-left">
+        <div class="col">
+        <p><strong>Worker:</strong></p>
+        </div>
+        <div class="col">
+        <p><a href="../workers/teacher">Teacher</a></p>
+        </div>
+        <div class="col">
+        <p><a href="../workers/pupil">Pupil</a></p>
+        </div>
+    </div>
+    <hr />
+    <recipe>school</recipe>
+</div>
+
+<h3 id="note-the-school-cannot-be-built-until-you-finish-the-research-in-the-university">Note: The School cannot be built until you finish the research in the <a href="../../source/buildings/university">University</a>.</h3>
+<p><br /></p>
+
+<p>The School is where the Teacher will level up the Pupils’ (children) skills. Paper will increase the leveling speed of the Pupils.</p>
+
+<p>The level of the School determines how many Pupils can be taught at a time.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>School Level</th>
+      <th>Pupils Taught</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="school-gui">School GUI</h2>
+
+<p>When accessing the School’s hut block by right-clicking on it, you will see a GUI with different options:</p>
+
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/schoolgui.png" class="img-fluid mx-auto" alt="School GUI" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <br />
+    <ul>
+      
+        <li><strong>Hut Level:</strong> Tells you the type of hut and the build level of the building you have selected.</li>
+      
+        <li><strong>Worker Assigned:</strong> Tells you the worker assigned to this building and their worker level. The worker levels up in time by working. The higher their level, the faster and more efficient they will be.</li>
+      
+        <li><strong>Manage Workers:</strong> Lets you change which worker is assigned to work at this hut. There can only be one worker at each hut. <b>Note:</b> this only works if you have turned the worker hiring mode in the <a href="../../source/buildings/townhall"> Town Hall</a> block to manual, otherwise your citizens will be hired automatically.</li>
+      
+        <li><strong>Recall Worker:</strong> Recalls the worker at this building to their hut block. You might use it if they are stuck somewhere, you want to see what they have, or want to give them something directly.</li>
+      
+        <li><strong>Build Options:</strong> Lets you create a build, upgrade, reposition, or repair build order for this hut. To learn more about the building system, please visit the <a href="../../source/workers/builder"> Builder</a> page.</li>
+      
+        <li><strong>Delivery Priority:</strong> You can set the priority that a <a href="../../source/workers/courier"> Courier</a> will visit this hut and pick up items (when the worker at this hut issues a request), or you can tell Deliverymen to <i>never</i> visit this hut to pick up items. You can also tell a Deliveryman to do a pickup now using the Request Pickup Now button. (For the pickup priority, 10 is the highest.)</li>
+      
+        <li><strong>List of Recipes and Teach Recipe:</strong> When clicking the list of recipes button, you see all the recipes you have taught this hut and can remove them. When clicking teach recipe, it opens a crafting grid which allows you to teach this hut recipes (not the worker).</li>
+      
+        <li><strong>Inventory:</strong> Here you can access the hut block's storage, where the worker at this hut takes and deposits materials. They will also use any <a href="../../source/items/rack"> Racks</a> or chests in the hut, so be sure to check those as well!</li>
+      
+    </ul>
+  </div>
+</div>
+<p><br /> <br /></p>
+:ET

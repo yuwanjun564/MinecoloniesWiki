@@ -1,0 +1,124 @@
+I"?<h1 id="colony-border-system">Colony Border System</h1>
+
+<p>Colonies have an area of claimed chunks (16x16 block areas) around them. Upon colony creation, a colony claims chunks in a square around it. The radius is set with the config setting <em>initialColonySize</em> (default 4x4 chunks).</p>
+
+<p>Those claims are protected from modification through other players. See the <a href="../../source/systems/protection">Colony Protection System</a> page for more information.</p>
+
+<p>Extending your claim area can be done by building huts. Huts claim a square area around them after they are built, expanding all sides from the chunk the hutblock is located in. How much they claim depends on the building. They won’t claim over the max range, set with the config setting <em>maxColonySize</em> (default 20x20 chunks).</p>
+
+<p>Deconstructing a building <em>will</em> remove the chunks it claimed.</p>
+
+<h3 id="building-claim-areas">Building Claim Areas:</h3>
+
+<h4 id="town-hall"><a href="../../source/buildings/townhall">Town Hall</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Level</th>
+      <th>Additional Chunks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>3 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5 Chunk Radius</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="guard-towers"><a href="../../source/buildings/guardtower">Guard Towers</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Level</th>
+      <th>Additional Chunks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>3 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5 Chunk Radius</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="barracks"><a href="../../source/buildings/barracks">Barracks</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Level</th>
+      <th>Additional Chunks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All</td>
+      <td>Average of <a href="../../source/buildings/barrackstower">Barracks Tower</a> levels, up to 5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="other-huts-non-decoration">Other Huts (non-decoration)</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Level</th>
+      <th>Additional Chunks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>1 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2 Chunk Radius</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2 Chunk Radius</td>
+    </tr>
+  </tbody>
+</table>
+:ET

@@ -1,0 +1,19 @@
+I"f<h1 id="construction-tape">Construction Tape</h1>
+
+<div class="infobox box text-center">
+    <img src="../../assets/images/items/constructiontape.png" alt="Construction Tape" /><br />
+    <recipe>constructiontape</recipe>
+</div>
+<p><br /></p>
+
+<p>Construction tape is a unique item that automatically generates when a building is placed. It can be crafted at the <a href="../../source/buildings/sawmill">Sawmill</a> or by the player for use as decoration.
+<br /></p>
+
+<h2 id="using-construction-tape">Using Construction Tape</h2>
+
+<p>Construction tape shows you the borders of buildings to be upgraded, built, repaired, or repositioned. It is placed one block outside of the building’s footprint.</p>
+
+<p>Construction tape can also be used as decoration, however, remember that construction tape is not solid and can be walked through. It is also directional, meaning it changes orientation depending on how you place it.</p>
+
+<h3 id="for-more-information-on-the-build-system-please-see-the-builder-page">For more information on the build system, please see the <a href="../../source/workers/builder">Builder</a> page.</h3>
+:ET

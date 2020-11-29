@@ -1,0 +1,34 @@
+I"�
+<h1 id="miner">Miner</h1>
+
+<div class="infobox box text-center">
+<img src="../../assets/images/workers/miner_m.png" alt="Miner Male" />&nbsp;&nbsp;&nbsp;<img src="../../assets/images/workers/miner_f.png" alt="Miner Female" />
+<hr />
+  <div class="row section-text text-left">
+    <div class="col">
+      <p><strong>Primary Trait:</strong></p>
+      <p><strong>Secondary Trait:</strong></p>
+      <p><strong>Building:</strong></p>
+    </div>
+    <div class="col">
+      <p class="traitp">Strength</p>
+      <p class="traits">Stamina</p>
+      <p><a href="../buildings/mine">Mine</a></p>
+    </div>
+  </div>
+</div>
+
+<p>The Miner is part of the resource production of your colony. The Miner will create mineshafts to collect cobblestone, granite, diorite, andesite, dirt, sand, sandstone, etc. as well as all the ores they come across. Any additional modded blocks/ores should also be picked up by the Miner if they are properly coded.</p>
+
+<p>The Miner works by digging a shaft down. Once there, they will build a network of random mineshafts branching out from the main shaft. If they find any ore, they will try and mine out the whole vein, not just what happens to be on their path.</p>
+
+<p>If the Miner is not working and just stands by their hut block, check to make sure they have all the materials they need, especially cobblestone, a pickaxe, a shovel, planks, fences/walls, and torches. If they’re still making the shaft down, also make sure they have slabs, ladders, and signs. They might need lots and lots of cobblestone to fill in caves/water/lava/sand/gravel that they find along the way.</p>
+
+<p>The level of the Mine will dictate how deep the Miner will mine, so if you want the best resources, upgrade the Mine. The Miner will only mine blocks according to the level of their pickaxe and will only be able to use a tool according to the level of their hut (check the <a href="../systems/worker">Worker’s Tool Level</a> system page).</p>
+
+<p>Mining is a very dangerous profession and the Miner might die from lava, being suffocated by gravel or sand, or from a mob. However, the Miner will try their best to be safe. When the Miner finds water or lava, they will try and block it up and work around it. This could take them some time to do.</p>
+
+<p>The Miner can on occasion get confused and lost. They may start new tunnels and shafts to try and find where they need to be. Use the Recall Citizen button in the Mine GUI to instantly recall the Miner to the Mine’s hut block if they get lost.</p>
+
+<p>The Miner has a chance to get lucky in finding ores when digging out cobblestone or stone! This is the default setting in the configuration file, but you can change this.</p>
+:ET

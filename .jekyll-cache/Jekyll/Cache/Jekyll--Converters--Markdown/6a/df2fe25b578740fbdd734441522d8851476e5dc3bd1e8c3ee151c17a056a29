@@ -1,0 +1,74 @@
+I"	<h1 id="build-tool">Build Tool</h1>
+
+<div class="infobox box text-center">
+    <p style="text-align:center;"><img src="../../assets/images/icons/minecolonies/sceptergold.png" alt="Build Tool" /></p>
+    <recipe>buildingtool</recipe>
+</div>
+
+<p><br />
+The building tool is <em>THE</em> most important tool in the entire mod! With it, you can place all the buildings, worker huts, and even any structure scanned by you (see <a href="../../source/tutorials/schematics">Schematics</a>) perfectly. The possibilities are endless! Watch a short video of how it works here:
+<br /><br /></p>
+
+<p class="h4"><a id="build_tool">Build Tool Video</a></p>
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DVGGDUXbTOY" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+</div>
+<p><br /></p>
+
+<h3 id="step-one-crafting">Step One: Crafting</h3>
+
+<p>The first step is to craft the building tool. You can also get a building tool in the <a href="../../source/items/supplycampandship">Supply Camp or Ship</a> in the same rack as the <a href="../../source/buildings/townhall">Town Hall</a>.
+<br /></p>
+
+<h3 id="step-two-designating-a-building-location">Step Two: Designating a Building Location</h3>
+
+<p>To place a worker hut or building from the mod, you’ll first need to craft the specific block for that building (see <a href="../../source/misc/recipes">Recipes</a>. Then, right-click with the building tool on a solid block where you want to place that building. The GUI will pop up:</p>
+
+<p style="text-align:center;"><img src="../../assets/images/misc/buildtool1.png" alt="Build Tool GUI" /></p>
+<p><br /></p>
+
+<p><strong>Left Drop Down:</strong> Here you will see 3 general categories: My Schematics, Decorations and Huts.</p>
+
+<ul>
+  <li>Hut Blocks/Building Blocks- When you have a Hut/Building block in your inventory it will apear in this list for you to place and view.</li>
+  <li>Decorations- Here are several structures considered decorations that you can use and any of your own scans in this folder.</li>
+  <li>My Schematics- In this category, you will see all the scans you have made with the <a href="../../source/items/scantool">scan tool</a>. If you haven’t made any, this category will not show up.</li>
+</ul>
+
+<p><strong>Middle Drop Down:</strong> This is where you will see the different designs and styles of the buildings available (ranging from dwarven to asian, dark oak, and spacewars, and everything in between).</p>
+
+<p><strong>Right Drop Down:</strong> Here you will be able to see the individual schematics, depending on what you chose:</p>
+
+<ul>
+  <li>From My Schematics- the name of the schematic (either auto-generated or if you have named it).</li>
+  <li>From Decorations- all decorations that are of the specified style previously chosen in the middle drop down.</li>
+  <li>From Huts- The level of the hut (previously chosen in the left drop down) from level 1 to level 5.</li>
+</ul>
+
+<p><strong>In the middle of the screen</strong> are the controls to adjust the structure you are about to place.</p>
+
+<ul>
+  <li>The blue arrows are so you can move the 3D structure you are viewing (front - back - right - left).</li>
+  <li>The orange minus and plus signs are to raise or lower the structure on the Y axis.</li>
+  <li>The orange curved arrows are to rotate the structure left or right.</li>
+  <li>The orange triangles in the middle are to mirror the image (to change right to left and left to right).</li>
+  <li>The green check mark is for when you are done and want to commit to placing it.</li>
+  <li>The red X is to cancel the whole process and turn off the ghost image of the building.</li>
+</ul>
+
+<p><br /></p>
+
+<p style="color:Blue;"><b>Hint:</b> Once you have the GUI open, you can press the ESC button on your keyboard so that the 3D image will remain. Then, you can move around and take a better look at it from all sides to make sure it's the way you want it! Right-click with the build tool again towards the 3D image (on a block or in the air) to go back to the GUI so you can "nudge" your structure to the place and orientation that you want. You can repeat this process as many times as you want before clicking the green check mark to commit to the placement of the structure.</p>
+
+<p><strong>Note:</strong> When in Creative Mode, you will also see options in the lower right. The one on the left will paste it into the world completely, including all the <a href="../../source/items/placeholderblocks">placeholder blocks</a>. This is useful for designing schematics. The button on the right will paste the structure into the world exactly as if a <a href="../../source/workers/builder">Builder</a> had built it (without placeholder blocks).</p>
+
+<p><strong>Note:</strong> When placing a building or decoration, you will see nearby huts as if they were level 5. You will also see their outlines in blue. This is to help with planning so huts don’t overlap.</p>
+
+<p><br /></p>
+<h3 id="step-three">Step Three</h3>
+
+<p>Now that you have the structure ready to place, click on the green check mark and voilá…construction tape will appear and a build request will be created! It will automatically create a build request if it’s a decoration or custom schematic, but if it’s a hut, go into the hut block’s GUI and click the Build Options button, then Build Building, to create the build request.</p>
+
+<p>You can check in the <a href="../../source/buildings/townhall">Town Hall</a> GUI under the Work Orders (! symbol) tab to see the queue of all build requests you have for the Builders in your colony.</p>
+:ET

@@ -1,0 +1,101 @@
+I"�<h1 id="mechanics-hut">Mechanic’s Hut</h1>
+
+<div class="infobox box text-center">
+    <img src="../../assets/images/buildings/mechanic.png" alt="Mechanic" />
+    <hr />
+    <div class="row section-text text-left">
+        <div class="col">
+        <p><strong>Worker:</strong></p>
+        </div>
+        <div class="col">
+        <p><a href="../workers/mechanic">Mechanic</a></p>
+        </div>
+    </div>
+    <hr />
+    <recipe>mechanic</recipe>
+</div>
+
+<h3 id="note-the-mechanics-hut-cannot-be-built-until-you-have-a-level-3-blacksmiths-hut-or-three-level-1-blacksmiths-huts-or-another-equivalent-and-have-finished-the-research-in-the-university">Note: The Mechanic’s Hut cannot be built until you have a level 3 <a href="../../source/buildings/blacksmith">Blacksmith’s Hut</a> (or three level 1 Blacksmith’s Huts, or another equivalent) and have finished the research in the <a href="../../source/buildings/university">University</a>.</h3>
+<p><br /></p>
+
+<p>The Mechanic’s Hut is where the Mechanic will craft redstone items, rails, minecarts, clocks, compasses, sea lanterns, torches, lanterns, jack-o-lanterns, storage blocks (like blocks of iron, coal, quartz, etc), blue ice, packed ice, enchantment tables, ender chests, tripwire hooks, sticky pistons, <a href="../../source/items/gates">gates</a>, <a href="../../source/items/multipiston">multi-pistons</a>, anything made with blaze rods, and many other items that no other crafter can make. For the Mechanic to work, they must receive a request from another worker and have the necessary materials. The Mechanic’s Hut must also have been taught the crafting recipes for all the items you want the Mechanic to be able to craft.</p>
+
+<p><strong>Hint:</strong> The number of recipes you can teach the Mechanic’s Hut doubles per building level. So:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Mechanic’s Hut Level</th>
+      <th style="text-align: center">Number of Recipes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">20</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">40</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">80</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">160</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="mechanics-hut-gui">Mechanic’s Hut GUI</h2>
+
+<p>When accessing the Mechanic’s Hut block by right-clicking on it, you will see a GUI with different options:</p>
+
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/mechanicgui.png" class="img-fluid mx-auto" alt="Mechanic's Hut GUI" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <br />
+    <ul>
+      
+        <li><strong>Hut Level:</strong> Tells you the type of hut and the build level of the building you have selected.</li>
+      
+        <li><strong>Worker Assigned:</strong> Tells you the worker assigned to this building and their worker level. The worker levels up in time by working. The higher their level, the faster and more efficient they will be.</li>
+      
+        <li><strong>Manage Workers:</strong> Lets you change which worker is assigned to work at this hut. There can only be one worker at each hut. <b>Note:</b> this only works if you have turned the worker hiring mode in the <a href="../../source/buildings/townhall"> Town Hall</a> block to manual, otherwise your citizens will be hired automatically.</li>
+      
+        <li><strong>Recall Worker:</strong> Recalls the worker at this building to their hut block. You might use it if they are stuck somewhere, you want to see what they have, or want to give them something directly.</li>
+      
+        <li><strong>Build Options:</strong> Lets you create a build, upgrade, reposition, or repair build order for this hut. To learn more about the building system, please visit the <a href="../../source/workers/builder"> Builder</a> page.</li>
+      
+        <li><strong>Delivery Priority:</strong> You can set the priority that a <a href="../../source/workers/courier"> Courier</a> will visit this hut and pick up items (when the worker at this hut issues a request), or you can tell Deliverymen to <i>never</i> visit this hut to pick up items. You can also tell a Deliveryman to do a pickup now using the Request Pickup Now button. (For the pickup priority, 10 is the highest.)</li>
+      
+        <li><strong>List of Recipes and Teach Recipe:</strong> When clicking the list of recipes button, you see all the recipes you have taught this hut and can remove them. When clicking teach recipe, it opens a crafting grid which allows you to teach this hut recipes (not the worker).</li>
+      
+        <li><strong>Inventory:</strong> Here you can access the hut block's storage, where the worker at this hut takes and deposits materials. They will also use any <a href="../../source/items/rack"> Racks</a> or chests in the hut, so be sure to check those as well!</li>
+      
+    </ul>
+  </div>
+</div>
+<p><br /> <br /></p>
+
+<p>The 2nd page of the GUI shows what crafting task(s) the Mechanic currently has.</p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/craftertasklist.png" class="img-fluid mx-auto" alt="Mechanic's Hut GUI 2" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <br />
+  </div>
+</div>
+<p><br /> <br /></p>
+:ET

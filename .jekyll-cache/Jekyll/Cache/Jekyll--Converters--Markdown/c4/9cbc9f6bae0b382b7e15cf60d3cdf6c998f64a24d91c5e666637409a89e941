@@ -1,0 +1,104 @@
+I"/<h1 id="composters-hut">Composter’s Hut</h1>
+
+<div class="infobox box text-center">
+    <img src="../../assets/images/buildings/composter.png" alt="Composter's Hut" />
+    <hr />
+    <div class="row section-text text-left">
+        <div class="col">
+        <p><strong>Worker:</strong></p>
+        </div>
+        <div class="col">
+        <p><a href="../workers/composter">Composter</a></p>
+        </div>
+    </div>
+    <hr />
+    <recipe>composter</recipe>
+</div>
+
+<h3 id="note-the-composters-hut-cannot-be-built-until-you-have-a-level-3-farm-or-three-level-1-farms-or-another-equivalent-and-have-finished-the-research-in-the-university">Note: The Composter’s Hut cannot be built until you have a level 3 <a href="../../source/buildings/farm&amp;field">Farm</a> (or three level 1 Farms, or another equivalent) and have finished the research in the <a href="../../source/buildings/university">University</a>.</h3>
+<p><br /></p>
+
+<p>The Composter’s Hut is where the Composter will turn organic materials into <a href="../../source/items/compost">compost</a>, which can be used by the <a href="../../source/workers/farmer">Farmer</a> or <a href="../../source/workers/florist">Florist</a> to fertilize crops or flowers. They can also create dirt if you have the setting enabled, which the <a href="../../source/workers/builder">Builder</a> can use in buildings. The Composter uses <a href="../../source/items/compostbarrel">compost barrels</a> to make compost or dirt.</p>
+
+<p><strong>Hint:</strong> The higher the level of the Composter’s Hut, the more compost barrels the Composter will be able to use. So:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Building Level</th>
+      <th style="text-align: center">Compost Barrels</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="composters-hut-gui">Composter’s Hut GUI</h2>
+
+<p>When accessing the Composter’s Hut block by right-clicking on it, you will see a GUI with different options:</p>
+
+<p><br /></p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/compostergui1.png" class="img-fluid mx-auto" alt="Composter GUI" />
+  </div>
+  <div class="col-sm-12 col-md">
+     <br />
+     <ul>
+      
+        <li><strong>Hut Level:</strong> Tells you the type of hut and the build level of the building you have selected.</li>
+      
+        <li><strong>Worker Assigned:</strong> Tells you the worker assigned to this building and their worker level. The worker levels up in time by working. The higher their level, the faster and more efficient they will be.</li>
+      
+        <li><strong>Manage Workers:</strong> Lets you change which worker is assigned to work at this hut. There can only be one worker at each hut. <b>Note:</b> this only works if you have turned the worker hiring mode in the <a href="../../source/buildings/townhall"> Town Hall</a> block to manual, otherwise your citizens will be hired automatically.</li>
+      
+        <li><strong>Recall Worker:</strong> Recalls the worker at this building to their hut block. You might use it if they are stuck somewhere, you want to see what they have, or want to give them something directly.</li>
+      
+        <li><strong>Build Options:</strong> Lets you create a build, upgrade, reposition, or repair build order for this hut. To learn more about the building system, please visit the <a href="../../source/workers/builder"> Builder</a> page.</li>
+      
+        <li><strong>Delivery Priority:</strong> You can set the priority that a <a href="../../source/workers/courier"> Courier</a> will visit this hut and pick up items (when the worker at this hut issues a request), or you can tell Deliverymen to <i>never</i> visit this hut to pick up items. You can also tell a Deliveryman to do a pickup now using the Request Pickup Now button. (For the pickup priority, 10 is the highest.)</li>
+      
+        <li><strong>List of Recipes and Teach Recipe:</strong> When clicking the list of recipes button, you see all the recipes you have taught this hut and can remove them. When clicking teach recipe, it opens a crafting grid which allows you to teach this hut recipes (not the worker).</li>
+      
+        <li><strong>Inventory:</strong> Here you can access the hut block's storage, where the worker at this hut takes and deposits materials. They will also use any <a href="../../source/items/rack"> Racks</a> or chests in the hut, so be sure to check those as well!</li>
+      
+     </ul>
+  </div>
+</div>
+
+<p>By pressing the arrow button in the top right corner of the GUI, you will be taken to page two of the GUI.</p>
+
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/compostergui2.png" class="img-fluid mx-auto" alt="Composter GUI 2" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <ul><br />
+      <li><strong>Items to compost:</strong> Here you will see a list of all the items that were recognized for the composter to use, including modded items. All items are off by default. You can then select which items you want the composter to use by clicking on the button. (The black box at the top lets you search for items.)</li><br />
+     <li><strong>Compost/Dirt:</strong> You can select which item you want the composter to make, compost or dirt. Just click on the button to change the setting.</li>
+    </ul>
+  </div>
+</div>
+<p><br /><br />
+  <br /></p>
+:ET

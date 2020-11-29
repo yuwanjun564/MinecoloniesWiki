@@ -1,0 +1,158 @@
+I"*<h1 id="farm--field">Farm &amp; Field</h1>
+
+<div class="infobox box text-center">
+    <img src="../../assets/images/buildings/farm.png" alt="Farm" />
+    <hr />
+    <div class="row section-text text-left">
+        <div class="col">
+        <p><strong>Worker:</strong></p>
+        </div>
+        <div class="col">
+        <p><a href="../workers/farmer">Farmer</a></p>
+        </div>
+    </div>
+    <hr />
+    <recipe>farm</recipe>
+    <br />
+    <recipe>field</recipe>
+</div>
+
+<p>The Farm is where the Farmer will grow crops for your colony. The crops the Farmer currently cultivates are wheat, carrots, potatoes, beets, melons, pumpkins, and most crops from other mods (as long as they have normal growth behavior). Before the Farmer can start, you will have to give the Farmer a hoe, an axe (for harvesting crops), and the crop you want to cultivate.</p>
+
+<p>The Farmer will also craft seeds, carved pumpkins, hay bales, <a href="../../source/items/compost">composted dirt</a>, and coarse dirt. They will only make items when they have been taught the recipes, receive a request for an item, and have the needed materials.</p>
+
+<p><strong>Note:</strong> The Farmer can only learn a set number of recipes based on their hut level. So:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hut Level</th>
+      <th>Recipes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>160</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For the Farmer to start, you will also need to place fields. Place the Field block (it looks like a scarecrow) in the plot of farmland you want the Farmer to work on and right-click on it to access its GUI. Here you will place the seed of the crop you want this specific field to cultivate. (For potatoes, carrots, and other plants without seeds, just put the raw potato/carrot/etc in the Field.) If you decide later to change the type of crop you want cultivated in that farmland, just go into the Field’s GUI and switch the seed there.</p>
+
+<p><br /></p>
+<p style="text-align:center;"><img src="../../assets/images/misc/field.png" alt="Field" />    <img src="../../assets/images/gui/fieldgui1.png" alt="Field GUI Empty" />    <img src="../../assets/images/gui/fieldgui2.png" alt="Field GUI Assigned" /></p>
+<p><br /></p>
+
+<p>You can click on the arrows to change the size of the area the Farmer will farm. The max size is 5 blocks in each direction from the Field block, or 11x11 total.</p>
+
+<p><strong>IMPORTANT:</strong> The Farmer will farm up to five Fields, depending on the level of the Farm. The level of the Farm is the number of Fields the Farmer can cultivate:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Farm Level</th>
+      <th style="text-align: center">Fields</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="farm-gui">Farm GUI</h2>
+
+<p>When accessing the Farm block by right-clicking on it, you will see a GUI with different options:</p>
+
+<p><br /></p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/farmgui1.png" class="img-fluid mx-auto" alt="Farm GUI 1" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <br />
+    <ul>
+      
+        <li><strong>Hut Level:</strong> Tells you the type of hut and the build level of the building you have selected.</li>
+      
+        <li><strong>Worker Assigned:</strong> Tells you the worker assigned to this building and their worker level. The worker levels up in time by working. The higher their level, the faster and more efficient they will be.</li>
+      
+        <li><strong>Manage Workers:</strong> Lets you change which worker is assigned to work at this hut. There can only be one worker at each hut. <b>Note:</b> this only works if you have turned the worker hiring mode in the <a href="../../source/buildings/townhall"> Town Hall</a> block to manual, otherwise your citizens will be hired automatically.</li>
+      
+        <li><strong>Recall Worker:</strong> Recalls the worker at this building to their hut block. You might use it if they are stuck somewhere, you want to see what they have, or want to give them something directly.</li>
+      
+        <li><strong>Build Options:</strong> Lets you create a build, upgrade, reposition, or repair build order for this hut. To learn more about the building system, please visit the <a href="../../source/workers/builder"> Builder</a> page.</li>
+      
+        <li><strong>Delivery Priority:</strong> You can set the priority that a <a href="../../source/workers/courier"> Courier</a> will visit this hut and pick up items (when the worker at this hut issues a request), or you can tell Deliverymen to <i>never</i> visit this hut to pick up items. You can also tell a Deliveryman to do a pickup now using the Request Pickup Now button. (For the pickup priority, 10 is the highest.)</li>
+      
+        <li><strong>List of Recipes and Teach Recipe:</strong> When clicking the list of recipes button, you see all the recipes you have taught this hut and can remove them. When clicking teach recipe, it opens a crafting grid which allows you to teach this hut recipes (not the worker).</li>
+      
+        <li><strong>Inventory:</strong> Here you can access the hut block's storage, where the worker at this hut takes and deposits materials. They will also use any <a href="../../source/items/rack"> Racks</a> or chests in the hut, so be sure to check those as well!</li>
+      
+    </ul>
+  </div>
+</div>
+<p><br /><br />
+This is page two of the Farm GUI. It shows the Fields that are available (recognizable by the crop in its GUI and its distance). You can assign them to this Farmer as well.</p>
+
+<p><br /></p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/farmgui2.png" class="img-fluid mx-auto" alt="Farm GUI 2" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <br />
+    <ul>
+      <li><b>Automatic/Manual:</b> Automatic by default. Here you can define if you prefer to manually assign the Fields for this Farmer.</li>
+      <li><b>Field:</b> This is the list of recognized fields. If the field shows an X, that means it is already assigned to a Farmer and will list the name of the Farmer who takes care of that field. If the X is red and the button is not grayed out, that field belongs to the current Farmer and you can unassign it. If the field has a green check, then that field can be assigned to the Farmer. If the button is grayed out with a check, that means that no one is assigned to that field but the Farmer can not accept any more fields.</li>
+    </ul>
+  </div>
+</div>
+<p><br /><br />
+  This is page three of the Farm GUI. It lets you choose whether the Farmer will request fertilizer (<a href="../../source/items/compost">compost</a> or bone meal).</p>
+
+<p><br /></p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/farmgui3.png" class="img-fluid mx-auto" alt="Farm GUI 3" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <br />
+
+</div></div>
+:ET

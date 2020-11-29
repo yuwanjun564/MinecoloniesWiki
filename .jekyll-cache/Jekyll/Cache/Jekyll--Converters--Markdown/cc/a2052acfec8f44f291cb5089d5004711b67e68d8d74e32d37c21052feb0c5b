@@ -1,0 +1,15 @@
+I"e<h1 id="vertical-barrel">Vertical Barrel</h1>
+
+<div class="infobox box text-center">
+    <p style="text-align:center;"><img src="../../assets/images/items/barrel_vertical.png" alt="Vertical Barrel" /></p>
+    <recipe>barrel_vertical</recipe>
+</div>
+<p><br /></p>
+
+<p>The vertical barrel is a decoration. It can be crafted at the <a href="../../source/buildings/sawmill">Sawmill</a>.
+<br /></p>
+
+<h2 id="using-the-vertical-barrel">Using the Vertical Barrel</h2>
+
+<p>Vertical barrels are decorations and have no purpose. They are often used in the <a href="../../source/buildings/tavern">Tavern</a> schematics.</p>
+:ET

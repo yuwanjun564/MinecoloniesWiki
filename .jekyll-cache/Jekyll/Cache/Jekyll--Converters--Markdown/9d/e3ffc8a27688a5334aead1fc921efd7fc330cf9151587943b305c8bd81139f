@@ -1,0 +1,62 @@
+I"	<h1 id="custom-citizen-names">Custom Citizen Names</h1>
+
+<p>Would you like to have citizen names in your own language? Then this is your page!<br />
+Everything you have to change is in one file.
+<br /></p>
+
+<h2 id="procedure">Procedure</h2>
+<ol>
+  <li>
+    <p>Locate the file <em>minecolonies-server.toml</em>.<br /></p>
+
+    <p>For servers:<br /></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> (minecraftServerFolder)/world/serverconfig/minecolonies-server.toml
+</code></pre></div>    </div>
+
+    <p>For local worlds:<br /></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> (minecraftFolder)/saves/(NameOfYourWorld)/serverconfig/minecolonies-server.toml
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Edit</p>
+
+    <p>You can use the official language templates we provide here or you can edit at your own risk. If you decide to edit, don’t forget to make a copy of the file first and follow the current structure.
+ <br /></p>
+    <ul>
+ <li>Edit with a text editor, like Notepad.</li>
+ <li>The file must have the same name.</li>
+ </ul>
+  </li>
+  <li>
+    <p>Run Minecraft client/server and enjoy!</p>
+  </li>
+</ol>
+
+<p><br /></p>
+
+<h2 id="official-language-templates">Official Language Templates</h2>
+
+<h3 id="spanish">Spanish</h3>
+
+<p><a href="../../source/misc/languageNameTemplates/spanishTemplate.toml">Download Spanish Template File</a></p>
+
+<p><em>Credit to Ampaex</em></p>
+
+<h3 id="french">French</h3>
+
+<p><a href="../../source/misc/languageNameTemplates/frenchTemplate.toml">Download French Template File</a></p>
+
+<p><em>Credit to Kasilyn</em></p>
+
+<h3 id="japanese">Japanese</h3>
+
+<p><a href="../../source/misc/languageNameTemplates/japaneseTemplate.toml">Download Japanese Template File</a></p>
+
+<p><em>Credit to Kasilyn</em></p>
+
+<p><br /></p>
+
+<h2 id="dont-forget-that-the-file-must-have-the-name-minecolonies-servertoml">Don’t forget that the file must have the name <em>minecolonies-server.toml</em>!</h2>
+:ET

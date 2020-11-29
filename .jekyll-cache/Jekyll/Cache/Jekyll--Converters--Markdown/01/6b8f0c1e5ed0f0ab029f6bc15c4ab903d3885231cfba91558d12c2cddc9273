@@ -1,0 +1,58 @@
+I"ú<h1 id="blacksmith">Blacksmith</h1>
+
+<div class="infobox box text-center">
+<img src="../../assets/images/workers/blacksmith_m.png" alt="Blacksmith Male" />&nbsp;&nbsp;&nbsp;<img src="../../assets/images/workers/blacksmith_f.png" alt="Blacksmith Female" />
+<hr />
+  <div class="row section-text text-left">
+    <div class="col">
+      <p><strong>Primary Trait:</strong></p>
+      <p><strong>Secondary Trait:</strong></p>
+      <p><strong>Building:</strong></p>
+    </div>
+    <div class="col">
+      <p class="traitp">Strength</p>
+      <p class="traits">Focus</p>
+      <p><a href="../buildings/blacksmith">Blacksmith</a></p>
+    </div>
+  </div>
+</div>
+
+<p>The Blacksmith is a part of your colonyâ€™s production line. The Blacksmith will craft tools, swords, and armor to supply workers, knights, and rangers with items. (However, they do not craft bows or fishing poles.) A <a href="../../source/workers/deliveryman">Deliveryman</a> or the player must provide the necessary supplies to make these items.</p>
+
+<p>The Blacksmith can learn 3x3 recipes for all tools, weapons, and armour (no string or redstone items)! The Blacksmith will only make items when they have been taught the recipes, receive a request for an item, and have the needed materials.</p>
+
+<p><strong>Note:</strong> The Blacksmith can only learn a set number of recipes based on their hut level. So:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hut Level</th>
+      <th>Recipes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>160</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+:ET
