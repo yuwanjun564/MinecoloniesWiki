@@ -1,4 +1,6 @@
-# MineColonies Wiki
+# 模拟殖民地中文Wiki
 
-Here is where all content will be stored for our wiki:\
-https://wiki.minecolonies.ldtteam.com/
+网页：https://sqwatermark.github.io/MinecoloniesWiki/
+
+原文：https://wiki.minecolonies.ldtteam.com/
+

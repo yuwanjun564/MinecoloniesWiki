@@ -15,10 +15,14 @@ $mcurl: 'https://minecolonies.com';
 }
 
 /* STYLES */
+p.header {
+	font-family: "Colonial Dame", 宋体, sans-serif;
+}
+
 body {
 	background: transparent;
 	margin: 0;
-    font-family: Fondamento, Roboto, sans-serif;
+    font-family: Fondamento, Roboto, 汉仪南宫体简, sans-serif;
 }
 
 .content {

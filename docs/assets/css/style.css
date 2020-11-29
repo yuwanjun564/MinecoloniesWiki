@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Roboto";
 @import "https://minecolonies.com/css/global.css";
 /* VARIABLES */
@@ -5,7 +6,9 @@
 @font-face { font-family: 'Colonial Dame'; src: url("../fonts/Colonial Dame.ttf"); }
 
 /* STYLES */
-body { background: transparent; margin: 0; font-family: Fondamento, Roboto, sans-serif; }
+p.header { font-family: "Colonial Dame", 宋体, sans-serif; }
+
+body { background: transparent; margin: 0; font-family: Fondamento, Roboto, 汉仪南宫体简, sans-serif; }
 
 .content { padding-top: 10px; min-height: 700px; }
 
