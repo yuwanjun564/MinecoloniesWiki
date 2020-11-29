@@ -7,4 +7,4 @@ baseurl: /
 plugins:
 - jekyll-seo-tag
 destination: docs
-baseurl: https://sqwatermark.github.io/MinecoloniesWiki/
+baseurl: MinecoloniesWiki
