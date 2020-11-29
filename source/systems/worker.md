@@ -1,10 +1,10 @@
 ---
-title: Worker System
+title: 工人系统
 layout: default
 ---
-# Worker System
+# 工人系统
 
-<p style="text-align:center; font-size:20pt;"><img src="../../assets/images/misc/Sleep.png" alt="Sleep"><b> If it is raining, snowing, nighttime, or a citizen died yesterday (in-game time), your citizens will stop working!</b></p>
+<p style="text-align:center; font-size:20pt;"><img src="../../assets/images/misc/Sleep.png" alt="Sleep"><b> 如果正在下雨、下雪、夜间，或者一个市民昨天死亡了（游戏时间），你的市民将停止工作！</b></p>
 
 ## Traits
 When hiring a worker at a hut, the primary trait used in that work will be highlighted in **green** and the secondary trait in **yellow** to help you decide which citizen is the best worker for the job. The higher a worker's level, the faster and more efficient they will be.

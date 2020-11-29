@@ -23,9 +23,9 @@ subnav:
         url: source/systems/command
       - page: Happiness and Saturation Systems
         url: source/systems/happinessandsaturation
-      - page: Research System
+      - page: 研究系统
         url: source/systems/research
-      - page: Worker System
+      - page: 工人系统
         url: source/systems/worker
   - title: 物品/方块
     subitems:
@@ -81,7 +81,7 @@ subnav:
         url: source/workers/baker
       - page: Blacksmith
         url: source/workers/blacksmith
-      - page: Builder
+      - page: 建筑工
         url: source/workers/builder
       - page: Carpenter
         url: source/workers/carpenter
@@ -89,13 +89,13 @@ subnav:
         url: source/workers/chickenfarmer
       - page: Composter
         url: source/workers/composter
-      - page: Cook
+      - page: 厨师
         url: source/workers/cook
       - page: Assistant Cook
         url: source/workers/assistantcook
       - page: Courier
         url: source/workers/courier
-      - page: Cowhand
+      - page: 牧牛工
         url: source/workers/cowhand
       - page: Crusher
         url: source/workers/crusher
@@ -103,9 +103,9 @@ subnav:
         url: source/workers/dyer
       - page: Enchanter
         url: source/workers/enchanter
-      - page: Farmer
+      - page: 农民
         url: source/workers/farmer
-      - page: Fisher
+      - page: 渔民
         url: source/workers/fisher
       - page: Fletcher
         url: source/workers/fletcher
@@ -125,45 +125,45 @@ subnav:
         url: source/workers/librarystudent
       - page: Mechanic
         url: source/workers/mechanic
-      - page: Miner
+      - page: 矿工
         url: source/workers/miner
       - page: Planter
         url: source/workers/planter
       - page: Pupil
         url: source/workers/pupil
-      - page: Shepherd
+      - page: 牧羊人
         url: source/workers/shepherd
       - page: Sifter
         url: source/workers/sifter
       - page: Smelter
         url: source/workers/smelter
-      - page: Stonemason
+      - page: 石匠
         url: source/workers/stonemason
       - page: Stone Smelter
         url: source/workers/stonesmelter
-      - page: Swineherd
+      - page: 养猪人
         url: source/workers/swineherd
-      - page: Teacher
+      - page: 教师
         url: source/workers/teacher
       - page: University Researcher
         url: source/workers/researcher
   - title: 建筑
     subitems:
-      - page: Archery
+      - page: 靶场
         url: source/buildings/archery
-      - page: Bakery
+      - page: 面包房
         url: source/buildings/bakery
-      - page: Barracks
+      - page: 兵营
         url: source/buildings/barracks
-      - page: Barracks Tower
+      - page: 兵营塔
         url: source/buildings/barrackstower  
-      - page: Blacksmith's Hut
+      - page: 铁匠铺
         url: source/buildings/blacksmith
-      - page: Builder's Hut
+      - page: 建筑工小屋
         url: source/buildings/builder
       - page: Chicken Farmer's Hut
         url: source/buildings/chickenfarmer
-      - page: Combat Academy
+      - page: 战斗学院
         url: source/buildings/combatacademy
       - page: Composter's Hut
         url: source/buildings/composter
@@ -173,7 +173,7 @@ subnav:
         url: source/buildings/cowhand
       - page: Crusher's Hut
         url: source/buildings/crusher
-      - page: Dyer's Hut
+      - page: 染坊
         url: source/buildings/dyer
       - page: Enchanter's Tower
         url: source/buildings/enchantertower
@@ -183,7 +183,7 @@ subnav:
         url: source/buildings/fisher
       - page: Fletcher's Hut
         url: source/buildings/fletcher
-      - page: Flower Shop
+      - page: 花店
         url: source/buildings/flowershop
       - page: Forester's Hut
         url: source/buildings/forester
@@ -191,29 +191,29 @@ subnav:
         url: source/buildings/glassblower
       - page: Guard Tower
         url: source/buildings/guardtower
-      - page: Hospital
+      - page: 医院
         url: source/buildings/hospital
       - page: House
         url: source/buildings/house
-      - page: Library
+      - page: 图书馆
         url: source/buildings/library  
       - page: Mechanic's Hut
         url: source/buildings/mechanic
-      - page: Mine
+      - page: 矿井
         url: source/buildings/mine
-      - page: Plantation
+      - page: 种植园
         url: source/buildings/plantation
-      - page: Restaurant
+      - page: 餐馆
         url: source/buildings/restaurant
-      - page: Sawmill
+      - page: 锯木厂
         url: source/buildings/sawmill
-      - page: School
+      - page: 学校
         url: source/buildings/school
-      - page: Shepherd's Hut
+      - page: 牧羊人小屋
         url: source/buildings/shepherd
       - page: Sifter's Hut
         url: source/buildings/sifter
-      - page: Smeltery
+      - page: 冶炼厂
         url: source/buildings/smeltery
       - page: Stonemason's Hut
         url: source/buildings/stonemason
@@ -221,11 +221,11 @@ subnav:
         url: source/buildings/stonesmeltery
       - page: Swineherd's Hut
         url: source/buildings/swineherd
-      - page: Tavern
+      - page: 酒馆
         url: source/buildings/tavern
-      - page: Town Hall
+      - page: 市政厅
         url: source/buildings/townhall
-      - page: University
+      - page: 大学
         url: source/buildings/university
       - page: Warehouse
         url: source/buildings/warehouse
@@ -233,7 +233,7 @@ subnav:
     subitems:
       - page: Custom Citizen Names
         url: source/misc/customcitizennames
-      - page: Recipes
+      - page: 合成表
         url: source/misc/recipes
-      - page: Troubleshooting
+      - page: 疑难解答
         url: source/misc/troubleshooting

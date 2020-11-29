@@ -1,9 +1,9 @@
 ---
-title: Research System
+title: 研究系统
 layout: default
 ---
 
-# Research System
+# 研究系统
 
 At the [University](../../source/buildings/university), a [Researcher](../../source/workers/researcher) can research various upgrades to your colony. These are split into three trees: Combat, Civilian, and Technology. You access these from the second page of the University GUI.
 
