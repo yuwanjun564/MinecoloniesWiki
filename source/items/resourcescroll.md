@@ -1,26 +1,25 @@
 ---
-title: Resource Scroll
+title: 资源卷轴
 layout: default
 ---
-# Resource Scroll 
+# 资源卷轴 
 
 <div class="infobox box text-center">
     <p style="text-align:center;"><img src="../../assets/images/icons/minecolonies/resourcescroll.png" alt="Resource Scroll"></p>
     <recipe>resourcescroll</recipe>
 </div>
 
-The resource scroll is an easy way to tell what one of your [Builders](../../source/workers/builder) needs. It's like a portable second page of the [Builder's Hut](../../source/buildings/builder)!
+使用资源卷轴是一个获悉你的[建筑工](../../source/workers/builder)需求的简单方式。就像便携式的[建筑工小屋](../../source/buildings/builder)第二页！
 
-## Using the Resource Scroll
+## 使用资源卷轴
 
-When you first make the resource scroll, if you right-click anywhere you will get a message to sneak + right click on a Builder's Hut to register the resource scroll. 
+当你第一次合成资源卷轴时，右击它，将会得到一条信息，引导你要shift+右击建筑工小屋来绑定资源卷轴。
 
 <br>
 <p style="text-align:center;"><img src="../../assets/images/misc/resourcebuilderinitmessage.png" alt="Resource Scroll Initial Message"></p>
 <br>
 
-Now when you right-click while holding the resource scroll, you will see all the needed materials for the Builder's Hut you clicked on.
-
+拿着资源卷轴，右击，你将看到建筑工需要的材料。这些建筑工对应你右击的建筑工小屋。
 <br>
 <p style="text-align:center;"><img src="../../assets/images/gui/resourcescrollgui.png" alt="Resource Scroll GUI"></p>
 <br>
