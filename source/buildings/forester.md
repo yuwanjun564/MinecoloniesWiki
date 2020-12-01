@@ -2,32 +2,32 @@
 title: Forester's Hut
 layout: default
 ---
-# Forester's Hut
+# 林务员小屋
 
 <div class="infobox box text-center">
     <img src="../../assets/images/buildings/lumberjack.png" alt="Forester's Hut" />
     <hr />
     <div class="row section-text text-left">
         <div class="col">
-        <p><strong>Worker:</strong></p>
+        <p><strong>工人:</strong></p>
         </div>
         <div class="col">
-        <p><a href="../workers/forester">Forester</a></p>
+        <p><a href="../workers/forester">林务员</a></p>
         </div>
     </div>
     <hr />
     <recipe>lumberjack</recipe>
 </div>
 
-The Forester's Hut is where the Forester will go in between chopping down trees. The Forester will cut down any tree in an approximate 150 block area (from themselves) that is not in a hut schematic and doesn't have cobblestone placed beneath it.
+在砍树的间隙时间里，林务员会出入林务员小屋。林务员会砍伐在以自身为中心大约150格方块范围内的树木。在任何小屋结构内，或是下方放置圆石的树木将不会被砍伐。
 
-**Note:** In Minecraft 1.16+ Foresters require hoes (for breaking leaves).
+**注释:** 在 Minecraft 1.16+ 中，林务员需要锄（以破坏树叶）
 
 <br>
 
-## Forester's Hut GUI
+## 林务员小屋 GUI
 
-When accessing the Forester's Hut block by right-clicking on it, you will see a GUI with different options:
+右击 林务员小屋方块，你将看到有着许多选项的GUI
 
 <div class="row">
   <div class="col-sm-12 col-md">
@@ -44,7 +44,7 @@ When accessing the Forester's Hut block by right-clicking on it, you will see a 
 </div>  
 <br> <br>
 
-This is page two of the Forester's Hut GUI. It shows a list of recognized saplings the Forester can work with, even modded ones (if coded correctly). Here you can turn on or off which type of trees the Forester will chop down. (The black box at the top is to search for saplings.)
+这是林务员小屋GUI的第二页，这里展示着林务员可以进行种植的树苗，包括mod里面的（如果代码写得正确的话）。在这里你可以调整林务员可以砍伐的树的种类。（上面的黑色文本框是用于搜索树苗类型的）
 
 <div class="row">
   <div class="col-sm-12 col-md">
@@ -52,12 +52,13 @@ This is page two of the Forester's Hut GUI. It shows a list of recognized saplin
   </div>
   <div class="col-sm-12 col-md">
     <ul>
-      <li><strong>Tasklist:</strong> Where you can select the saplings that you want the Forester to work with. Click on a sapling to turn it on or off.</li><br>
+      <li><strong>任务列表：</strong>你可以在这里选择你想要让林务员种植的树苗类型。点击树苗来调整是否进行种植。</li><br>
+
     </ul>
   </div>
 </div>
 <br>
-This is page three of the Forester's Hut GUI. 
+这是林务员小屋GUI的第三页
 <br><br>
 <div class="row">
   <div class="col-sm-12 col-md">
@@ -65,9 +66,9 @@ This is page three of the Forester's Hut GUI.
   </div>
   <div class="col-sm-12 col-md">
     <ul>
-      <li><strong>Replant:</strong> Where you can select if you want the Forester to replant trees that are chopped down. They will only do this if they have enough saplings.</li><br>
-      <li><strong>Restriction:</strong> This lets you turn on or off if you want the Forester to be restricted to a certain area when chopping trees. To choose the area, use the Give Tool button.</li><br>
-      <li><strong>Give Tool:</strong>This will give you a define area tool so you can select a specific area for the Forester to work.</li>
+      <li><strong>补种：</strong>这里你可以选择是否想要林务员在砍伐树木之后补种树苗。当然了，他们只会在拥有充足树苗的时候才会补种。</li><br>
+      <li><strong>限制区域：</strong>这里你可以选择是否将林务员的伐木活动限制在一定区域内。请点击 给予选择工具 按钮以选择区域。</li><br>
+      <li><strong>给予选择工具：</strong>点击这个按钮你将得到一个用于划定区域的工具，以此来为林务员选择一个特定的区域工作。</li>
     </ul>
   </div>
 </div>
