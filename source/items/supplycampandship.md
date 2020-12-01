@@ -1,8 +1,8 @@
 ---
-title: Supply Camp and Ship
+title: 补给营和补给船
 layout: default
 ---
-# Supply Camp and Ship
+# 补给营地和补给船
 
 <div class="infobox box text-center">
     <recipe>supplycamp</recipe><br>
@@ -25,7 +25,7 @@ Before you place the Supply Camp, you need to have a large enough flat, clear pi
 To place either Camp or Ship, simply right-click on a block and the 3D preview of the Camp and Ship will be displayed, with the GUI to move it around. You will see a white outline of the entire build, which is the area that needs to be cleared. If you need to look around the area before accepting the build, press ESC to exit the GUI. This will leave the preview up so you can still see it. To re-enter the GUI, simply click the Camp or Ship on the ground again to bring it up.
 
 <p style="text-align:center;"><img src="../../assets/images/misc/campgui.png" alt="Supply Camp GUI">
-    
+
 <img src="../../assets/images/misc/shipgui.png" alt="Supply Ship GUI">
 <br>
 <br>
@@ -53,7 +53,7 @@ To place either Camp or Ship, simply right-click on a block and the 3D preview o
 <img src="../../assets/images/misc/camp5.png" alt="Supply Camp"><br><br>
 <img src="../../assets/images/misc/camp6.png" alt="Supply Camp"><br><br>
 <img src="../../assets/images/misc/camp1.png" alt="Supply Camp Top"></p>
-    
+
 <p style="text-align:center;"><img src="../../assets/images/misc/ship1.png" alt="Supply Ship"><br><br>
 <img src="../../assets/images/misc/ship2.png" alt="Supply Ship"><br><br>
 <img src="../../assets/images/misc/ship3.png" alt="Supply Ship"><br>

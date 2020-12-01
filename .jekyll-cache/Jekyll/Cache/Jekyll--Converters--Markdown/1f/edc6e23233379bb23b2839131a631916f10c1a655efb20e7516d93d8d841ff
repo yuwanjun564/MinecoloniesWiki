@@ -1,4 +1,4 @@
-I"�j<h1 id="schematics">Schematics</h1>
+I"�j<h1 id="蓝图">蓝图</h1>
 
 <p>Schematics are files containing block and entity information of a certain area a player scanned with the <a href="../items/scantool">Scan Tool</a> in-game. You can use the scan tool and scan ANY building or structure you like in singleplayer or multiplayer and then have your <a href="../../source/workers/builder">Builder</a> build it for you (provided that you give them all the materials needed, of course).</p>
 

@@ -1,8 +1,8 @@
 ---
-title: Schematics
+title: 蓝图
 layout: default
 ---
-# Schematics
+# 蓝图
 
 Schematics are files containing block and entity information of a certain area a player scanned with the [Scan Tool](../items/scantool) in-game. You can use the scan tool and scan ANY building or structure you like in singleplayer or multiplayer and then have your [Builder](../../source/workers/builder) build it for you (provided that you give them all the materials needed, of course).
 
@@ -130,10 +130,10 @@ Here is a full list, up-to-date as of 9 February 2020, of the building names. **
 
 ## Hut Requirements
 
-| Building                                                | Requirements                                                         | Suggested           | 
-| :-----------------------------------------------------: | :------------------------------------------------------------------: | :-----------------: | 
-| [Archery](../../source/buildings/archery)               | 1 archery dummy per level (a hay bale with a button on it)           |                     | 
-| [Bakery](../../source/buildings/bakery)                 | 1 furnace                                                            |                     | 
+| Building                                                | Requirements                                                         | Suggested           |
+| :-----------------------------------------------------: | :------------------------------------------------------------------: | :-----------------: |
+| [Archery](../../source/buildings/archery)               | 1 archery dummy per level (a hay bale with a button on it)           |                     |
+| [Bakery](../../source/buildings/bakery)                 | 1 furnace                                                            |                     |
 | [Barracks](../../source/buildings/barracks)             | 1 barracks tower per level (up to lvl 4)                             |                     |
 | [Barracks Tower](../../source/buildings/barrackstower)  |                                                                      | 1 bed per level     |
 | [Builder's Hut](../../source/buildings/builder)         |                                                                      | 1 rack per level    |
@@ -158,13 +158,13 @@ Here is a full list, up-to-date as of 9 February 2020, of the building names. **
 
 ## Level Requirements
 
-| Level          | Requirements          | 
-| :------------: | :-------------------: | 
-| Level 1        | Very Easy - Wooden    | 
-| Level 2        | Easy - Iron           | 
-| Level 3        | Medium - Nether       | 
+| Level          | Requirements          |
+| :------------: | :-------------------: |
+| Level 1        | Very Easy - Wooden    |
+| Level 2        | Easy - Iron           |
+| Level 3        | Medium - Nether       |
 | Level 4        | Difficult - Ocean     |
-| Level 5        | Very Difficult - End  | 
+| Level 5        | Very Difficult - End  |
 
 <br>
 <br>

@@ -1,58 +1,57 @@
 ---
-title: Tutorial
+title: 教程
 layout: default
 ---
-# Tutorial
+# 教程
 
-- [Quick Walkthrough](#quick-walkthrough)
-- [Detailed Walkthrough](#detailed-walkthrough)
-  - [Placement of the Supply Ship or Supply Camp](#placement-of-the-supply-ship-or-supply-camp)
-  - [Town Hall](#town-hall)
-- [Setting Up Your Colony](#setting-up-your-colony)
-  - [Step 1](#step-1)
-  - [Step 2](#step-2)
-  - [Town Hall GUI](#town-hall-gui)
-  - [Step 3](#step-3)
-  - [Step 4](#step-4)
+- [简易攻略](#quick-walkthrough)
+- [详细攻略](#detailed-walkthrough)
+  - [补给船或补给营地的放置](#placement-of-the-supply-ship-or-supply-camp)
+  - [市政厅](#town-hall)
+- [建立你的殖民地](#setting-up-your-colony)
+  - [第一步](#step-1)
+  - [第二步](#step-2)
+  - [市政厅GUI](#town-hall-gui)
+  - [第三步](#step-3)
+  - [第四步](#step-4)
   - [Final Notes](#final-notes)
 
-This 教程 assumes you have already installed the mod or modpack. If you'd like instructions on how to <a id="install">install</a> our [Official Modpack](https://www.curseforge.com/minecraft/modpacks/minecolonies-testpack), you can find instructions for doing that on Twitch [here](../../source/installation/twitch), on MultiMMC [here](../../source/installation/multimmc), and on Java (Forge) [here](../../source/installation/java). 
+本教程适用的前提是你已经安装了本模组或整合包。If you'd like instructions on how to <a id="install">install</a> our [Official Modpack](https://www.curseforge.com/minecraft/modpacks/minecolonies-testpack), you can find instructions for doing that on Twitch [here](../../source/installation/twitch), on MultiMMC [here](../../source/installation/multimmc), and on Java (Forge) [here](../../source/installation/java). 
 
-## Quick Walkthrough 
+## 简易攻略 
 
-Before you get started on your new colony, you should find your perfect location. You need a large enough area for a full city-at least 8x8 chunks, and decently flat.
+在开拓一片新的殖民地之前，你要找到一片绝佳的位置。你需要足够宽阔的土地，能够容纳整座城市——至少8×8个区块，而且要足够平缓。
+不光如此，你还需要尽可能地收集资源——包括木头、圆石、煤炭、铁、花、线、皮革、羊毛、树苗以及食物。
 
-You should also gather as many resources as you can-wood, as well as cobble, coal, iron, flowers, string, leather, wool, saplings, and food. 
+### 第一步：补给营地/补给船
 
-### Step 1: Supply Camp/Supply Ship
+当你找到建城地点后，你就需要放置一个[补给营地](../../source/items/supplycampandship)或者[补给船](../../source/items/supplycampandship)，二者只可选其一。补给营地/补给船中都会提供一个市政厅方块，这是你正式建立殖民地所必不可少的方块。这里还会提供建设殖民地所需的一些其他补给。当你拿到市政厅方块与[建筑工具](../../source/items/buildtool)后，补给营地/补给船就只能做装饰作用了，你可以选择拆了它或者留着它。
 
-  Once you have chosen a location for your colony, you must place a [Supply Ship](../../source/items/supplycampandship) or [Supply Camp](../../source/items/supplycampandship). You can only place one of these per world. The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony. They also have some other supplies you may need during the building of your colony. Once you have the Town Hall block and the [build tool](../../source/items/buildtool), the remaining camp/ship is just decoration. You can leave it or tear it down.
+### **第二步：市政厅**
 
-### Step 2: Town Hall
-
-  The [Town Hall](../../source/buildings/townhall) block is what actually creates the colony. It also functions as the center of it. This is where you start using the building tool to place buildings. Using the building tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level).
+[市政厅](../../source/buildings/townhall)方块实实在在地创造了殖民地。它还是殖民地的中心。This is where you start using the building tool to place buildings. Using the building tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level).
 
   Once the Town Hall block is placed, you will start receiving your initial 4 citizens.
 
-### Step 3: Builder
+### **第三步：建筑工**
 
-  Before anything can be built, you need a [Builder](../../source/workers/builder). The Builder must build their own [Builder's Hut](../../source/buildings/builder) before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level.
+在一切项目动工之前，你需要一名[建筑工](../../source/workers/builder)。在建造其他小屋之前，建筑工必须首先建造他们自己的[建筑工小屋](../../source/buildings/builder)，而且他们无法把其他小屋建造成或者升级到比他们自己的小屋还要高的等级。
 
-### Step 4: Tavern
+### 第四步：酒馆
 
-  Your colonists will need a place to sleep and a house, so it is recommended to build a [Tavern](../../source/buildings/tavern) next. The Tavern also allows visitors to come to your colony, and you can recruit them to stay as citizens.
+你的殖民地中需要有一个睡觉和住宿的地方，所以接下来推荐建造一座[酒馆](../../source/buildings/tavern)。酒馆允许旅客来到你的殖民地，所以你可以招募他们，他们就会像市民一样留下来。
 
-### Step 5: Food
+### **第五步：食物**
 
-  The next major thing you need for your colony is food. The fastest way to get food is to build a [Fisher's Hut](../../source/buildings/fisher). You could build a [Farm](../../source/buildings/farm&field) or one of the animal herders, but a Fisher is faster. Building a [Restaurant](../../source/buildings/restaurant) may also be advisable if you don't want to feed your colonists (or cook their food) by hand.
+接下来你要为殖民地筹备的是食物。获得食物最快的方式是建造一座[渔民小屋](../../source/buildings/fisher)  The next major thing you need for your colony is food. The fastest way to get food is to build a [Fisher's Hut](../../source/buildings/fisher). You could build a [Farm](../../source/buildings/farm&field) or one of the animal herders, but a Fisher is faster. Building a [Restaurant](../../source/buildings/restaurant) may also be advisable if you don't want to feed your colonists (or cook their food) by hand.
 
-### Step 6: Forester
+### **第六步：林务员**
 
-  If your style is wood, it's recommended to build a [Forester's Hut](../../source/buildings/forester) next. That way your new [Forester](../../source/workers/forester) can start gathering wood for your next builds and for tools and other items.
+如果殖民地的建筑样式是木制，推荐接下来建造一个 [林务员小屋](../../source/buildings/forester)。这样你的新林务员就可以开始为你今后的建筑或工具收集木材。
 
-### Step 7: Miner
+### **第七步：矿工**
 
-  Stone and ores are another major need for any colony, so a [Mine](../../source/buildings/mine) is the next logical step.
+石头和矿物也是殖民地不可或缺的，所以下一个合理的步骤是建造一个[矿井](../../source/buildings/mine)。
 
 ### Step 8: Warehouse and courier
 
@@ -60,11 +59,11 @@ You should also gather as many resources as you can-wood, as well as cobble, coa
 
 ### Step 9: Rest of the Colony
 
-  This is where you need to decide what you need next, based on how you play and what your colony needs. But you have several things to look at. Once you get seven citizens you can get attacked by raiders and you may want to build a [Guard Tower](../../source/buildings/guardtower), or you may get a sick citizen and want to build a [Hospital](../../source/buildings/hospital), or you may decide you want a [Sawmill](../../source/buildings/sawmill) to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. You decide how your colony will grow!
+现在你要想清楚接下来做什么，这取决于你的玩法和殖民地的发展方向。但有几点需要注意。一旦你有了超过七位市民，就可能被raiders攻击，你可能就需要建造一个 [Guard Tower](../../source/buildings/guardtower)；还可能有市民生病，所以需要建立一座医院；你还可能会需要一座锯木厂来制作工人们需要的物品。or you may get a sick citizen and want to build a [Hospital](../../source/buildings/hospital), or you may decide you want a [Sawmill](../../source/buildings/sawmill) to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. You decide how your colony will grow!
 
   <br>
 
-## Detailed Walkthrough
+## 详细攻略
 <br>
 
 If you're here, **CONGRATULATIONS!** You have already <a href="#install">installed</a> MineColonies and are ready to embark on an adventure to explore, conquer and establish your own colony. Work hard and turn it into a thriving town. Hone your leadership skills and grow grow grow into a city! Lastly, can you be a grand leader and finally achieve a metropolis? (Check your ingame MineColonies Achievements.)
@@ -74,14 +73,14 @@ If you're here, **CONGRATULATIONS!** You have already <a href="#install">install
 To avoid mistakes and frustation, read through this entire guide carefully before starting to play.
 
 
-### Placement of the Supply Ship or Supply Camp 
+### 补给船或补给营地的放置
 
 To place the [Supply Ship](../items/supplycampandship), you need to have a large enough body of water (at least 32 x 20).
 To place the [Supply Camp](../items/supplycampandship), you need to have a large enough flat, clear piece of land (at least 16x17 blocks).
 
 When you place the Supply Ship/Camp, it will spawn a chest that will contain the [Town Hall](../../source/buildings/townhall) block and the [building tool](../../source/items/buildingtool). **Once the Supply Ship/Camp is placed, you can't place another in the world.**
 
-**Hint:** The most important tool you will need for the entire mod is the build tool (check our [build tool](../items/buildtool) page). Craft the build tool so you can place all the huts and the Supply Ship or Supply Camp in the perfect spot.
+**提示：** The most important tool you will need for the entire mod is the build tool (check our [build tool](../items/buildtool) page). Craft the build tool so you can place all the huts and the Supply Ship or Supply Camp in the perfect spot.
 
 <p class="h4 text-center"><b>Build Tool Video.</b></p>
 
@@ -90,13 +89,13 @@ When you place the Supply Ship/Camp, it will spawn a chest that will contain the
 </div>
 <br />
 
-**Hint:** If you're not using the build tool and aren't able to place the Supply Camp/Ship, try it block by block: one to the right, left, closer or further from the area you cleared. The area cannot contain any holes or have any flowers, grass, ferns, seaweed, coral etc.
+**提示：** If you're not using the build tool and aren't able to place the Supply Camp/Ship, try it block by block: one to the right, left, closer or further from the area you cleared. The area cannot contain any holes or have any flowers, grass, ferns, seaweed, coral etc.
 
-### Town Hall
+### 市政厅
 
  The protected area of your colony (once the [Town Hall](../../source/buildings/townhall) has been placed) will be a square 8 chunks in radius, measured from where you placed your Town Hall block the first time (Default config). Therefore, plan carefully where you want to place your Town Hall. 128 blocks (8 chunks x 8 chunks) in every direction will be your protected Town area including mountains, hills, lakes, oceans, caves, world generated structures, etc. from bedrock to sky limit.
 
-- **Note**: You can configure your own town area radius in the configuration options of the mod or the the minecolonies-common.toml file inside the ```../minecraft/config/``` folder of your own world.
+- **注意**：You can configure your own town area radius in the configuration options of the mod or the the minecolonies-common.toml file inside the ```../minecraft/config/``` folder of your own world.
 
 Due to the protected area of each colony, you have to carefully scout your surrounding to make sure you are clear of any other colonies nearby preventing you from placing your Town Hall or limiting your colony area in that direction (in multiplayer, etc.). If there is another colony too close to your current position, you won't be able to place a Town Hall.
 
@@ -112,21 +111,21 @@ For example, in the official MineColonies server it will be the default 8 chunk 
 
 **Now, after you have explored, thought carefully, planned, and found the perfect spot to start your colony, let's take a look at the steps to get your colony running!**
 
-## Setting Up Your Colony
+## 建立你的殖民地
 
-### Step 1
+### 第一步
 
 Get enough materials and craft your Supply Ship/Camp, then place it with the <a href="#build_tool">build tool</a> or by right-clicking a block with it. There will be a chest (or <a href="../../source/items/rack">rack</a>) inside the placed Ship/Camp with a Town Hall block and a building tool.
 
-**Hint:** Gather as many materials as possible to give to your [Builder](../../source/workers/builder) when they start building. They will ask you for all kinds of materials for each building or upgrade, depending on the style of building you have chosen. The materials needed for most styles will be mainly wood, cobblestone, and torches for the lower levels. Further upgrades will require more elaborate materials.
+**提示：** Gather as many materials as possible to give to your [Builder](../../source/workers/builder) when they start building. They will ask you for all kinds of materials for each building or upgrade, depending on the style of building you have chosen. The materials needed for most styles will be mainly wood, cobblestone, and torches for the lower levels. Further upgrades will require more elaborate materials.
 
-### Step 2
+### 第二步
 
 After you have carefully decided where you want to place your [Town Hall](../../source/buildings/townhall) (remember, the position where you placed the Town Hall block at first will be the center of your colony's protected area. Once placed, the area will be set and cannot be changed), use your <a href="#build_tool">build tool</a> to place the Town Hall. Once you commit to the placement of the Town Hall (the green checkmark), the Town Hall block will be placed. To officially start a colony, you need to right-click on the block, then select Create New Colony. Once you've done this, your initial four citizens will start appearing! 
 
 You can now right-click the Town Hall block again to look at its graphical user interface, or GUI for short:
 
-### Town Hall GUI
+### 市政厅GUI
 
 <i>You can use the tabs on the left side to switch between different categories.</i>
 
@@ -283,12 +282,13 @@ You can now right-click the Town Hall block again to look at its graphical user 
   </div>
   <div class="col-sm-12 col-md">
     <ul>
-      <li><strong>Page 1: </strong>Blank page except for the header (future use).</li>
+      <li><strong>第一页：</strong>Blank page except for the header (future use).</li>
       <br>
-      <li><strong>Page 2: </strong>Here are all the build orders for this colony (including decorations and your own schematics as well as huts). Your Builders will complete the builds from top to bottom, and you can change the priority of the builds by moving them up or down in the list. You can also delete work orders. When you delete a work order that is currently being built, the Builder will stop building and will continue where they left off if you create the work order again.</li>
+      <li><strong>第二页：</strong>Here are all the build orders for this colony (including decorations and your own schematics as well as huts). Your Builders will complete the builds from top to bottom, and you can change the priority of the builds by moving them up or down in the list. You can also delete work orders. When you delete a work order that is currently being built, the Builder will stop building and will continue where they left off if you create the work order again.</li>
     </ul>
   </div>
 </div>
+
 <br>
 <br>
 
@@ -301,15 +301,16 @@ You can now right-click the Town Hall block again to look at its graphical user 
   <div class="col-sm-12 col-md">
     <ul>
       <br>
-      <li><strong>Page 1: </strong>The happiness indices. You can keep track of the areas that will lower or raise the happiness of your citizens here. The colors, in order from best to worst, are: green (super happy), blue (happy), yellow (not happy), and red (big problem here-your citizens are definitely not happy). There's also black, which will show up if something went wrong.</li>
+      <li><strong>第一页：</strong>The happiness indices. You can keep track of the areas that will lower or raise the happiness of your citizens here. The colors, in order from best to worst, are: green (super happy), blue (happy), yellow (not happy), and red (big problem here-your citizens are definitely not happy). There's also black, which will show up if something went wrong.</li>
       <br>
-      <li><strong>Page 2: </strong>Blank for now (future use).</li>
+      <li><strong>第二页：</strong>Blank for now (future use).</li>
     </ul>
   </div>
 </div>  
+
 <br>
 
-### Step 3
+### 第三步
 
 Before any other building can be built, you must craft the [Builder's Hut](../../source/buildings/builder) block and use your <a href="#build_tool">build tool</a> to place it. Once you commit to the placement of the Builder's Hut (the green checkmark), the block will be placed and a Builder will be automatically assigned (or you can manually assign one with the best [traits](../../source/systems/worker) for a Builder if you changed this in the setting tab in the Town Hall's GUI).
 You now officially have a [Builder](../../source/workers/builder)! CONGRATULATIONS!
@@ -343,20 +344,20 @@ You will have to click Build Options on the Builder's Hut, then click Build Buil
 
 The Builder will ask for the materials they need. Right-click on them when they have a red icon above their head to see the materials they currently need.
 
-**Hint:** If you see that the Builder hasn't finished a build order and you don't see them asking for any materials, go to the Builder's Hut, recall the Builder, and wait a bit to see what they need. Also, check page 2 of the Builder's Hut GUI and see what resources are in red (those are missing resources).
+**提示：** If you see that the Builder hasn't finished a build order and you don't see them asking for any materials, go to the Builder's Hut, recall the Builder, and wait a bit to see what they need. Also, check page 2 of the Builder's Hut GUI and see what resources are in red (those are missing resources).
 
-### Step 4
+### 第四步
 
 Once the Builder has finished their hut, you're ready to start building any other building you want! Just craft the desired block and use your [build tool](../../source/items/buildtool) to place the building. Once it's placed, go into the GUI for the new block, click Build Options, and then click Build Building. It's that simple!
 
-**Hint:** Consider upgrading the Builder's Hut to level 2 as soon as you can so the Builder can upgrade other buildings.
+**提示：** Consider upgrading the Builder's Hut to level 2 as soon as you can so the Builder can upgrade other buildings.
 
-### Final Notes
+### 最后说明
 
-You have now completed the most important steps completed to start and create your colony!
+现在你完成了建立殖民地最重要的步骤！
 
-Your question now is probably, "What to build next?" The [Town Hall](../../source/buildings/townhall), [Mine](../../source/buildings/mine), [Forester's Hut](../../source/buildings/forester), [Farm](../../source/buildings/farm&field), [Fisher's Hut](../../source/buildings/fisher), [Guard Tower](../../source/buildings/guardtower), [Courier's Hut](../../source/buildings/courier), [Bakery](../../source/buildings/bakery), [Restaurant](../../source/buildings/restaurant), and more are probably good places to start. 
+你现在可能会问，“接下来建造什么呢？”[市政厅](../../source/buildings/townhall)、[矿井](../../source/buildings/mine)、[林务员小屋](../../source/buildings/forester)、[农场](../../source/buildings/farm&field)、[渔民小屋](../../source/buildings/fisher)、[Guard Tower](../../source/buildings/guardtower)、[Courier's Hut](../../source/buildings/courier)、[面包房](../../source/buildings/bakery)、[餐馆](../../source/buildings/restaurant) and more are probably good places to start. 
 
 But you start with only 4 citizens! Now what? Well, the next step after your 4 citizens are employed and are working hard is to plan and place the [House](../../source/buildings/house). This will give you additional citizens for each level of a House you build in your colony (after your inital four citizens are housed)! Now, what do you do with so many citizens? You cannot assign more than 1 worker per hut. Therefore, consider building additional huts for more Miners, Foresters, Builders, Farmers, Fishers, and many more! 
 
-**Hint:** Upgrade your huts to the highest level possible (level 5 for all of them except the [Tavern](../../source/buildings/tavern)) to get achievements (and increase the speed at which the worker [levels](../../source/systems/worker)).
+**提示：**将你的小屋升级到尽可能高的等级（除了酒馆以外，所有建筑都升到5级）以获得成就（并提高工人的[升级](../../source/systems/worker)速度）。

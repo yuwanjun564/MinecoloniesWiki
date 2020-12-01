@@ -1,8 +1,8 @@
 ---
-title: Forester
+title: 林务员
 layout: default
 ---
-# Forester
+# 林务员
 
 <div class="infobox box text-center">
 <img src="../../assets/images/workers/lumberjack_m.png" alt="Forester Male" />&nbsp;&nbsp;&nbsp;<img src="../../assets/images/workers/lumberjack_f.png" alt="Forester Female" />
