@@ -1,0 +1,104 @@
+I"�<h1 id="stone-smeltery">Stone Smeltery</h1>
+
+<div class="infobox box text-center">
+    <img src="../../assets/images/buildings/stonesmeltery.png" alt="Stone Smeltery's Hut" />
+    <hr />
+    <div class="row section-text text-left">
+        <div class="col">
+        <p><strong>Worker:</strong></p>
+        </div>
+        <div class="col">
+        <p><a href="../workers/stonesmelter">Stone Smelter</a></p>
+        </div>
+    </div>
+    <hr />
+    <recipe>stonesmeltery</recipe>
+</div>
+
+<h3 id="note-the-stone-smeltery-cannot-be-built-until-you-have-a-level-3-smeltery-or-three-level-1-smelteries-or-another-equivalent-and-have-finished-the-research-in-the-university">Note: The Stone Smeltery cannot be built until you have a level 3 <a href="../../source/buildings/smeltery">Smeltery</a> (or three level 1 Smelteries, or another equivalent) and have finished the research in the <a href="../../source/buildings/university">University</a>.</h3>
+<p><br /></p>
+
+<p>The Stone Smeltery is where the Stone Smelter will smelt cobblestone into stone, stone bricks into cracked stone bricks, clay balls into bricks, clay blocks into terracotta, terracotta into glazed terracotta, all types of stone into all types of smooth stone, and logs into charcoal. They can also pop chorus fruits! The Stone Smelter will only work when they have been taught the recipe, receive a request from another worker, and have the needed materials.</p>
+
+<p><strong>Hint:</strong> The higher the level of the Stone Smeltery, the more furnaces the Stone Smelter will have available. The number of furnaces they <em>use</em> depends on their Athletics level. So:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Building Level</th>
+      <th style="text-align: center">Furnaces</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Hint:</strong> The higher the Stone Smelter’s Dexterity level, the faster things will smelt. At high levels, they can go <em>much</em> faster than the player!</p>
+
+<h2 id="stone-smeltery-gui">Stone Smeltery GUI</h2>
+
+<p>When accessing the Stone Smeltery’s hut block by right-clicking on it, you will see a GUI with different options:</p>
+
+<p><br /></p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/stonesmelterygui1.png" class="img-fluid mx-auto" alt="Stone Smeltery GUI" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <br />
+    <ul>
+      
+        <li><strong>小屋等级:</strong> 显示你选中的小屋的种类和等级。</li>
+      
+        <li><strong>工人安排:</strong> 显示你被安排在这栋建筑的工人和他们的等级。工人边工作边升级。等级越高，工作效率越高，速度越快。</li>
+      
+        <li><strong>管理工人:</strong> 让你更改在这个小屋工作的工人。每一间小屋一个工人。<b>注①：</b>只有你把<a href="../../source/buildings/townhall">市政厅</a>方块内的工人雇佣模式调为手动，此条目才能生效。否则你的市民还是只会被自动雇佣。</li>
+      
+        <li><strong>召集工人:</strong> 召集在本建筑的工人到他们自己的小屋方块边。你可能因为他们卡在某个地方，或者想看看他们有什么东西，或者想直接给他们某样东西。</li>
+      
+        <li><strong>建筑选项:</strong> 让你可以创造、升级、复原、或者维修建筑。了解更多关于建筑系统的东西，请查看<a href="../../source/workers/builder"> 建筑工</a> 页面。</li>
+      
+        <li><strong>运输优先:</strong> 你可以设置<a href="../../source/workers/courier">运输工</a>访问该小屋的优先权（当小屋内的工人发出请求时，他们会来捡起物品），或者设置让运输工<i>不要</i>来该小屋取物品，也可以按下【请求即刻取走物品】的按钮。</li>
+      
+        <li><strong>配方列表 教学配方:</strong> 当你点击菜单列表按钮时，将会展示你教授给该小屋的配方，也可以在此页面移除他们。点击教学配方，将会打开合成表，你可以通过这个方式将配方教授给该小屋（而不是工人!）</li>
+      
+        <li><strong>存储物:</strong> 你可以在这里打开小屋方块的存储，这里是工人存取材料的地方。他们也会使用<a href="../../source/items/rack">架子</a>和箱子，如要看看存储，也要检查看看小屋内的架子和箱子！</li>
+      
+    </ul>
+  </div>
+</div>
+<p><br /></p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/stonesmelterygui2.png" class="img-fluid mx-auto" alt="Smeltery GUI" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <ul>
+      <li><strong>Fuel: </strong>Listed here are items that can be used by the Stone Smelter as fuel in their furnaces. Turn on any that you want your Stone Smelter to use, and a Deliveryman will deliver those items to the Stone Smelter when they need fuel. (The black box at the top is to search for items.)
+      </li>
+    </ul>
+  </div>
+</div>
+
+<p><br /></p>
+:ET

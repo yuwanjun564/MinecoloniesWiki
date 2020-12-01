@@ -1,0 +1,91 @@
+I"�<h1 id="bakery">Bakery</h1>
+
+<div class="infobox box text-center">
+    <img src="../../assets/images/buildings/bakery.png" alt="Bakery" />
+    <hr />
+    <div class="row section-text text-left">
+        <div class="col">
+        <p><strong>Worker:</strong></p>
+        </div>
+        <div class="col">
+        <p><a href="../workers/baker">Baker</a></p>
+        </div>
+    </div>
+    <hr />
+    <recipe>baker</recipe>
+</div>
+
+<p>The Baker will craft bread dough, cookie dough, cake dough, and raw pumpkin pie, then bake these in a furnace to create bread, cookies, cakes, and pumpkin pies. They will only do this upon request, whether from the <a href="../../source/workers/cook">Cook</a>, the <a href="../../source/items/postbox">postbox</a>, or as a minimum stock in the <a href="../../source/buildings/warehouse">Warehouse</a>.</p>
+
+<p>The Baker can also craft some non-vanilla breads:</p>
+
+<ul>
+  <li>Sweet bread, made from wheat and a honey bottle. Available at Bakery level 3. Has slightly higher saturation than normal bread, also gives you a speed boost and removes poison.</li>
+  <li>Milk-infused bread, made from wheat and a milk bucket. Available at Bakery level 4. Removes all potion effects (like milk buckets do).</li>
+  <li>Golden bread, made from wheat and a gold ingot. Available at Bakery level 5. Instantly heals 2 hearts.</li>
+  <li>Chorus bread, made from wheat and a chorus fruit. Available after completing the Know the End research in the <a href="../../source/buildings/university">University</a>. Has higher saturation than normal bread and teleports you to the surface after eating it.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="bakery-gui">Bakery GUI</h2>
+
+<p>When accessing the Bakery’s hut block by right-clicking on it, you will see a GUI with different options:</p>
+
+<p><br /></p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/bakerygui1.png" class="img-fluid mx-auto" alt="Bakery GUI 1" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <br />
+    <ul>
+      
+        <li><strong>小屋等级:</strong> 显示你选中的小屋的种类和等级。</li>
+      
+        <li><strong>工人安排:</strong> 显示你被安排在这栋建筑的工人和他们的等级。工人边工作边升级。等级越高，工作效率越高，速度越快。</li>
+      
+        <li><strong>管理工人:</strong> 让你更改在这个小屋工作的工人。每一间小屋一个工人。<b>注①：</b>只有你把<a href="../../source/buildings/townhall">市政厅</a>方块内的工人雇佣模式调为手动，此条目才能生效。否则你的市民还是只会被自动雇佣。</li>
+      
+        <li><strong>召集工人:</strong> 召集在本建筑的工人到他们自己的小屋方块边。你可能因为他们卡在某个地方，或者想看看他们有什么东西，或者想直接给他们某样东西。</li>
+      
+        <li><strong>建筑选项:</strong> 让你可以创造、升级、复原、或者维修建筑。了解更多关于建筑系统的东西，请查看<a href="../../source/workers/builder"> 建筑工</a> 页面。</li>
+      
+        <li><strong>运输优先:</strong> 你可以设置<a href="../../source/workers/courier">运输工</a>访问该小屋的优先权（当小屋内的工人发出请求时，他们会来捡起物品），或者设置让运输工<i>不要</i>来该小屋取物品，也可以按下【请求即刻取走物品】的按钮。</li>
+      
+        <li><strong>配方列表 教学配方:</strong> 当你点击菜单列表按钮时，将会展示你教授给该小屋的配方，也可以在此页面移除他们。点击教学配方，将会打开合成表，你可以通过这个方式将配方教授给该小屋（而不是工人!）</li>
+      
+        <li><strong>存储物:</strong> 你可以在这里打开小屋方块的存储，这里是工人存取材料的地方。他们也会使用<a href="../../source/items/rack">架子</a>和箱子，如要看看存储，也要检查看看小屋内的架子和箱子！</li>
+      
+    </ul>
+  </div>
+</div>
+<p><br /> <br /></p>
+
+<p>This is page two of the Bakery GUI.</p>
+
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/restaurantgui2.png" class="img-fluid mx-auto" alt="Bakery GUI 2" />
+  </div>
+  <div class="col-sm-12 col-md">
+      <ul>
+      <li><strong> Fuel: </strong> Listed here are items that can be used by the Baker as fuel in their furnaces. Simply turn on any that you want your Baker to use, and a <a href="../../source/workers/courier"> Courier</a> will deliver those items to the Baker when they need fuel. (The black box at the top is to search for items.)</li>
+      </ul>
+    </div>  
+  <br /><br />
+
+This is page three of the Bakery GUI.
+
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/restaurantgui3.jpg" class="img-fluid mx-auto" alt="Bakery GUI 3" />
+  </div>
+  <div class="col-sm-12 col-md">
+      <ul>
+      <li><strong> Minimum Stock: </strong> Use this button to tell the Bakery to keep a minimum stock on hand. Set items will be displayed above the button. (It can be useful to set a minimum stock of dough, so the Baker can quickly bake items without needing to craft the dough first.)</li>
+      </ul>
+    </div>  
+  <br />
+</div></div>
+:ET

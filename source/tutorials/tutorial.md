@@ -4,16 +4,16 @@ layout: default
 ---
 # 教程
 
-- [简易攻略](#quick-walkthrough)
-- [详细攻略](#detailed-walkthrough)
-  - [补给船或补给营地的放置](#placement-of-the-supply-ship-or-supply-camp)
-  - [市政厅](#town-hall)
-- [建立你的殖民地](#setting-up-your-colony)
-  - [第一步](#step-1)
-  - [第二步](#step-2)
-  - [市政厅GUI](#town-hall-gui)
-  - [第三步](#step-3)
-  - [第四步](#step-4)
+- [简易攻略](#简易攻略)
+- [详细攻略](#详细攻略)
+  - [补给船或补给营地的放置](#补给船或补给营地的放置)
+  - [市政厅](#市政厅)
+- [建立你的殖民地](#建立你的殖民地)
+  - [第一步](#第一步)
+  - [第二步](#第二步)
+  - [市政厅GUI](#市政厅GUI)
+  - [第三步](#第三步)
+  - [第四步](#第四步)
   - [Final Notes](#final-notes)
 
 本教程适用的前提是你已经安装了本模组或整合包。If you'd like instructions on how to <a id="install">install</a> our [Official Modpack](https://www.curseforge.com/minecraft/modpacks/minecolonies-testpack), you can find instructions for doing that on Twitch [here](../../source/installation/twitch), on MultiMMC [here](../../source/installation/multimmc), and on Java (Forge) [here](../../source/installation/java). 
