@@ -21,8 +21,8 @@ layout: default
   </div>
 </div>
 
-The Forester is one of the most essential workers in your colony. They will chop trees to provide the wood for all your colony's needs. The Forester will also plant a sapling in the tree's place of the same variety they just chopped down (provided that the tree dropped saplings and the setting is on in the Forester's Hut block GUI). The Forester will only plant a sapling AFTER chopping down a tree. If there are no trees nearby, they will NOT plant any saplings to create a tree.
+林务员是你的殖民地中最重要的工人之一。他们为你的殖民地提供木材，亦会种下所砍伐的种类的树苗（前提是砍伐的树叶掉落树苗，该项设置可以再林务员小屋方块的GUI中调整）。林务员仅仅只在伐倒一棵树后补种树苗。如果殖民地周围没有树，他们将不会种植任何树苗，遑论成树。
 
-**Hint:** You can remove any trees/saplings and replant any type of sapling in any pattern or shape you need to create a perfect grove for easier access and less walking around, which means more efficient chopping.
+**提示:** 你可以移除周围的任意树或者树苗，改种你想要的品种的树苗，甚至可以以此调整小树林的形状和样式，以提供便捷的通道方便林务员就近伐木，提高伐木效率。
 
-**Note:** In Minecraft 1.16+ Foresters require hoes (for breaking leaves).
+**注释:** 在 Minecraft 1.16+ 中，林务员需要锄（以破坏树叶）
