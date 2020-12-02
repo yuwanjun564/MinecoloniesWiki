@@ -14,9 +14,9 @@ layout: default
   - [市政厅GUI](#市政厅GUI)
   - [第三步](#第三步)
   - [第四步](#第四步)
-  - [Final Notes](#final-notes)
+  - [最终提示](#最终提示)
 
-本教程适用的前提是你已经安装了本模组或整合包。If you'd like instructions on how to <a id="install">install</a> our [Official Modpack](https://www.curseforge.com/minecraft/modpacks/minecolonies-testpack), you can find instructions for doing that on Twitch [here](../../source/installation/twitch), on MultiMMC [here](../../source/installation/multimmc), and on Java (Forge) [here](../../source/installation/java). 
+本教程适用的前提是你已经安装了本模组或整合包。如果你想要了解如何<a id="install">安装</a>我们的[官方整合包](https://www.curseforge.com/minecraft/modpacks/minecolonies-testpack)，我们提供了[用Twitch安装](../../source/installation/twitch)、[用MultiMMC安装](../../source/installation/multimmc)以及[用Java(Forge)安装](../../source/installation/java)的教程。
 
 ## 简易攻略 
 
@@ -29,9 +29,9 @@ layout: default
 
 ### **第二步：市政厅**
 
-[市政厅](../../source/buildings/townhall)方块实实在在地创造了殖民地。它还是殖民地的中心。This is where you start using the building tool to place buildings. Using the building tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level).
+[市政厅](../../source/buildings/townhall)方块决定了殖民地的存在。它还是殖民地的中心。从此你可以使用建筑工具来放置建筑。建筑工具确保了你能在动工之前预览建筑的位置、朝向、以及它是否位于合适的Y坐标（一些建筑需要被建筑在正确的Y坐标上）。
 
-  Once the Town Hall block is placed, you will start receiving your initial 4 citizens.
+一旦市政厅方块被放置下来，你将迎来四位初始市民。
 
 ### **第三步：建筑工**
 
@@ -43,7 +43,7 @@ layout: default
 
 ### **第五步：食物**
 
-接下来你要为殖民地筹备的是食物。获得食物最快的方式是建造一座[渔民小屋](../../source/buildings/fisher)  The next major thing you need for your colony is food. The fastest way to get food is to build a [Fisher's Hut](../../source/buildings/fisher). You could build a [Farm](../../source/buildings/farm&field) or one of the animal herders, but a Fisher is faster. Building a [Restaurant](../../source/buildings/restaurant) may also be advisable if you don't want to feed your colonists (or cook their food) by hand.
+接下来你要为殖民地筹备的是食物。获得食物最快的方式是建造一座[渔民小屋](../../source/buildings/fisher)。你可以建造一个[农场](../../source/buildings/farm&field)或某个动物的饲养处，但是渔民更快。如果你不想亲手为你的居民准备食物，建一座餐馆也许是个明智的选择。
 
 ### **第六步：林务员**
 
@@ -352,7 +352,7 @@ Once the Builder has finished their hut, you're ready to start building any othe
 
 **提示：** Consider upgrading the Builder's Hut to level 2 as soon as you can so the Builder can upgrade other buildings.
 
-### 最后说明
+### 最终提示
 
 现在你完成了建立殖民地最重要的步骤！
 
