@@ -4,20 +4,21 @@ layout: default
 ---
 # 工人系统
 
-<p style="text-align:center; font-size:20pt;"><img src="../../assets/images/misc/Sleep.png" alt="Sleep"><b> 如果正在下雨、下雪、夜间，或者一个市民昨天死亡了（游戏时间），你的市民将停止工作！</b></p>
+<p style="text-align:center; font-size:20pt;"><img src="../../assets/images/misc/Sleep.png" alt="Sleep"><b> 令人昏睡的绵绵细雨、下雪、夜幕降临，或在游戏时间内一位市民离我们而去，将会令你的市民停止工作</b></p>
 
-## Traits
-When hiring a worker at a hut, the primary trait used in that work will be highlighted in **green** and the secondary trait in **yellow** to help you decide which citizen is the best worker for the job. The higher a worker's level, the faster and more efficient they will be.
+## 素质
+当你在小屋中雇佣一个工人，该职业要求的最佳素质将被**绿色**高亮，次要素质将被**黄色**高亮，以帮助你决定合适这项工作的最佳工人。工人的等级越高，他们的工作效率越高。
 
-![Traits](../../assets/images/misc/traits.png)
 
-These skills make up the worker's level. The formula is (Primary Trait + Secondary Trait)/4 = Level (rounded down).
+![素质](../../assets/images/misc/traits.png)
 
-For example, if Adaptability is the primary trait and Athletics secondary, and the worker assigned has Adaptability 29 and Athletics 16, then (29+16)/4=11.25.That means that this worker's level will be 11!
+这些技能素质将累积成工人的等级。公式：(主要需求素质+次要需求素质)/4=等级(四舍五入)
 
-Workers' skills/levels increase as they work. Their level is limited by the level of the worker's home. The level of a worker's work hut and their Intelligence skill level affect the speed that they level up.
+举个例子，如图适应性为主要所需素质，体能为次要，而该工人有 适应性29 体能16，(29+16)/4=11.25，这意味着工人的等级是11级。
 
-| Home Level | Max Worker Level |
+工人的等级和技能素质将会在工作中升级。不过他们的等级将会限制工人的最大等级。工人工作小屋的等级和他们的智力等级会影响他们的升级速度。(译者注：素质等级是等级的决定性因素，所限制和所升级的都是素质等级)
+
+|  小屋等级   | 工人的最大等级    |
 | ---------- | ---------------- |
 | 0          | 1                |
 | 1          | 5                |
@@ -27,46 +28,45 @@ Workers' skills/levels increase as they work. Their level is limited by the leve
 | 5          | 100              |
 
 <br>
-
-A chart of all the jobs and their traits, from sikri(#2346) on [Discord](https://discord.minecolonies.com):
+这是一张表格包含全部职业和所需素质，由[Discord](https://discord.minecolonies.com)上的sikri（#2346）制作
 <br>
 <br>
 <img src="../../assets/images/misc/jobsandskills.png" alt="Jobs and Skills" />
 
-## Tool/Sword Levels
+## 工具/剑的等级
 
-The type of tools/swords workers can use depends on the level of a worker's work hut.
+工人们使用的工具/剑的材料取决于工人的工作小屋的等级
 
-| Work Hut Level | Max (Vanilla) Tool/Sword Level                                                                                           | Max (Tinker's Construct) Tool/Sword Level |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------- |
-| 0              | Wood or Gold (+ 0 enchantments)                                                                                          | Mining level of Stone                     |
-| 1              | Stone + 0 enchantments (OR wood/gold + 1 enchantment)                                                                    | Mining level of Iron                      |
-| 2              | Iron + 0 enchantments (OR wood/gold + 2 enchantment OR stone + 1 enchantment)                                            | Mining level of Diamond                   |
-| 3              | Diamond + 0 enchantments (OR wood/gold + 3 enchantments OR stone + 2 enchantments OR Iron + 1 enchantment)               | Mining level of Obsidian                  |
-| 4              | All Tools + 0 enchantments (OR wood/gold + 4 enchants OR Stone + 3 enchants OR Iron + 2 enchants OR diamond + 1 enchant) | Mining level of Cobalt                    |
-| 5              | All Tools + unlimited enchantments                                                                                       | Any mining level                          |
+| 工作小屋的等级 | （原版）工具/剑的最大等级                                    | （匠魂）工具/剑的等级 |
+| -------------- | ------------------------------------------------------------ | --------------------- |
+| 0              | 木质/金质（+0个魔咒）                                        | 开采石头的等级        |
+| 1              | 石质+0个魔咒（或者木质/金质+1个魔咒）                        | 开采铁矿的等级        |
+| 2              | 铁质+0个魔咒（或者木质/金质+2个魔咒 或者石质+1个魔咒）       | 开采钻石矿的等级      |
+| 3              | 钻石质+0个魔咒（或者木质/金质+3个魔咒 或者石质+2个魔咒 或者铁质+1个魔咒） | 开采黑曜岩的等级      |
+| 4              | 任意工具+0个魔咒（或者木质/金质+4个魔咒 或者石质+3个魔咒 或者铁质+2个魔咒 或者钻石质+1个魔咒） | 开采钴矿的等级        |
+| 5              | 任意工具+无限制等级的个魔咒                                  | 任何开采等级          |
 
-## Bow/Fishing Rod Levels
+## 弓/钓鱼竿 的等级
 
-There is also a system in place for the type of bows and fishing rods workers can use. This also depends on the level of a worker's work hut.
+这里还有一个决定工人们使用的弓和钓鱼竿的等级的系统。还是取决于工人的工作小屋的等级
 
-| Work Hut Level | Enchantments            |
-| -------------- | ----------------------- |
-| 0              | 0 enchantments          |
-| 1              | 0 enchantments          |
-| 2              | 1 enchantments          |
-| 3              | 2 enchantments          |
-| 4              | 3 enchantments          |
-| 5              | Unlimited enchantments  |
+| 工作小屋的等级 | 魔咒级别     |
+| -------------- | ------------ |
+| 0              | 0 个魔咒     |
+| 1              | 0 个魔咒     |
+| 2              | 1 个魔咒     |
+| 3              | 2 个魔咒     |
+| 4              | 3 个魔咒     |
+| 5              | 无限制个魔咒 |
 
-## Guard Armor Levels
+## 警卫盔甲的等级
 
-There is also a system in place for the type of armor [Guards](../../source/workers/guard) can use. This depends on the level of their Tower and the worker level of the Guard.
+这里还有一个决定[警卫](../../source/workers/guard)可以穿戴的盔甲的等级。这取决于警卫的卫兵塔等级和警卫的等级
 
-| Type of Armor | Guard Level | Tower Level |
-| ------------- | ----------- | ----------- |
-| Leather       | 0 - 20      | 1 - 3       |
-| Gold          | 0 - 20      | 1 - 4       |
-| Chain         | 0 - 20      | 2 - 5       |
-| Iron          | 5 - 30      | 3 - 5       |
-| Diamond       | 15 - 99     | 4 - 5       |
+| 盔甲的材质 | 警卫的等级 | 卫兵塔的等级 |
+| ---------- | ---------- | ------------ |
+| 皮质       | 0 - 20     | 1 - 3        |
+| 金质       | 0 - 20     | 1 - 4        |
+| 锁链       | 0 - 20     | 2 - 5        |
+| 铁质       | 5 - 30     | 3 - 5        |
+| 钻石质     | 15 - 99    | 4 - 5        |
