@@ -53,13 +53,13 @@ layout: default
 
 石头和矿物也是殖民地不可或缺的，所以下一个合理的步骤是建造一个[矿井](../../source/buildings/mine)。
 
-### Step 8: Warehouse and courier
+### 第八步：仓库和快递员
 
   At this point, you might be tired of bringing all of the resources to the Builder and taking them from the Fisher, Forester, Miner, etc. You also might want to store items in one place. Well, the [Warehouse](../../source/buildings/warehouse) and [Courier’s Hut](../../source/buildings/courier) are the solution you are looking for! [Couriers](../../source/workers/courier) transport items between the Warehouse and all of the workplaces.
 
-### Step 9: Rest of the Colony
+### 第九步：接下来的部分
 
-现在你要想清楚接下来做什么，这取决于你的玩法和殖民地的发展方向。但有几点需要注意。一旦你有了超过七位市民，就可能被raiders攻击，你可能就需要建造一个 [Guard Tower](../../source/buildings/guardtower)；还可能有市民生病，所以需要建立一座医院；你还可能会需要一座锯木厂来制作工人们需要的物品。or you may get a sick citizen and want to build a [Hospital](../../source/buildings/hospital), or you may decide you want a [Sawmill](../../source/buildings/sawmill) to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. You decide how your colony will grow!
+现在你要想清楚接下来做什么，这取决于你的玩法和殖民地的发展方向。但有几点需要注意。一旦你有了超过七位市民，就可能被raiders攻击，你可能就需要建造一个 [Guard Tower](../../source/buildings/guardtower)；还可能有市民生病，所以需要建立一座医院；你还可能会需要一座[锯木厂](../../source/buildings/sawmill)来制作工人们需要的物品。又或者你只是想要一个特定的工人，亦或是你找到了一个建造某个小屋的好地方。你的地盘你做主！
 
   <br>
 
