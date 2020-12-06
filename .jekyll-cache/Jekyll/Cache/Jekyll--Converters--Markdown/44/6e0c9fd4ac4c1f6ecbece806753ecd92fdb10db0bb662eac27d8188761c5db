@@ -1,0 +1,78 @@
+I"�<h1 id="house">House</h1>
+
+<div class="infobox box text-center">
+    <img src="../../assets/images/buildings/citizen.png" alt="House" />
+    <recipe>citizen</recipe>
+</div>
+
+<p>Citizens will go to the House they are assigned to at night to sleep. The House is also a way to get more citizens for your colony.</p>
+
+<p>Each level of the House will house one citizen. So:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Building Level</th>
+      <th>Citizens Housed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<p>For additional citizens to spawn, you first have to have enough space in your House(s) to house your first four citizens. After you have created enough space for your initial four citizens, you have two options for your colony to grow. The first way is to have at least one House at least level 2 that houses a male and a female citizen, which will allow a child to be born in the colony when there is room. You can also make space for a new citizen, go to the <a href="../../source/buildings/tavern">Tavern</a>, wait for a traveler to show up, and then give them the items they request to recruit them.</p>
+
+<h3 id="note-to-have-over-25-citizens-you-must-first-complete-the-research-in-the-university">Note: To have over 25 citizens, you must first complete the research in the <a href="../../source/buildings/university">University</a>.</h3>
+<p><br /></p>
+
+<h2 id="house-gui">House GUI</h2>
+
+<p>When accessing the House’s hut block by right-clicking on it, you will see a GUI with different options:</p>
+
+<p><br /></p>
+<div class="row">
+  <div class="col-sm-12 col-md">
+    <img src="../../assets/images/gui/citizengui.png" class="img-fluid mx-auto" alt="House GUI" />
+  </div>
+  <div class="col-sm-12 col-md">
+    <br />
+    <ul>
+      
+        <li><strong>小屋等级:</strong> 显示选中的小屋的种类和等级。</li>
+      
+        <li><strong>市民安排:</strong> 你可以安排要住在这个小屋的市民。如果这里显示可以安排零个市民，这意味着你已经用完这个小屋的容量，如果要再安排市民，你需要移除一些市民以添加其他的市民（移除按钮在他们的名字下方）。<b>注-</b>只有你把<a href="../../source/buildings/townhall"> 市政厅</a>方块内的住房安排模式调为手动，此条目才会生效。否则你的市民还是只会被自动安排住房。</li>
+      
+        <li><strong>建筑选项:</strong> 你可以创造、升级、复原、或者维修建筑。了解更多关于建筑系统的东西，请查看<a href="../../source/workers/builder"> 建筑工</a> 页面。</li>
+      
+        <li><strong>召集市民:</strong> 召回居住在这个小屋的市民。</li>
+      
+        <li><strong>储存物:</strong> 从这里打开小屋方块的储存，这里的居民不会用到这里储存的物品，你可以存储任意你想存放的东西。</li>
+      
+    </ul>
+  </div>
+</div>
+<p><br /></p>
+
+:ET

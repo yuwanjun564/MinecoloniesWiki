@@ -38,7 +38,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="工人系统" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"工人系统","url":"/MinecoloniesWiki/source/systems/worker.html","description":"MineColonies Wiki","@context":"https://schema.org"}</script>
+{"@type":"WebPage","description":"MineColonies Wiki","url":"/MinecoloniesWiki/source/systems/worker.html","headline":"工人系统","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -739,24 +739,24 @@
           <div class="content">
               <h1 id="工人系统">工人系统</h1>
 
-<p style="text-align:center; font-size:20pt;"><img src="../../assets/images/misc/Sleep.png" alt="Sleep" /><b> 如果正在下雨、下雪、夜间，或者一个市民昨天死亡了（游戏时间），你的市民将停止工作！</b></p>
+<p style="text-align:center; font-size:20pt;"><img src="../../assets/images/misc/Sleep.png" alt="Sleep" /><b> 令人昏睡的绵绵细雨、下雪、夜幕降临，或在游戏时间内一位市民离我们而去，将会令你的市民停止工作</b></p>
 
-<h2 id="traits">Traits</h2>
-<p>When hiring a worker at a hut, the primary trait used in that work will be highlighted in <strong>green</strong> and the secondary trait in <strong>yellow</strong> to help you decide which citizen is the best worker for the job. The higher a worker’s level, the faster and more efficient they will be.</p>
+<h2 id="素质">素质</h2>
+<p>当你在小屋中雇佣一个工人，该职业要求的最佳素质将被<strong>绿色</strong>高亮，次要素质将被<strong>黄色</strong>高亮，以帮助你决定合适这项工作的最佳工人。工人的等级越高，他们的工作效率越高。</p>
 
-<p><img src="../../assets/images/misc/traits.png" alt="Traits" /></p>
+<p><img src="../../assets/images/misc/traits.png" alt="素质" /></p>
 
-<p>These skills make up the worker’s level. The formula is (Primary Trait + Secondary Trait)/4 = Level (rounded down).</p>
+<p>这些技能素质将累积成工人的等级。公式：(主要需求素质+次要需求素质)/4=等级(四舍五入)</p>
 
-<p>For example, if Adaptability is the primary trait and Athletics secondary, and the worker assigned has Adaptability 29 and Athletics 16, then (29+16)/4=11.25.That means that this worker’s level will be 11!</p>
+<p>举个例子，如图适应性为主要所需素质，体能为次要，而该工人有 适应性29 体能16，(29+16)/4=11.25，这意味着工人的等级是11级。</p>
 
-<p>Workers’ skills/levels increase as they work. Their level is limited by the level of the worker’s home. The level of a worker’s work hut and their Intelligence skill level affect the speed that they level up.</p>
+<p>工人的等级和技能素质将会在工作中升级。不过他们的等级将会限制工人的最大等级。工人工作小屋的等级和他们的智力等级会影响他们的升级速度。(译者注：素质等级是等级的决定性因素，所限制和所升级的都是素质等级)</p>
 
 <table>
   <thead>
     <tr>
-      <th>Home Level</th>
-      <th>Max Worker Level</th>
+      <th>小屋等级</th>
+      <th>工人的最大等级</th>
     </tr>
   </thead>
   <tbody>
@@ -787,133 +787,132 @@
   </tbody>
 </table>
 
-<p><br /></p>
-
-<p>A chart of all the jobs and their traits, from sikri(#2346) on <a href="https://discord.minecolonies.com">Discord</a>:
+<p><br />
+这是一张表格包含全部职业和所需素质，由<a href="https://discord.minecolonies.com">Discord</a>上的sikri（#2346）制作
 <br />
 <br />
 <img src="../../assets/images/misc/jobsandskills.png" alt="Jobs and Skills" /></p>
 
-<h2 id="toolsword-levels">Tool/Sword Levels</h2>
+<h2 id="工具剑的等级">工具/剑的等级</h2>
 
-<p>The type of tools/swords workers can use depends on the level of a worker’s work hut.</p>
+<p>工人们使用的工具/剑的材料取决于工人的工作小屋的等级</p>
 
 <table>
   <thead>
     <tr>
-      <th>Work Hut Level</th>
-      <th>Max (Vanilla) Tool/Sword Level</th>
-      <th>Max (Tinker’s Construct) Tool/Sword Level</th>
+      <th>工作小屋的等级</th>
+      <th>（原版）工具/剑的最大等级</th>
+      <th>（匠魂）工具/剑的等级</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>0</td>
-      <td>Wood or Gold (+ 0 enchantments)</td>
-      <td>Mining level of Stone</td>
+      <td>木质/金质（+0个魔咒）</td>
+      <td>开采石头的等级</td>
     </tr>
     <tr>
       <td>1</td>
-      <td>Stone + 0 enchantments (OR wood/gold + 1 enchantment)</td>
-      <td>Mining level of Iron</td>
+      <td>石质+0个魔咒（或者木质/金质+1个魔咒）</td>
+      <td>开采铁矿的等级</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>Iron + 0 enchantments (OR wood/gold + 2 enchantment OR stone + 1 enchantment)</td>
-      <td>Mining level of Diamond</td>
+      <td>铁质+0个魔咒（或者木质/金质+2个魔咒 或者石质+1个魔咒）</td>
+      <td>开采钻石矿的等级</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>Diamond + 0 enchantments (OR wood/gold + 3 enchantments OR stone + 2 enchantments OR Iron + 1 enchantment)</td>
-      <td>Mining level of Obsidian</td>
+      <td>钻石质+0个魔咒（或者木质/金质+3个魔咒 或者石质+2个魔咒 或者铁质+1个魔咒）</td>
+      <td>开采黑曜岩的等级</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>All Tools + 0 enchantments (OR wood/gold + 4 enchants OR Stone + 3 enchants OR Iron + 2 enchants OR diamond + 1 enchant)</td>
-      <td>Mining level of Cobalt</td>
+      <td>任意工具+0个魔咒（或者木质/金质+4个魔咒 或者石质+3个魔咒 或者铁质+2个魔咒 或者钻石质+1个魔咒）</td>
+      <td>开采钴矿的等级</td>
     </tr>
     <tr>
       <td>5</td>
-      <td>All Tools + unlimited enchantments</td>
-      <td>Any mining level</td>
+      <td>任意工具+无限制等级的个魔咒</td>
+      <td>任何开采等级</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="bowfishing-rod-levels">Bow/Fishing Rod Levels</h2>
+<h2 id="弓钓鱼竿-的等级">弓/钓鱼竿 的等级</h2>
 
-<p>There is also a system in place for the type of bows and fishing rods workers can use. This also depends on the level of a worker’s work hut.</p>
+<p>这里还有一个决定工人们使用的弓和钓鱼竿的等级的系统。还是取决于工人的工作小屋的等级</p>
 
 <table>
   <thead>
     <tr>
-      <th>Work Hut Level</th>
-      <th>Enchantments</th>
+      <th>工作小屋的等级</th>
+      <th>魔咒级别</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>0</td>
-      <td>0 enchantments</td>
+      <td>0 个魔咒</td>
     </tr>
     <tr>
       <td>1</td>
-      <td>0 enchantments</td>
+      <td>0 个魔咒</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>1 enchantments</td>
+      <td>1 个魔咒</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>2 enchantments</td>
+      <td>2 个魔咒</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>3 enchantments</td>
+      <td>3 个魔咒</td>
     </tr>
     <tr>
       <td>5</td>
-      <td>Unlimited enchantments</td>
+      <td>无限制个魔咒</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="guard-armor-levels">Guard Armor Levels</h2>
+<h2 id="警卫盔甲的等级">警卫盔甲的等级</h2>
 
-<p>There is also a system in place for the type of armor <a href="../../source/workers/guard">Guards</a> can use. This depends on the level of their Tower and the worker level of the Guard.</p>
+<p>这里还有一个决定<a href="../../source/workers/guard">警卫</a>可以穿戴的盔甲的等级。这取决于警卫的卫兵塔等级和警卫的等级</p>
 
 <table>
   <thead>
     <tr>
-      <th>Type of Armor</th>
-      <th>Guard Level</th>
-      <th>Tower Level</th>
+      <th>盔甲的材质</th>
+      <th>警卫的等级</th>
+      <th>卫兵塔的等级</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Leather</td>
+      <td>皮质</td>
       <td>0 - 20</td>
       <td>1 - 3</td>
     </tr>
     <tr>
-      <td>Gold</td>
+      <td>金质</td>
       <td>0 - 20</td>
       <td>1 - 4</td>
     </tr>
     <tr>
-      <td>Chain</td>
+      <td>锁链</td>
       <td>0 - 20</td>
       <td>2 - 5</td>
     </tr>
     <tr>
-      <td>Iron</td>
+      <td>铁质</td>
       <td>5 - 30</td>
       <td>3 - 5</td>
     </tr>
     <tr>
-      <td>Diamond</td>
+      <td>钻石质</td>
       <td>15 - 99</td>
       <td>4 - 5</td>
     </tr>
