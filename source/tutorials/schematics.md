@@ -123,7 +123,7 @@ layout: default
 | miner1         | miner2         | miner3         | miner4         | miner5         | 矿工小屋       |
 | sawmill1       | sawmill2       | sawmill3       | sawmill4       | sawmill5       | 锯木厂         |
 | shepherd1      | shepherd2      | shepherd3      | shepherd4      | shepherd5      | 牧场           |
-| sifter1        | sifter2        | sifter3        | sifter4        | sifter5        | 筛子           |
+| sifter1        | sifter2        | sifter3        | sifter4        | sifter5        | 筛沙工小屋     |
 | smeltery1      | smeltery2      | smeltery3      | smeltery4      | smeltery5      | 冶炼厂         |
 | stonemason1    | stonemason2    | stonemason3    | stonemason4    | stonemason5    | 石匠小屋       |
 | stonesmeltery1 | stonesmeltery2 | stonesmeltery3 | stonesmeltery4 | stonesmeltery5 | 石材冶炼厂     |
