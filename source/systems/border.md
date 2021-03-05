@@ -1,50 +1,52 @@
 ---
 title: Colony Border System
 layout: default
+
 ---
-# Colony Border System
 
-Colonies have an area of claimed chunks (16x16 block areas) around them. Upon colony creation, a colony claims chunks in a square around it. The radius is set with the config setting *initialColonySize* (default 4x4 chunks). 
+# 殖民地边界系统
 
-Those claims are protected from modification through other players. See the [Colony Protection System](../../source/systems/protection) page for more information.
+殖民地包括一片外围的影响区块（区块是一片16X16方块的区域）。当殖民地被开辟出来时，一片环绕殖民地的区块就已被宣称。影响半径由config文件中 *initialColonySize* 项设定（默认是4X4区块）。
 
-Extending your claim area can be done by building huts. Huts claim a square area around them after they are built, expanding all sides from the chunk the hutblock is located in. How much they claim depends on the building. They won't claim over the max range, set with the config setting *maxColonySize* (default 20x20 chunks).
+影响区域受到保护，以防止其他玩家的干扰。详见[殖民地保护系统](../../source/systems/protection)。
 
-Deconstructing a building *will* remove the chunks it claimed.
+建造小屋可以拓展影响区域。小屋在建造完成之时，也以小屋方块所在区块为圆心，向各个方向拓展，宣称一片围绕小屋的正方形区域。影响的范围取决于建筑的种类。但是他们不会宣传超过最大范围。最大范围由config文件中 *maxColonySize* 项设定（默认是20X20区块）。
 
-### Building Claim Areas:
+拆毁建筑*将*移除对区块的宣称和影响。
 
-#### [Town Hall](../../source/buildings/townhall)
+### 建筑影响区域范围:
 
-| Level | Additional Chunks |
-| ----  | ----------------- |
-| 1     |  1 Chunk Radius   |
-| 3     |  2 Chunk Radius   |
-| 4     |  3 Chunk Radius   |
-| 5     |  5 Chunk Radius   |
+#### [市政厅](../../source/buildings/townhall)
 
-#### [Guard Towers](../../source/buildings/guardtower)
+| 等级 | 外围区块     |
+| ---- | ------------ |
+| 1    | 1 区块为半径 |
+| 3    | 2 区块为半径 |
+| 4    | 3 区块为半径 |
+| 5    | 5 区块为半径 |
 
-| Level | Additional Chunks |
-| ----- | ----------------- |
-| 1     | 2 Chunk Radius    |
-| 2     | 3 Chunk Radius    |
-| 3     | 3 Chunk Radius    |
-| 4     | 4 Chunk Radius    |
-| 5     | 5 Chunk Radius    |
+#### [卫兵塔](../../source/buildings/guardtower)
 
-#### [Barracks](../../source/buildings/barracks)
+| 等级 | 外围区块     |
+| ---- | ------------ |
+| 1    | 2 区块为半径 |
+| 2    | 3 区块为半径 |
+| 3    | 3 区块为半径 |
+| 4    | 4 区块为半径 |
+| 5    | 5 区块为半径 |
 
-| Level | Additional Chunks                                                                 |
-| ----- | --------------------------------------------------------------------------------- |
-| All   | Average of [Barracks Tower](../../source/buildings/barrackstower) levels, up to 5 |
+#### [兵营](../../source/buildings/barracks)
 
-#### Other Huts (non-decoration)
+| 等级 | 外围区块                                                     |
+| ---- | ------------------------------------------------------------ |
+| All  | [兵营塔](../../source/buildings/barrackstower) 等级的平均值,，最高为5 |
 
-| Level | Additional Chunks |
-| ----- | ----------------- |
-| 1     | 1 Chunk Radius    |
-| 2     | 1 Chunk Radius    |
-| 3     | 1 Chunk Radius    |
-| 4     | 2 Chunk Radius    |
-| 5     | 2 Chunk Radius    |
+#### 其他小屋 (非装饰类)
+
+| 等级 | 外围区块     |
+| ---- | ------------ |
+| 1    | 1 区块为半径 |
+| 2    | 1 区块为半径 |
+| 3    | 1 区块为半径 |
+| 4    | 2 区块为半径 |
+| 5    | 2 区块为半径 |
