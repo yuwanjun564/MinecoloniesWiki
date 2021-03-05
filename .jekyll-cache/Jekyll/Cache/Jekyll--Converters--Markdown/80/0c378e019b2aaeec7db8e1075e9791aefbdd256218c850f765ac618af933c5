@@ -1,0 +1,124 @@
+I"a<h1 id="殖民地边界系统">殖民地边界系统</h1>
+
+<p>殖民地包括一片外围的影响区块（区块是一片16X16方块的区域）。当殖民地被开辟出来时，一片环绕殖民地的区块就已被宣称。影响半径由config文件中 <em>initialColonySize</em> 项设定（默认是4X4区块）。</p>
+
+<p>影响区域受到保护，以防止其他玩家的干扰。详见<a href="../../source/systems/protection">殖民地保护系统</a>。</p>
+
+<p>建造小屋可以拓展影响区域。小屋在建造完成之时，也以小屋方块所在区块为圆心，向各个方向拓展，宣称一片围绕小屋的正方形区域。影响的范围取决于建筑的种类。但是他们不会宣传超过最大范围。最大范围由config文件中 <em>maxColonySize</em> 项设定（默认是20X20区块）。</p>
+
+<p>拆毁建筑<em>将</em>移除对区块的宣称和影响。</p>
+
+<h3 id="建筑影响区域范围">建筑影响区域范围:</h3>
+
+<h4 id="市政厅"><a href="../../source/buildings/townhall">市政厅</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>等级</th>
+      <th>外围区块</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1 区块为半径</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2 区块为半径</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>3 区块为半径</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5 区块为半径</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="卫兵塔"><a href="../../source/buildings/guardtower">卫兵塔</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>等级</th>
+      <th>外围区块</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2 区块为半径</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>3 区块为半径</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3 区块为半径</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4 区块为半径</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5 区块为半径</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="兵营"><a href="../../source/buildings/barracks">兵营</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>等级</th>
+      <th>外围区块</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All</td>
+      <td><a href="../../source/buildings/barrackstower">兵营塔</a> 等级的平均值,，最高为5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="其他小屋-非装饰类">其他小屋 (非装饰类)</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>等级</th>
+      <th>外围区块</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1 区块为半径</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1 区块为半径</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>1 区块为半径</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2 区块为半径</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>2 区块为半径</td>
+    </tr>
+  </tbody>
+</table>
+:ET

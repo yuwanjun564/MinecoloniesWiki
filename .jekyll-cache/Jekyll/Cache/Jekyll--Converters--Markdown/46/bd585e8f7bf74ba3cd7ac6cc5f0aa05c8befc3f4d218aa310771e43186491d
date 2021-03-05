@@ -1,0 +1,24 @@
+I"d<h1 id="殖民地保护系统">殖民地保护系统</h1>
+
+<p>我们的殖民地保护机制 （当 <a href="../../source/buildings/townhall">市政厅</a> 被放置的时候就开启了） 可以在config文件里被设置。</p>
+
+<p>保护机制包括开启殖民地爆炸保护（默认开启），因此苦力怕、TNT以及任何爆炸性的模组方块都不能破坏你的殖民地。默认设置只有殖民地的所有者可以在殖民地中破坏或者放置方块， 但是你可以在市政厅GUI中添加玩家许可。</p>
+
+<p>该机制覆盖着Y = 0到Y = 256的范围，因此你不必担心任何从基岩到天空高度限制的恶意破坏。</p>
+
+<p><strong>注释：</strong> 殖民地保护系统依赖于殖民地边界系统。只有在殖民地边界内的区域会受到保护。查看<a href="../../source/systems/border">殖民地边界系统</a> 获取更多信息。</p>
+
+<h3 id="config-文件选项">Config 文件选项</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 是否开启殖民地保护机制？
+B:enableColonyProtection=true
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 该项独立于上述殖民地保护机制的设置，是否在殖民地内开启爆炸保护？
+B:turnOffExplosionsInColonies=true
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 是否禁止玩家在现有的原版村庄上建立殖民地？
+B:protectVillages=true
+</code></pre></div></div>
+:ET

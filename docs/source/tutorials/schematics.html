@@ -38,7 +38,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="蓝图" />
 <script type="application/ld+json">
-{"@type":"WebPage","description":"MineColonies Wiki","url":"/MinecoloniesWiki/source/tutorials/schematics.html","headline":"蓝图","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/MinecoloniesWiki/source/tutorials/schematics.html","headline":"蓝图","description":"MineColonies Wiki","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -739,97 +739,99 @@
           <div class="content">
               <h1 id="蓝图">蓝图</h1>
 
-<p>蓝图（Schematic） are files containing block and entity information of a certain area a player scanned with the <a href="../items/scantool">Scan Tool</a> in-game. You can use the scan tool and scan ANY building or structure you like in singleplayer or multiplayer and then have your <a href="../../source/workers/builder">Builder</a> build it for you (provided that you give them all the materials needed, of course).</p>
-
+<p>蓝图（Schematic），是玩家在游戏中利用<a href="../items/scantool">扫描工具</a>获取的文件，它包含所扫描的某一区域内方块和实体的信息。你可以在单人或多人游戏中，使用扫描工具获取任何建筑或结构的信息，接着就可以叫<a href="../../source/workers/builder">建筑工</a>为你建造相同的建筑了。当然了，你要先为他们提供必需的材料。</p>
 <ul>
-  <li><a href="#schematics">Schematics</a>
+  <li><a href="#蓝图">蓝图索引</a>
     <ul>
-      <li><a href="#scanning-a-new-structure">Scanning a New Structure</a></li>
-      <li><a href="#placing-a-schematic">Placing a Schematic.</a></li>
+      <li><a href="#扫描一个新结构">扫描一个新结构</a></li>
+      <li><a href="#放置结构">放置结构</a></li>
       <li><a href="#faq">FAQ</a>
         <ul>
-          <li><a href="#what-and-where-is-the-scans-folder">What and Where is the scans folder?</a></li>
-          <li><a href="#where-is-the-schematic-folder">Where is the schematic folder?</a></li>
-          <li><a href="#i-have-a-%22minecolonies01e6a291-8a01-4763-bcae-f3a8797b1d52cache%22-folder-what-is-that-for">I have a “*/minecolonies/01e6a291-8a01-4763-bcae-f3a8797b1d52/cache/” folder, what is that for?</a></li>
-          <li><a href="#how-to-create-custom-huts">How to create custom huts?</a></li>
-          <li><a href="#how-to-override-some-built-in-schematics">How to override some built-in schematics?</a></li>
-          <li><a href="#how-to-use-custom-huts">How to use custom huts?</a></li>
-          <li><a href="#how-to-allow-my-players-to-use-their-own-huts-schematics-on-my-server">How to allow my players to use their own huts’ schematics on my server?</a></li>
-          <li><a href="#how-to-allow-my-players-to-use-their-scanned-schematics-on-my-server">How to allow my players to use their scanned schematics on my server?</a></li>
-          <li><a href="#how-to-disable-built-in-schematics-completely">How to disable built-in schematics completely?</a></li>
+          <li><a href="#扫描文件的文件夹是什么，它在哪里？">扫描文件的文件夹是什么，它在哪里？</a></li>
+          <li><a href="#蓝图文件夹在哪里？">蓝图文件夹在哪里？</a></li>
+          <li>[我居然有一个“<em>/minecolonies/01e6a291-8a01-4763-bcae-f3a8797b1d52/cache/” 目录下的文件夹，这是干什么用的？](#我居然有一个“</em>%22minecolonies%2201e6a291-8a01-4763-bcae-f3a8797b1d52%22cache%22”目录下的文件夹，这是干什么用的？)</li>
+          <li><a href="#我要怎么创建一个自定义的小屋？">我要怎么创建一个自定义的小屋？</a></li>
+          <li><a href="#怎么重写一些内置的蓝图？">怎么重写一些内置的蓝图？</a></li>
+          <li><a href="#要怎么使用自定义小屋？">要怎么使用自定义小屋？</a></li>
+          <li><a href="#要怎么让我的服务器玩家在我的服务器上使用他们自己本地的小屋蓝图？">要怎么让我的服务器玩家在我的服务器上使用他们自己本地的小屋蓝图？</a></li>
+          <li><a href="#要怎么让我的服务器玩家在我服务器上使用他们自己在服务器上扫描的蓝图？">要怎么让我的服务器玩家在我服务器上使用他们自己在服务器上扫描的蓝图？</a></li>
+          <li><a href="怎么完全禁止内置的结构的使用？">怎么完全禁止内置的结构的使用？</a></li>
         </ul>
       </li>
     </ul>
   </li>
 </ul>
 
-<h2 id="scanning-a-new-structure">Scanning a New Structure</h2>
+<h2 id="扫描一个新结构">扫描一个新结构</h2>
 
-<p>Once you have a structure or area you want to scan to have your Builder build, you need to determine the exact area that needs to be scanned.</p>
+<p>当你有一个想要扫描的结构或区域，首先要限定出需要扫描的确切区域，这样才好让你的建筑工开工。</p>
 
 <p><img src="../../assets/images/tutorial/testbuilding.png" alt="TestBuilding" /></p>
 
-<p>Take your <a href="../items/scantool">Scan Tool</a> and left-click the lowest left block of the area and then place a block (it can be a <a href="../../source/items/placeholderblocks">placeholder block</a> in the top right corner and right-click on it.</p>
+<p>换上你的<a href="../items/scantool">扫描工具</a>，首先鼠标左击该区域最左下的方块，接着在该区域最右上放置任一方块（可以是<a href="../../source/items/placeholderblocks">占位方块</a>），然后右击它。</p>
 
 <p><img src="../../assets/images/tutorial/scan1.png" alt="ScanPoint1" /></p>
 
 <p><img src="../../assets/images/tutorial/scan2.png" alt="ScanPoint2" /></p>
 
-<p>Then click in the air to see the entire structure.</p>
+<p>接着轻击空气就可以看到完整的结构被区划出来，进入结构界面。</p>
 
 <p><img src="../../assets/images/tutorial/scan3.png" alt="ScanFull" /></p>
 
-<p>Once you have the full area set, you can press Escape and the white outline of the scan area will stay in place. Go around it to double-check that everything you want is in the scan area. When you are ready, you can right-click in the air again to get the GUI to display where you can enter your scan name. Then press the green checkmark to save the scan.</p>
+<p>设置好完整的区域以后，你可以按下ESC退出界面，但所扫描区域的白色高亮外框。绕着它走走，再检查一遍你所想要划出的区域是否都被扫描到。当一切准备就绪，再次右击空气，进入GUI界面，填写本次扫描的名字。之后按下绿色确认按钮保存。</p>
 
-<p>Scans are saved in <code class="language-plaintext highlighter-rouge">../minecolonies/scan/new/...</code></p>
+<p>../structurize/schematics/(folder)/file  。</p>
 
-<p>Once the scans are saved, they need to be moved to the <code class="language-plaintext highlighter-rouge">../structurize/schematics/(folder)/file</code> if they are a <a href="#customhuts">custom hut</a>.</p>
+<p>扫描文件将被存放在 <code class="language-plaintext highlighter-rouge">../minecolonies/scan/new/...</code>中。</p>
 
-<h2 id="placing-a-schematic">Placing a Schematic.</h2>
+<p>如果该扫描的结构是<a href="#customhuts">自定义的小屋</a>，保存好扫描文件后，得把他们移动到 <code class="language-plaintext highlighter-rouge">../structurize/schematics/(folder)/file</code> 中。</p>
 
-<p>Once you have scanned a structure, you can use the <a href="../../source/items/buildtool">build tool</a> to have your <a href="../../source/workers/builder">Builder</a> build it for you. Once you right-click with the build tool, you will have to select “My Schematics” (in the left dropdown menu) and on the right dropdown menu you will see the scans that you have made. There is also a Rename button where you can change the name of the scan. You can also delete any of your saved scans.</p>
+<h2 id="放置结构">放置结构</h2>
+
+<p>扫描完结构以后，你可以使用<a href="../../source/items/buildtool">建筑工具</a>来让你的<a href="../../source/workers/builder">建筑工</a>们依它建造。选择建筑工具，右击，进入GUI，左侧下拉式菜单供选择“我的蓝图”，右侧下拉式菜单则显示着你的扫描文件。GUI界面还可供你更改扫描文件的名字。你也可以把你保存的扫描文件删掉。</p>
 
 <p><img src="../../assets/images/tutorial/schematic.png" alt="Schematic" /></p>
 
 <h2 id="faq">FAQ</h2>
 
-<p>This is a FAQ section to answer most questions regarding schematics in MineColonies.</p>
+<p>现在是关于蓝图的FAQ环节。</p>
 
-<h4 id="what-and-where-is-the-scans-folder">What and where is the scans folder?</h4>
+<h4 id="扫描文件的文件夹是什么它在哪里">扫描文件的文件夹是什么，它在哪里？</h4>
 
-<p>The scans folder is where the schematics are saved after performing a scan using the scan tool in MineColonies. This is a client side only directory which is located in Minecraft’s folder under: <code class="language-plaintext highlighter-rouge">*/structurize/scans/</code>. Freshly scanned schematics can be found in <code class="language-plaintext highlighter-rouge">*/structurize/scans/new/</code> unless they have been renamed in game. This directory is shared between all your singleplayer games and multiplayer games.</p>
+<p>扫描文件文件夹，是在模拟殖民地中，使用扫描工具进行扫描之后，扫描文件储存的地方。这只存在于客户端本地目录，位于MC的文件夹 <code class="language-plaintext highlighter-rouge">*/structurize/scans/</code>下。初始扫描的蓝图位于 <code class="language-plaintext highlighter-rouge">*/structurize/scans/new/</code> ，除非它们在游戏中被重命名。这个目录是单人游戏和多人游戏共用的。</p>
 
-<h4 id="where-is-the-schematic-folder">Where is the schematic folder?</h4>
+<h4 id="蓝图文件夹在哪里">蓝图文件夹在哪里？</h4>
 
-<p>Custom schematics need to be copied inside the schematic folder: <code class="language-plaintext highlighter-rouge">*\structurize\schematics\</code>.</p>
+<p>自定义的结构的蓝图需要你将它复制到蓝图文件夹里，它在 <code class="language-plaintext highlighter-rouge">*\structurize\schematics\</code>.</p>
 
-<p>The location of this folder depends of the type of game:</p>
+<p>不过这个位置将取决于游戏的类型（指多人和单人）：</p>
 
 <ul>
-  <li>For a singleplayer game, there are 2 possible locations:
+  <li>对于单人游戏，它可能被存放在两个位置中的其一:
     <ul>
-      <li>In the world folder: <code class="language-plaintext highlighter-rouge">*/minecraft/saves/(World Name)/structurize/schematics/</code>
+      <li>在地图文件夹中: <code class="language-plaintext highlighter-rouge">*/minecraft/saves/(World Name)/structurize/schematics/</code>
         <ul>
-          <li><strong>Note:</strong> Use this directory when you want to use custom schematics restricted to the world. When this directory exists (even empty), MineColonies will completely ignore the other directory.</li>
+          <li><strong>注意:</strong> 当你需要你的自定义结构的蓝图仅仅局限于某一地图，请在地图文件夹中添加该目录下的蓝图文件夹。当该目录下的蓝图文件夹存在时（尽管是否为空），《模拟殖民地》将完全忽略其他可能的目录，都把蓝图存放在该文件夹中。</li>
         </ul>
       </li>
-      <li>In the Minecraft folder: <code class="language-plaintext highlighter-rouge">*/minecraft/structurize/schematics/</code>
+      <li>在MC主体游戏文件夹中: <code class="language-plaintext highlighter-rouge">*/minecraft/structurize/schematics/</code>
         <ul>
-          <li><strong>Note:</strong> Use this folder when you want to have the same custom schematics across multiple worlds.</li>
+          <li><strong>注意:</strong> 当你需要在多个地图中用到同一个自定义结构的蓝图时，请在MC主体文件夹中添加该目录下的蓝图文件夹。</li>
         </ul>
       </li>
     </ul>
   </li>
-  <li>For a multiplayer game, the schematics are always loaded from the world’s directory under: <code class="language-plaintext highlighter-rouge">*/minecolonies/schematics/</code> directory.</li>
+  <li>对于多人游戏，蓝图将一直从该地图的目录: <code class="language-plaintext highlighter-rouge">*/minecolonies/schematics/</code> 下加载。</li>
 </ul>
 
-<h4 id="i-have-a-minecolonies01e6a291-8a01-4763-bcae-f3a8797b1d52cache-folder-what-is-that-for">I have a “*/minecolonies/01e6a291-8a01-4763-bcae-f3a8797b1d52/cache/” folder, what is that for?</h4>
+<h4 id="我居然有一个minecolonies01e6a291-8a01-4763-bcae-f3a8797b1d52cache目录下的文件夹这是干什么用的">我居然有一个“*/minecolonies/01e6a291-8a01-4763-bcae-f3a8797b1d52/cache/”目录下的文件夹，这是干什么用的？</h4>
 
-<p>When playing on a server, the server needs to send the schematics to the players so that the build tool’s preview works. Those schematics are saved in Minecraft’s directory under <code class="language-plaintext highlighter-rouge">*/structurize/{ServerUUID}/cache/</code>, where ServerUUID is the unique identifier of the server. Those directories can be safely removed as they are automatically created by the server when needed.</p>
+<p>当玩家游玩服务器时，服务器需要将蓝图发送给玩家以便预览建筑工具制作的作品。这些蓝图将保存在MC主体文件夹 <code class="language-plaintext highlighter-rouge">*/structurize/{ServerUUID}/cache/</code>下，ServerUUID是一个服务器的特定标识ID。当需要被用到时，服务器将自动创建这些目录，不用到时，这些目录将一定会被删除。</p>
 
-<h4 id="how-to-create-custom-huts">How to create <a id="customhuts">custom huts</a>?</h4>
+<h4 id="我要怎么创建一个自定义的小屋">我要怎么创建一个<a id="customhuts">自定义</a>的小屋？</h4>
 
-<p>To create new schematics for existing huts, there are some guidelines that you must follow: the scans MUST have the same footprint for the same style/hut’s type; the scans must contain the hut’s block, for example the Builder’s Hut block for the <a href="../../source/buildings/builder">Builder’s Hut</a>; the hut block need to be exactly at the same place and have the same rotation for each level; the scans’ filenames need to follow the naming convention: {StyleName}/{HutName}{HutLevel}.blueprint. For example, for the Builder’s Huts with the MyOwn style, we would have:</p>
+<p>为已建造的屋子创建蓝图，你得遵守下列规则：对于相同样式/小屋类型，但不同级别的小屋来说，扫描结构必须有相同的空间体积；扫描文件必须包含特定的小屋方块，例如：对于<a href="../../source/buildings/builder">建筑工小屋</a>来说，需要建筑工小屋方块；在不同级别的房屋中，小屋方块必须在扫描框架中的同一位置而且要同一个旋转角度；扫描文件的文件名要遵守命名规则：{StyleName}/{HutName}{HutLevel}.blueprint
+例如，MyOwn样式的建筑工小屋，我们要这样命名</p>
 
 <p><em>myown/builder1.blueprint</em>
 <em>myown/builder2.blueprint</em>
@@ -838,18 +840,18 @@
 <em>myown/builder5.blueprint</em></p>
 
 <ul>
-  <li><strong>Note:</strong> In the <a href="../../source/items/buildtool">build tool</a>, the extension is hidden. HutName can be any of the listed huts below. The maximum level is 5.</li>
+  <li><strong>注意:</strong>  在<a href="../../source/items/buildtool">建筑工具</a>中，拓展名是被隐藏的。HutName可以是下列小屋的任意一个。最大等级是5级。</li>
 </ul>
 
-<p>Once ready, move the myown folder into the schematics folder and start your game. You should be able to see it with the the build tool.</p>
+<p>全部就绪后，将myown文件夹移入蓝图文件夹中，启动游戏。你将在建筑工具中看到你的自定义小屋。</p>
 
 <ul>
-  <li><strong>Note:</strong> Remember that you need the appropriate hut in your inventory to be able to see the schematics in the build tool.</li>
+  <li><strong>注意:</strong> 记得，你要在目录中指定确切的小屋类型，这样才可以在建筑工具中看到你的蓝图。</li>
 </ul>
 
-<h2 id="custom-hut-filenames">Custom Hut Filenames</h2>
+<h2 id="自定义小屋文件名">自定义小屋文件名</h2>
 
-<p>Here is a full list, up-to-date as of 9 February 2020, of the building names. <strong>Please note</strong> that <em>capitalization matters</em>.</p>
+<p>这是截至2020.2.9更新的全部建筑的总表。<strong>请注意</strong> <em>大小写问题</em></p>
 
 <table>
   <thead>
@@ -859,6 +861,7 @@
       <th style="text-align: left">Level 3</th>
       <th style="text-align: left">Level 4</th>
       <th style="text-align: left">Level 5</th>
+      <th>译者注</th>
     </tr>
   </thead>
   <tbody>
@@ -868,6 +871,7 @@
       <td style="text-align: left">archery3</td>
       <td style="text-align: left">archery4</td>
       <td style="text-align: left">archery5</td>
+      <td>卫兵塔（箭台）</td>
     </tr>
     <tr>
       <td style="text-align: left">baker1</td>
@@ -875,6 +879,7 @@
       <td style="text-align: left">baker3</td>
       <td style="text-align: left">baker4</td>
       <td style="text-align: left">baker5</td>
+      <td>面包房</td>
     </tr>
     <tr>
       <td style="text-align: left">barracks1</td>
@@ -882,6 +887,7 @@
       <td style="text-align: left">barracks3</td>
       <td style="text-align: left">barracks4</td>
       <td style="text-align: left">barracks5</td>
+      <td>兵营</td>
     </tr>
     <tr>
       <td style="text-align: left">barrackstower1</td>
@@ -889,6 +895,7 @@
       <td style="text-align: left">barrackstower3</td>
       <td style="text-align: left">barrackstower4</td>
       <td style="text-align: left">barrackstower5</td>
+      <td>兵营塔</td>
     </tr>
     <tr>
       <td style="text-align: left">blacksmith1</td>
@@ -896,6 +903,7 @@
       <td style="text-align: left">blacksmith3</td>
       <td style="text-align: left">blacksmith4</td>
       <td style="text-align: left">blacksmith5</td>
+      <td>铁匠铺</td>
     </tr>
     <tr>
       <td style="text-align: left">builder1</td>
@@ -903,6 +911,7 @@
       <td style="text-align: left">builder3</td>
       <td style="text-align: left">builder4</td>
       <td style="text-align: left">builder5</td>
+      <td>建筑工小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">chickenherder1</td>
@@ -910,6 +919,7 @@
       <td style="text-align: left">chickenherder3</td>
       <td style="text-align: left">chickenherder4</td>
       <td style="text-align: left">chickenherder5</td>
+      <td>养鸡场</td>
     </tr>
     <tr>
       <td style="text-align: left">citizen1</td>
@@ -917,6 +927,7 @@
       <td style="text-align: left">citizen3</td>
       <td style="text-align: left">citizen4</td>
       <td style="text-align: left">citizen5</td>
+      <td>市民小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">combatacademy1</td>
@@ -924,6 +935,7 @@
       <td style="text-align: left">combatacademy3</td>
       <td style="text-align: left">combatacademy4</td>
       <td style="text-align: left">combatacademy5</td>
+      <td>战斗研究所</td>
     </tr>
     <tr>
       <td style="text-align: left">composter1</td>
@@ -931,6 +943,7 @@
       <td style="text-align: left">composter3</td>
       <td style="text-align: left">composter4</td>
       <td style="text-align: left">composter5</td>
+      <td>堆肥小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">cook1</td>
@@ -938,6 +951,7 @@
       <td style="text-align: left">cook3</td>
       <td style="text-align: left">cook4</td>
       <td style="text-align: left">cook5</td>
+      <td>餐厅</td>
     </tr>
     <tr>
       <td style="text-align: left">cowboy1</td>
@@ -945,6 +959,7 @@
       <td style="text-align: left">cowboy3</td>
       <td style="text-align: left">cowboy4</td>
       <td style="text-align: left">cowboy5</td>
+      <td>牛仔小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">crusher1</td>
@@ -952,6 +967,7 @@
       <td style="text-align: left">crusher3</td>
       <td style="text-align: left">crusher4</td>
       <td style="text-align: left">crusher5</td>
+      <td>粉碎机</td>
     </tr>
     <tr>
       <td style="text-align: left">deliveryman1</td>
@@ -959,6 +975,7 @@
       <td style="text-align: left">deliveryman3</td>
       <td style="text-align: left">deliveryman4</td>
       <td style="text-align: left">deliveryman5</td>
+      <td>运送员小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">enchanter1</td>
@@ -966,6 +983,7 @@
       <td style="text-align: left">enchanter3</td>
       <td style="text-align: left">enchanter4</td>
       <td style="text-align: left">enchanter5</td>
+      <td>附魔小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">farmer1</td>
@@ -973,6 +991,7 @@
       <td style="text-align: left">farmer3</td>
       <td style="text-align: left">farmer4</td>
       <td style="text-align: left">farmer5</td>
+      <td>农场</td>
     </tr>
     <tr>
       <td style="text-align: left">fisherman1</td>
@@ -980,6 +999,7 @@
       <td style="text-align: left">fisherman3</td>
       <td style="text-align: left">fisherman4</td>
       <td style="text-align: left">fisherman5</td>
+      <td>渔夫小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">florist1</td>
@@ -987,6 +1007,7 @@
       <td style="text-align: left">florist3</td>
       <td style="text-align: left">florist4</td>
       <td style="text-align: left">florist5</td>
+      <td>花卉小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">guardtower1</td>
@@ -994,6 +1015,7 @@
       <td style="text-align: left">guardtower3</td>
       <td style="text-align: left">guardtower4</td>
       <td style="text-align: left">guardtower5</td>
+      <td>卫兵塔</td>
     </tr>
     <tr>
       <td style="text-align: left">library1</td>
@@ -1001,6 +1023,7 @@
       <td style="text-align: left">library3</td>
       <td style="text-align: left">library4</td>
       <td style="text-align: left">library5</td>
+      <td>图书馆</td>
     </tr>
     <tr>
       <td style="text-align: left">lumberjack1</td>
@@ -1008,6 +1031,7 @@
       <td style="text-align: left">lumberjack3</td>
       <td style="text-align: left">lumberjack4</td>
       <td style="text-align: left">lumberjack5</td>
+      <td>伐木场</td>
     </tr>
     <tr>
       <td style="text-align: left">miner1</td>
@@ -1015,6 +1039,7 @@
       <td style="text-align: left">miner3</td>
       <td style="text-align: left">miner4</td>
       <td style="text-align: left">miner5</td>
+      <td>矿工小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">sawmill1</td>
@@ -1022,6 +1047,7 @@
       <td style="text-align: left">sawmill3</td>
       <td style="text-align: left">sawmill4</td>
       <td style="text-align: left">sawmill5</td>
+      <td>锯木厂</td>
     </tr>
     <tr>
       <td style="text-align: left">shepherd1</td>
@@ -1029,6 +1055,7 @@
       <td style="text-align: left">shepherd3</td>
       <td style="text-align: left">shepherd4</td>
       <td style="text-align: left">shepherd5</td>
+      <td>牧场</td>
     </tr>
     <tr>
       <td style="text-align: left">sifter1</td>
@@ -1036,6 +1063,7 @@
       <td style="text-align: left">sifter3</td>
       <td style="text-align: left">sifter4</td>
       <td style="text-align: left">sifter5</td>
+      <td>筛沙工小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">smeltery1</td>
@@ -1043,6 +1071,7 @@
       <td style="text-align: left">smeltery3</td>
       <td style="text-align: left">smeltery4</td>
       <td style="text-align: left">smeltery5</td>
+      <td>冶炼厂</td>
     </tr>
     <tr>
       <td style="text-align: left">stonemason1</td>
@@ -1050,6 +1079,7 @@
       <td style="text-align: left">stonemason3</td>
       <td style="text-align: left">stonemason4</td>
       <td style="text-align: left">stonemason5</td>
+      <td>石匠小屋</td>
     </tr>
     <tr>
       <td style="text-align: left">stonesmeltery1</td>
@@ -1057,6 +1087,7 @@
       <td style="text-align: left">stonesmeltery3</td>
       <td style="text-align: left">stonesmeltery4</td>
       <td style="text-align: left">stonesmeltery5</td>
+      <td>石材冶炼厂</td>
     </tr>
     <tr>
       <td style="text-align: left">swineherder1</td>
@@ -1064,6 +1095,7 @@
       <td style="text-align: left">swineherder3</td>
       <td style="text-align: left">swineherder4</td>
       <td style="text-align: left">swineherder5</td>
+      <td>养猪场</td>
     </tr>
     <tr>
       <td style="text-align: left">townhall1</td>
@@ -1071,6 +1103,7 @@
       <td style="text-align: left">townhall3</td>
       <td style="text-align: left">townhall4</td>
       <td style="text-align: left">townhall5</td>
+      <td>市政厅</td>
     </tr>
     <tr>
       <td style="text-align: left">university1</td>
@@ -1078,6 +1111,7 @@
       <td style="text-align: left">university3</td>
       <td style="text-align: left">university4</td>
       <td style="text-align: left">university5</td>
+      <td>大学</td>
     </tr>
     <tr>
       <td style="text-align: left">warehouse1</td>
@@ -1085,140 +1119,141 @@
       <td style="text-align: left">warehouse3</td>
       <td style="text-align: left">warehouse4</td>
       <td style="text-align: left">warehouse5</td>
+      <td>仓库</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="hut-requirements">Hut Requirements</h2>
+<h2 id="小屋方块要求">小屋方块要求</h2>
 
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">Building</th>
-      <th style="text-align: center">Requirements</th>
-      <th style="text-align: center">Suggested</th>
+      <th style="text-align: center">建筑</th>
+      <th style="text-align: center">要求</th>
+      <th style="text-align: center">建议</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/archery">Archery</a></td>
-      <td style="text-align: center">1 archery dummy per level (a hay bale with a button on it)</td>
+      <td style="text-align: center"><a href="../../source/buildings/archery">卫兵塔</a></td>
+      <td style="text-align: center">每一级一个射击假人（干草堆上方一个按钮）</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/bakery">Bakery</a></td>
-      <td style="text-align: center">1 furnace</td>
+      <td style="text-align: center"><a href="../../source/buildings/bakery">面包房</a></td>
+      <td style="text-align: center">一个熔炉</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/barracks">Barracks</a></td>
-      <td style="text-align: center">1 barracks tower per level (up to lvl 4)</td>
+      <td style="text-align: center"><a href="../../source/buildings/barracks">兵营</a></td>
+      <td style="text-align: center">每一级一个兵营塔（直到4级，就是说最多四个）</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/barrackstower">Barracks Tower</a></td>
+      <td style="text-align: center"><a href="../../source/buildings/barrackstower">兵营塔</a></td>
       <td style="text-align: center"> </td>
-      <td style="text-align: center">1 bed per level</td>
+      <td style="text-align: center">每一级一张床</td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/builder">Builder’s Hut</a></td>
+      <td style="text-align: center"><a href="../../source/buildings/builder">建筑工小屋</a></td>
       <td style="text-align: center"> </td>
-      <td style="text-align: center">1 rack per level</td>
+      <td style="text-align: center">每一级一个架子</td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/citizen">Citzen’s Hut</a></td>
-      <td style="text-align: center">1 bed per level</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><a href="../../source/buildings/combatacademy">Combat Academy</a></td>
-      <td style="text-align: center">1 combat dummy per level (a pumpkin on top of a bale of hay)</td>
+      <td style="text-align: center"><a href="../../source/buildings/citizen">市民小屋</a></td>
+      <td style="text-align: center">每一级一张床</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/composter">Composter’s Hut</a></td>
-      <td style="text-align: center">1 <a href="../../source/items/barrel">barrel</a> per level</td>
+      <td style="text-align: center"><a href="../../source/buildings/combatacademy">战斗研究所</a></td>
+      <td style="text-align: center">每一级一个拳击假人（干草堆上放一个南瓜）</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/restaurant">Restaurant</a></td>
-      <td style="text-align: center">1 furnace per level</td>
+      <td style="text-align: center"><a href="../../source/buildings/composter">堆肥小屋</a></td>
+      <td style="text-align: center">每一级一个<a href="../../source/items/barrel">木桶</a></td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/dyer">Dyer’s Hut</a></td>
-      <td style="text-align: center">1 furnace</td>
+      <td style="text-align: center"><a href="../../source/buildings/restaurant">餐厅</a></td>
+      <td style="text-align: center">每一级一个熔炉</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/flowershop">Flower Shop</a></td>
-      <td style="text-align: center">4 <a href="../../source/items/compost">compost blocks</a> per level</td>
+      <td style="text-align: center"><a href="../../source/buildings/dyer">染坊</a></td>
+      <td style="text-align: center">一个熔炉</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/glassblower">Glassblower’s Hut</a></td>
-      <td style="text-align: center">1 furnace per level</td>
+      <td style="text-align: center"><a href="../../source/buildings/flowershop">花卉小屋</a></td>
+      <td style="text-align: center">每一级四个 <a href="../../source/items/compost">堆肥（方块）</a></td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/guardtower">Guard Tower</a></td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">1 bed per level</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><a href="../../source/buildings/hospital">Hospital</a></td>
-      <td style="text-align: center">1 bed per level</td>
+      <td style="text-align: center"><a href="../../source/buildings/glassblower">玻璃厂</a></td>
+      <td style="text-align: center">每一级一个熔炉</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/library">Library</a></td>
-      <td style="text-align: center">Bookshelves</td>
+      <td style="text-align: center"><a href="../../source/buildings/guardtower">卫兵塔</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">每一级一张床</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="../../source/buildings/hospital">医院</a></td>
+      <td style="text-align: center">每一级一张床</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/mine">Mine</a></td>
-      <td style="text-align: center">A mineshaft</td>
+      <td style="text-align: center"><a href="../../source/buildings/library">图书馆</a></td>
+      <td style="text-align: center">很多书架</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/school">School</a></td>
-      <td style="text-align: center">2 carpets per level</td>
-      <td style="text-align: center">4 carpets per level</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><a href="../../source/buildings/school">Smeltery</a></td>
-      <td style="text-align: center">1 furnace per level</td>
+      <td style="text-align: center"><a href="../../source/buildings/mine">矿井</a></td>
+      <td style="text-align: center">一个矿井</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/stonesmeltery">Stone Smeltery</a></td>
-      <td style="text-align: center">1 furnace per level</td>
+      <td style="text-align: center"><a href="../../source/buildings/school">学校</a></td>
+      <td style="text-align: center">每一级两张地毯</td>
+      <td style="text-align: center">每一级四张地毯</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="../../source/buildings/school">冶炼厂</a></td>
+      <td style="text-align: center">每一级一个熔炉</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/plantation">Plantation</a></td>
-      <td style="text-align: center">4 per level: brick under sand, cobble under sand, sand next to water</td>
+      <td style="text-align: center"><a href="../../source/buildings/stonesmeltery">石材冶炼厂</a></td>
+      <td style="text-align: center">每一级一个熔炉</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/tavern">Tavern</a></td>
-      <td style="text-align: center">4 beds, <a href="../../source/items/barrel_horizontal">horizontal barrels</a> and/or <a href="../../source/items/barrel_vertical">vertical barrels</a>, a dining room</td>
+      <td style="text-align: center"><a href="../../source/buildings/plantation">种植园</a></td>
+      <td style="text-align: center">每一级四个这样的结构：沙子下面放石砖，沙子下面放圆石，沙子靠近水方块</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/university">University</a></td>
-      <td style="text-align: center">Bookshelves</td>
+      <td style="text-align: center"><a href="../../source/buildings/tavern">酒馆</a></td>
+      <td style="text-align: center">四张床，<a href="../../source/items/barrel_horizontal">垂直放置</a>或者（包括） <a href="../../source/items/barrel_vertical">水平放置的木桶</a>,一间就餐厅</td>
       <td style="text-align: center"> </td>
     </tr>
     <tr>
-      <td style="text-align: center"><a href="../../source/buildings/warehouse">Warehouse</a></td>
-      <td style="text-align: center"><a href="../../source/items/racks">Racks</a> (more each level)</td>
+      <td style="text-align: center"><a href="../../source/buildings/university">大学</a></td>
+      <td style="text-align: center">很多书架</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="../../source/buildings/warehouse">仓库</a></td>
+      <td style="text-align: center">每一级多很多<a href="../../source/items/racks">架子</a></td>
       <td style="text-align: center"> </td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="level-requirements">Level Requirements</h2>
+<h2 id="等级要求">等级要求</h2>
 
 <table>
   <thead>
@@ -1230,23 +1265,23 @@
   <tbody>
     <tr>
       <td style="text-align: center">Level 1</td>
-      <td style="text-align: center">Very Easy - Wooden</td>
+      <td style="text-align: center">非常简单- 青木</td>
     </tr>
     <tr>
       <td style="text-align: center">Level 2</td>
-      <td style="text-align: center">Easy - Iron</td>
+      <td style="text-align: center">简单 - 黑铁</td>
     </tr>
     <tr>
       <td style="text-align: center">Level 3</td>
-      <td style="text-align: center">Medium - Nether</td>
+      <td style="text-align: center">中等 - 下界</td>
     </tr>
     <tr>
       <td style="text-align: center">Level 4</td>
-      <td style="text-align: center">Difficult - Ocean</td>
+      <td style="text-align: center">困难 - 蓝海</td>
     </tr>
     <tr>
       <td style="text-align: center">Level 5</td>
-      <td style="text-align: center">Very Difficult - End</td>
+      <td style="text-align: center">非常困难- 末地</td>
     </tr>
   </tbody>
 </table>
@@ -1254,47 +1289,48 @@
 <p><br />
 <br /></p>
 
-<h2 id="tips-on-building">Tips on Building</h2>
+<h2 id="关于建筑的小贴士">关于建筑的小贴士</h2>
 
-<h3 id="do">Do</h3>
+<h3 id="宜">宜</h3>
 <ul>
-  <li>Make all levels of a hut have the same footprint for x, y, and z</li>
-  <li>Place the hut block in the same location with the same rotation</li>
-  <li>Make sure all chests and [racks](../../source/items/rack) are in the same location through all levels</li>
-  <li>Use [solid placeholder blocks](../../source/items/placeholderblocks) at or below ground level</li>
-  <li>Use [light placeholder blocks](../../source/items/placeholderblocks) where you want to keep any existing block (including from level to level), like the [Barracks Towers](../../source/buildings/barrackstower) in the [Barracks](../../source/buildings/barracks) schematic</li>
-  <li>Use only vanilla blocks or Structurize blocks (officially)</li>
-  <li>Use Books and Quills instead of blank books</li>
+  <li>让所有级别的小屋有相同的空间体积（x,y,z）</li>
+  <li>小屋方块必须在扫描框架中的同一位置而且要同一个旋转角度</li>
+  <li>确保小屋中所有箱子和[架子](../../source/items/rack)在不同级别中保持同一位置</li>
+  <li>你的结构的水平基座或低于水平面的方块应用[固体占位方块](../../source/items/placeholderblocks)来建构</li>
+  <li>当你有想要不破坏原有结构/地貌的部分（包括在升级过程中），使用[轻质占位方块](../../source/items/placeholderblocks)来建构该部分。例如：在[兵营](../../source/buildings/barracks)升级为[兵营塔](../../source/buildings/barrackstower)的过程，兵营塔保留兵营结构的部分。</li>
+  <li>只能使用原版方块或者结构化mod中的方块</li>
+  <li>使用书与笔代替空白的书</li>
   <li>If building upgradable deco, add the deco controller with the name of your deco item, LunaDragonStar (the schematics admin) will fix the pathing that goes in it to match where she puts it in the files</li>
 </ul>
 
-<h3 id="dont">Don’t</h3>
+<h3 id="否">否</h3>
 <ul>
-  <li>Use unobtainable items in builds (no command blocks, petrified wood, infested blocks, or mob heads (including player heads))</li>
-  <li>Change someone else's style (officially) unless specifically asked to do so</li>
+  <li>不宜在建筑中使用不可获得的方块（不要用命令方块，石化木方块，被虫蚀的方块，或者生物头颅。</li>
+  <li>不要随便改变其他人的样式，除非有被特意要求这样做。</li>
 </ul>
 
-<h2 id="additional-information">Additional Information</h2>
+<h2 id="附加说明">附加说明</h2>
 
-<h4 id="how-to-override-some-built-in-schematics">How to override some built-in schematics?</h4>
+<h4 id="怎么重写一些内置的蓝图">怎么重写一些内置的蓝图？</h4>
 
-<p>Simply create a schematic file with the same style/name. For instance, to override the <a href="../../source/buildings/builder">Builder’s Hut</a> wooden level 1, create a schematic file name called wooden/builder1.blueprint.</p>
+<p>只要创建一个与其相同样式/名字的蓝图文件就行了。举个例子，要重写1级的<a href="../../source/buildings/builder">建筑工小屋</a>，就直接创建一个地址下wooden/builder1.blueprint的文件就可以了</p>
 
-<h4 id="how-to-use-custom-huts">How to use custom huts?</h4>
+<h4 id="要怎么使用自定义小屋">要怎么使用自定义小屋</h4>
 
-<p>The custom huts need to be copied in the schematics folder. Once copied, you can start your singleplayer or multiplayer game as usual. You should see them in the <a href="../../source/items/buildtool">build tool</a> (if you have the hut block in your inventory).</p>
+<p>自定义小屋首先要先复制到蓝图文件夹内。复制完以后，像平常一样启动你的单人游戏或者多人游戏。你将会在<a href="../../source/items/buildtool">建筑工具</a>中看到他们（只要你的物品栏有小屋方块）。</p>
 
-<h4 id="how-to-allow-my-players-to-use-their-own-huts-schematics-on-my-server">How to allow my players to use their own huts’ schematics on my server?</h4>
+<h4 id="要怎么让我的服务器玩家在我的服务器上使用他们自己本地的小屋蓝图">要怎么让我的服务器玩家在我的服务器上使用他们自己本地的小屋蓝图？</h4>
 
-<p>You will have to copy them yourself in the schematics folder on the server and restart it.</p>
+<p>你得把他们的蓝图复制到服务端的蓝图文件夹内，然后重启服务器。</p>
 
-<h4 id="how-to-allow-my-players-to-use-their-scanned-decoration-schematics-on-my-server">How to allow my players to use their scanned decoration schematics on my server?</h4>
+<h4 id="要怎么让我的服务器玩家在我服务器上使用他们自己在服务器上扫描的蓝图">要怎么让我的服务器玩家在我服务器上使用他们自己在服务器上扫描的蓝图？</h4>
 
-<p>Edit the configuration file and set allowPlayerSchematics to true. This allows the player to use their own decorations. It is not possible for the player to use their own huts’ schematics. You can also limit the number of players’ schematics at any given time by editing maxCachedSchematics (default is 100). When the limit is reached, the server will start deleting unused schematics.</p>
+<p>编辑配置文件，把allowPlayerSchematics改为true。这样就可以让玩家们去使用自己装饰的蓝图建筑了。但这不会让玩家使用自己的小屋蓝图。你也可以限制总时间内可供上传的玩家蓝图数，通过编辑maxCachedSchematics条目就可以了，（默认为100），当达到限制数，服务器将会开始删除没有被用到的蓝图。</p>
 
-<h4 id="how-to-disable-built-in-schematics-completely">How to disable built-in schematics completely?</h4>
+<h4 id="怎么完全禁止内置的结构的使用">怎么完全禁止内置的结构的使用？</h4>
 
-<p>Edit the configuration file and set ignoreSchematicsFromJar to true. Be aware: things will break if some huts’ schematics are missing.</p>
+<p>编辑配置文件，把ignoreSchematicsFromJar改为true。注意了，如果某些你提供的蓝图缺失了，这个规则会将会被打破，会继续引用内置的来补充。</p>
+
 
           </div>
 
