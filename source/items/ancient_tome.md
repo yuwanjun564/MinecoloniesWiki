@@ -1,18 +1,18 @@
 ---
-title: Ancient Tome
+title: 古籍
 layout: default
 ---
 # Ancient Tome 
 
 <div class="infobox box text-center">
     <p style="text-align:center;"><img src="../../assets/images/icons/minecolonies/ancienttome.png" alt="Ancient Tome"></p>
-    There is no recipe for the Ancient Tome. It must be obtained as a drop.
+    你无法通过合成获得古籍，它只能作为掉落物获得。
 </div>
 <br>
 
-The Ancient Tome is a glowing book that's dropped by raiders (barbarians, pirates, vikings, egyptian raiders, etc) during raids. The Ancient Tome cannot be crafted and is only available as a drop. 
+古籍是一部有着异样光泽，在袭击中由入侵者们（野蛮人、海盗、维京人、木乃伊等等）掉落的书籍。古籍无法通过合成获得，它只能作为掉落物获得。
 <br>
 
-## Using the Ancient Tome
+## 使用古籍
 
-There are two uses for the Ancient Tome, one use for the player and one for the [Enchanter](../../source/workers/enchanter). The player's use is that if you have the Ancient Tome in your inventory, it will glow when there is going to be a raid that night. The Enchanter's use is to use the experience they collect from other workers to turn the Ancient Tome into a Book of Enchantment. When they do this, it will use up the Ancient Tome.
+古籍有两种用处，一种是对于玩家而言，另一种是针对[附魔师](../../source/workers/enchanter)而言。对于玩家而言，它的用途是——如果当夜有袭击事件发生，那么它就会在你的背包中闪烁光芒。附魔师们则会用他们从其他工人处收集的经验来把古籍转化为附魔书。当他们进行该行为后，古籍将会消失。
