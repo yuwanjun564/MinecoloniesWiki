@@ -52,7 +52,7 @@ layout: default
   </div>
 </div>
  <div class="col-sm-12 col-md"><br>
-    <p>By pressing the arrow button in the top right corner of the GUI, you will be taken to page 2 of the GUI where you will find the following:</p>
+    <p>当你按下顶部右角的箭头时，你将看到GUI第2页有着以下内容。</p>
   </div>
 
 <br>
